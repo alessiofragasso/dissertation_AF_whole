@@ -1,0 +1,1540 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{97}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \textit  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Varongchayakul}\ \emph {et~al.}(2018)\citenamefont
+  {Varongchayakul}, \citenamefont {Song}, \citenamefont {Meller},\ and\
+  \citenamefont {Grinstaff}}]{Varongchayakul2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Varongchayakul}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Song}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Meller}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~W.}\ \bibnamefont {Grinstaff}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Single-molecule protein
+  sensing in a nanopore: a tutorial.}}}\ }\href {\doibase 10.1039/c8cs00106e}
+  {\bibfield  {journal} {\bibinfo  {journal} {Chemical Society reviews}\
+  }\textbf {\bibinfo {volume} {47}},\ \bibinfo {pages} {8512} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ying}\ \emph {et~al.}(2018)\citenamefont {Ying},
+  \citenamefont {Cao}, \citenamefont {Hu},\ and\ \citenamefont
+  {Long}}]{Ying2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.-L.}\ \bibnamefont
+  {Ying}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Cao}}, \bibinfo
+  {author} {\bibfnamefont {Y.-X.}\ \bibnamefont {Hu}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Y.-T.}\ \bibnamefont {Long}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{A single biomolecule interface for advancing the
+  sensitivity, selectivity and accuracy of sensors}},}\ }\href {\doibase
+  10.1093/nsr/nwy029} {\bibfield  {journal} {\bibinfo  {journal} {National
+  Science Review}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {450}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Restrepo-P{\'{e}}rez}\ \emph
+  {et~al.}(2018)\citenamefont {Restrepo-P{\'{e}}rez}, \citenamefont {Joo},\
+  and\ \citenamefont {Dekker}}]{Restrepo-Perez2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Restrepo-P{\'{e}}rez}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Joo}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Paving the way to
+  single-molecule protein sequencing}},}\ }\href {\doibase
+  10.1038/s41565-018-0236-6} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Nanotechnology}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {786}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {McGinn}\ \emph {et~al.}(2016)\citenamefont {McGinn},
+  \citenamefont {Bauer}, \citenamefont {Brefort}, \citenamefont {Dong},
+  \citenamefont {El-Sagheer}, \citenamefont {Elsharawy}, \citenamefont {Evans},
+  \citenamefont {Falk-S{\"{o}}rqvist}, \citenamefont {Forster}, \citenamefont
+  {Fredriksson}, \citenamefont {Freeman}, \citenamefont {Freitag},
+  \citenamefont {Fritzsche}, \citenamefont {Gibson}, \citenamefont {Gullberg},
+  \citenamefont {Gut}, \citenamefont {Heath}, \citenamefont {Heath-Brun},
+  \citenamefont {Heron}, \citenamefont {Hohlbein}, \citenamefont {Ke},
+  \citenamefont {Lancaster}, \citenamefont {{Le Reste}}, \citenamefont
+  {Maglia}, \citenamefont {Marie}, \citenamefont {Mauger}, \citenamefont
+  {Mertes}, \citenamefont {Mignardi}, \citenamefont {Moens}, \citenamefont
+  {Oostmeijer}, \citenamefont {Out}, \citenamefont {Pedersen}, \citenamefont
+  {Persson}, \citenamefont {Picaud}, \citenamefont {Rotem}, \citenamefont
+  {Schracke}, \citenamefont {Sengenes}, \citenamefont {St{\"{a}}hler},
+  \citenamefont {Stade}, \citenamefont {Stoddart}, \citenamefont {Teng},
+  \citenamefont {Veal}, \citenamefont {Zahra}, \citenamefont {Bayley},
+  \citenamefont {Beier}, \citenamefont {Brown}, \citenamefont {Dekker},
+  \citenamefont {Ekstr{\"{o}}m}, \citenamefont {Flyvbjerg}, \citenamefont
+  {Franke}, \citenamefont {Guenther}, \citenamefont {Kapanidis}, \citenamefont
+  {Kaye}, \citenamefont {Kristensen}, \citenamefont {Lehrach}, \citenamefont
+  {Mangion}, \citenamefont {Sauer}, \citenamefont {Schyns}, \citenamefont
+  {Tost}, \citenamefont {van Helvoort}, \citenamefont {van~der Zaag},
+  \citenamefont {Tegenfeldt}, \citenamefont {Brookes}, \citenamefont {Mir},
+  \citenamefont {Nilsson}, \citenamefont {Willcocks},\ and\ \citenamefont
+  {Gut}}]{McGinn2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {McGinn}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Bauer}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Brefort}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Dong}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {El-Sagheer}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Elsharawy}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Evans}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Falk-S{\"{o}}rqvist}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Forster}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Fredriksson}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Freeman}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Freitag}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Fritzsche}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Gibson}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Gullberg}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Gut}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Heath}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Heath-Brun}},
+  \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Heron}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Hohlbein}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Ke}}, \bibinfo {author} {\bibfnamefont
+  {O.}~\bibnamefont {Lancaster}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Le Reste}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Maglia}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Marie}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Mauger}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Mertes}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Mignardi}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Moens}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Oostmeijer}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Out}}, \bibinfo {author} {\bibfnamefont {J.~N.}\
+  \bibnamefont {Pedersen}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Persson}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Picaud}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Rotem}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Schracke}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Sengenes}}, \bibinfo {author}
+  {\bibfnamefont {P.~F.}\ \bibnamefont {St{\"{a}}hler}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Stade}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Stoddart}}, \bibinfo {author} {\bibfnamefont
+  {X.}~\bibnamefont {Teng}}, \bibinfo {author} {\bibfnamefont {C.~D.}\
+  \bibnamefont {Veal}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Zahra}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Beier}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Brown}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Ekstr{\"{o}}m}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Flyvbjerg}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Franke}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Guenther}}, \bibinfo {author} {\bibfnamefont {A.~N.}\
+  \bibnamefont {Kapanidis}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Kaye}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kristensen}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Lehrach}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Mangion}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Sauer}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Schyns}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Tost}}, \bibinfo {author} {\bibfnamefont {J.~M. L.~M.}\
+  \bibnamefont {van Helvoort}}, \bibinfo {author} {\bibfnamefont {P.~J.}\
+  \bibnamefont {van~der Zaag}}, \bibinfo {author} {\bibfnamefont {J.~O.}\
+  \bibnamefont {Tegenfeldt}}, \bibinfo {author} {\bibfnamefont {A.~J.}\
+  \bibnamefont {Brookes}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Mir}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nilsson}},
+  \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont {Willcocks}}, \ and\
+  \bibinfo {author} {\bibfnamefont {I.~G.}\ \bibnamefont {Gut}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{New technologies for DNA analysis – a
+  review of the READNA Project}},}\ }\href {\doibase
+  https://doi.org/10.1016/j.nbt.2015.10.003} {\bibfield  {journal} {\bibinfo
+  {journal} {New Biotechnology}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo
+  {pages} {311} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yu}\ \emph {et~al.}(2019)\citenamefont {Yu},
+  \citenamefont {Ying}, \citenamefont {Gao},\ and\ \citenamefont
+  {Long}}]{Yu2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.-J.}\ \bibnamefont
+  {Yu}}, \bibinfo {author} {\bibfnamefont {Y.-L.}\ \bibnamefont {Ying}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Gao}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Y.-T.}\ \bibnamefont {Long}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Confined Nanopipette Sensing: From Single
+  Molecules, Single Nanoparticles, to Single Cells}},}\ }\href {\doibase
+  https://doi.org/10.1002/anie.201803229} {\bibfield  {journal} {\bibinfo
+  {journal} {Angewandte Chemie International Edition}\ }\textbf {\bibinfo
+  {volume} {58}},\ \bibinfo {pages} {3706} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Meller}(2003)}]{Meller2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Meller}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Dynamics of
+  polynucleotide transport through nanometre-scale pores}},}\ }\href {\doibase
+  10.1088/0953-8984/15/17/202} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics Condensed Matter}\ }\textbf {\bibinfo {volume} {15}},\
+  \bibinfo {pages} {581} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2021)\citenamefont {Liu},
+  \citenamefont {Ying}, \citenamefont {Li}, \citenamefont {Wan},\ and\
+  \citenamefont {Long}}]{Liu2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.-C.}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {Y.-L.}\ \bibnamefont {Ying}},
+  \bibinfo {author} {\bibfnamefont {W.-H.}\ \bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {Y.-J.}\ \bibnamefont {Wan}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Y.-T.}\ \bibnamefont {Long}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Snapshotting the transient conformations and
+  tracing the multiple pathways of single peptide folding using a solid-state
+  nanopore}},}\ }\href {\doibase 10.1039/D0SC06106A} {\bibfield  {journal}
+  {\bibinfo  {journal} {Chemical Science}\ }\textbf {\bibinfo {volume} {12}},\
+  \bibinfo {pages} {3282} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cao}\ \emph {et~al.}(2016)\citenamefont {Cao},
+  \citenamefont {Ying}, \citenamefont {Hu}, \citenamefont {Liao}, \citenamefont
+  {Tian},\ and\ \citenamefont {Long}}]{Cao2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cao}}, \bibinfo {author} {\bibfnamefont {Y.-L.}\ \bibnamefont {Ying}},
+  \bibinfo {author} {\bibfnamefont {Z.-L.}\ \bibnamefont {Hu}}, \bibinfo
+  {author} {\bibfnamefont {D.-F.}\ \bibnamefont {Liao}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Tian}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Y.-T.}\ \bibnamefont {Long}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Discrimination of oligonucleotides of different lengths
+  with a wild-type aerolysin nanopore}},}\ }\href {\doibase
+  10.1038/nnano.2016.66} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Nanotechnology}\ }\textbf {\bibinfo {volume} {11}},\ \bibinfo {pages} {713}
+  (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galenkamp}\ \emph {et~al.}(2018)\citenamefont
+  {Galenkamp}, \citenamefont {Soskine}, \citenamefont {Hermans}, \citenamefont
+  {Wloka},\ and\ \citenamefont {Maglia}}]{Galenkamp2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
+  {Galenkamp}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Soskine}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Hermans}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Wloka}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Direct electrical quantification of glucose and
+  asparagine from bodily fluids using nanopores}},}\ }\href {\doibase
+  10.1038/s41467-018-06534-1} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Communications}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages}
+  {4085} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2017)\citenamefont {Zhang},
+  \citenamefont {Solomon}, \citenamefont {Zhang},\ and\ \citenamefont
+  {Zhang}}]{Zhang2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Solomon}},
+  \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Zhang}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Zhang}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Correlation of Low-Frequency Noise to
+  the Dynamic Properties of the Sensing Surface in Electrolytes}},}\ }\href
+  {\doibase 10.1021/acssensors.7b00285} {\bibfield  {journal} {\bibinfo
+  {journal} {ACS Sensors}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages}
+  {1160} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wanunu}\ \emph {et~al.}(2010)\citenamefont {Wanunu},
+  \citenamefont {Morrison}, \citenamefont {Rabin}, \citenamefont {Grosberg},\
+  and\ \citenamefont {Meller}}]{Wanunu2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Wanunu}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Morrison}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Rabin}}, \bibinfo
+  {author} {\bibfnamefont {A.~Y.}\ \bibnamefont {Grosberg}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Electrostatic focusing of unlabelled DNA into
+  nanoscale pores using a salt gradient}},}\ }\href {\doibase
+  10.1038/nnano.2009.379} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Nanotechnology}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {160}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nir}\ \emph {et~al.}(2015)\citenamefont {Nir},
+  \citenamefont {Huttner},\ and\ \citenamefont {Meller}}]{Nir2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Nir}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Huttner}}, \ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Direct Sensing and Discrimination among
+  Ubiquitin and Ubiquitin Chains Using Solid-State Nanopores}},}\ }\href
+  {\doibase https://doi.org/10.1016/j.bpj.2015.03.025} {\bibfield  {journal}
+  {\bibinfo  {journal} {Biophysical Journal}\ }\textbf {\bibinfo {volume}
+  {108}},\ \bibinfo {pages} {2340} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Squires}\ \emph {et~al.}(2015)\citenamefont
+  {Squires}, \citenamefont {Atas},\ and\ \citenamefont
+  {Meller}}]{Squires2015a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Squires}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Atas}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Meller}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Nanopore sensing of
+  individual transcription factors bound to DNA}},}\ }\href {\doibase
+  10.1038/srep11643} {\bibfield  {journal} {\bibinfo  {journal} {Scientific
+  Reports}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {11643}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Depledge}\ \emph {et~al.}(2019)\citenamefont
+  {Depledge}, \citenamefont {Srinivas}, \citenamefont {Sadaoka}, \citenamefont
+  {Bready}, \citenamefont {Mori}, \citenamefont {Placantonakis}, \citenamefont
+  {Mohr},\ and\ \citenamefont {Wilson}}]{Depledge2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Depledge}}, \bibinfo {author} {\bibfnamefont {K.~P.}\ \bibnamefont
+  {Srinivas}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Sadaoka}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Bready}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Mori}}, \bibinfo {author}
+  {\bibfnamefont {D.~G.}\ \bibnamefont {Placantonakis}}, \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Mohr}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.~C.}\ \bibnamefont {Wilson}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Direct RNA sequencing on nanopore arrays redefines the
+  transcriptional complexity of a viral pathogen}},}\ }\href {\doibase
+  10.1038/s41467-019-08734-9} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Communications}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages}
+  {754} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ouldali}\ \emph {et~al.}(2020)\citenamefont
+  {Ouldali}, \citenamefont {Sarthak}, \citenamefont {Ensslen}, \citenamefont
+  {Piguet}, \citenamefont {Manivet}, \citenamefont {Pelta}, \citenamefont
+  {Behrends}, \citenamefont {Aksimentiev},\ and\ \citenamefont
+  {Oukhaled}}]{Ouldali2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Ouldali}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Sarthak}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Ensslen}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Piguet}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Manivet}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Pelta}}, \bibinfo {author} {\bibfnamefont {J.~C.}\
+  \bibnamefont {Behrends}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Aksimentiev}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Oukhaled}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Electrical
+  recognition of the twenty proteinogenic amino acids using an aerolysin
+  nanopore}},}\ }\href {\doibase 10.1038/s41587-019-0345-2} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Biotechnology}\ }\textbf {\bibinfo
+  {volume} {38}},\ \bibinfo {pages} {176} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fragasso}\ \emph {et~al.}(2021)\citenamefont
+  {Fragasso}, \citenamefont {de~Vries}, \citenamefont {Andersson},
+  \citenamefont {van~der Sluis}, \citenamefont {van~der Giessen}, \citenamefont
+  {Dahlin}, \citenamefont {Onck},\ and\ \citenamefont {Dekker}}]{Fragasso2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fragasso}}, \bibinfo {author} {\bibfnamefont {H.~W.}\ \bibnamefont
+  {de~Vries}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Andersson}},
+  \bibinfo {author} {\bibfnamefont {E.~O.}\ \bibnamefont {van~der Sluis}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {van~der Giessen}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dahlin}}, \bibinfo
+  {author} {\bibfnamefont {P.~R.}\ \bibnamefont {Onck}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{A designer FG-Nup that reconstitutes the
+  selective transport barrier of the nuclear pore complex}},}\ }\href {\doibase
+  10.1038/s41467-021-22293-y} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature communications}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages}
+  {2010} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2021)\citenamefont {Li},
+  \citenamefont {Ying}, \citenamefont {Yu}, \citenamefont {Liu}, \citenamefont
+  {Wang}, \citenamefont {Li},\ and\ \citenamefont {Long}}]{Li2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.-Y.}\ \bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {Y.-L.}\ \bibnamefont {Ying}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Yu}}, \bibinfo {author}
+  {\bibfnamefont {S.-C.}\ \bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont
+  {Y.-Q.}\ \bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Li}}, \ and\ \bibinfo {author} {\bibfnamefont {Y.-T.}\
+  \bibnamefont {Long}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Revisiting the Origin of Nanopore Current Blockage for Volume Difference
+  Sensing at the Atomic Level}},}\ }\href {\doibase 10.1021/jacsau.1c00109}
+  {\bibfield  {journal} {\bibinfo  {journal} {JACS Au}\ }\textbf {\bibinfo
+  {volume} {1}},\ \bibinfo {pages} {967} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Qing}\ \emph
+  {et~al.}(2018{\natexlab{a}})\citenamefont {Qing}, \citenamefont {Ionescu},
+  \citenamefont {Pulcu},\ and\ \citenamefont {Bayley}}]{Qing2018a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Qing}}, \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont {Ionescu}},
+  \bibinfo {author} {\bibfnamefont {G.~S.}\ \bibnamefont {Pulcu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Directional control of a processive
+  molecular hopper}},}\ }\href {\doibase 10.1126/science.aat3872} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {361}},\ \bibinfo {pages} {908 LP } (\bibinfo {year}
+  {2018}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Qing}\ \emph {et~al.}(2019)\citenamefont {Qing},
+  \citenamefont {Tamagaki-Asahina}, \citenamefont {Ionescu}, \citenamefont
+  {Liu},\ and\ \citenamefont {Bayley}}]{Qing2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Qing}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Tamagaki-Asahina}}, \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Ionescu}}, \bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont {Liu}}, \
+  and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Catalytic site-selective
+  substrate processing within a tubular nanoreactor}},}\ }\href {\doibase
+  10.1038/s41565-019-0579-7} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Nanotechnology}\ } (\bibinfo {year} {2019}),\
+  10.1038/s41565-019-0579-7}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Firnkes}\ \emph {et~al.}(2010)\citenamefont
+  {Firnkes}, \citenamefont {Pedone}, \citenamefont {Knezevic}, \citenamefont
+  {D{\"{o}}blinger},\ and\ \citenamefont {Rant}}]{Firnkes2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Firnkes}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Pedone}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Knezevic}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {D{\"{o}}blinger}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {U.}~\bibnamefont {Rant}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Electrically facilitated translocations of
+  proteins through silicon nitride nanopores: Conjoint and competitive action
+  of diffusion, electrophoresis, and electroosmosis}},}\ }\href {\doibase
+  10.1021/nl100861c} {\bibfield  {journal} {\bibinfo  {journal} {Nano Letters}\
+  }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {2162} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Soskine}\ \emph {et~al.}(2012)\citenamefont
+  {Soskine}, \citenamefont {Biesemans}, \citenamefont {Moeyaert}, \citenamefont
+  {Cheley}, \citenamefont {Bayley},\ and\ \citenamefont
+  {Maglia}}]{Soskine2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Soskine}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Biesemans}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Moeyaert}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Cheley}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Bayley}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{An Engineered ClyA Nanopore Detects Folded Target
+  Proteins by Selective External Association and Pore Entry}},}\ }\href
+  {\doibase 10.1021/nl3024438} {\bibfield  {journal} {\bibinfo  {journal} {Nano
+  Letters}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {4895}
+  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Houghtaling}\ \emph {et~al.}(2019)\citenamefont
+  {Houghtaling}, \citenamefont {Ying}, \citenamefont {Eggenberger},
+  \citenamefont {Fennouri}, \citenamefont {Nandivada}, \citenamefont
+  {Acharjee}, \citenamefont {Li}, \citenamefont {Hall},\ and\ \citenamefont
+  {Mayer}}]{Houghtaling2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Houghtaling}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Ying}},
+  \bibinfo {author} {\bibfnamefont {O.~M.}\ \bibnamefont {Eggenberger}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Fennouri}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Nandivada}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Acharjee}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont
+  {A.~R.}\ \bibnamefont {Hall}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Mayer}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Estimation of Shape, Volume, and Dipole Moment of Individual Proteins
+  Freely Transiting a Synthetic Nanopore}},}\ }\href {\doibase
+  10.1021/acsnano.8b09555} {\bibfield  {journal} {\bibinfo  {journal} {ACS
+  Nano}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {5231} (\bibinfo
+  {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Movileanu}\ \emph {et~al.}(2000)\citenamefont
+  {Movileanu}, \citenamefont {Howorka}, \citenamefont {Braha},\ and\
+  \citenamefont {Bayley}}]{Movileanu2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Movileanu}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Howorka}},
+  \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Braha}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Detecting protein analytes that modulate
+  transmembrane movement of a polymer chain within a single protein pore}},}\
+  }\href {\doibase 10.1038/80295} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Biotechnology}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages}
+  {1091} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rotem}\ \emph {et~al.}(2012)\citenamefont {Rotem},
+  \citenamefont {Jayasinghe}, \citenamefont {Salichou},\ and\ \citenamefont
+  {Bayley}}]{Rotem2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Rotem}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Jayasinghe}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Salichou}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Protein Detection by Nanopores Equipped
+  with Aptamers}},}\ }\href {\doibase 10.1021/ja2105653} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of the American Chemical Society}\ }\textbf
+  {\bibinfo {volume} {134}},\ \bibinfo {pages} {2781} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thakur}\ and\ \citenamefont
+  {Movileanu}(2019{\natexlab{a}})}]{Thakur2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Thakur}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Movileanu}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Real-time
+  measurement of protein–protein interactions at single-molecule resolution
+  using a biological nanopore}},}\ }\href {\doibase 10.1038/nbt.4316}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Biotechnology}\ }\textbf
+  {\bibinfo {volume} {37}},\ \bibinfo {pages} {96} (\bibinfo {year}
+  {2019}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fahie}\ \emph
+  {et~al.}(2015{\natexlab{a}})\citenamefont {Fahie}, \citenamefont {Chisholm},\
+  and\ \citenamefont {Chen}}]{Fahie2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Fahie}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Chisholm}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Chen}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Resolved Single-Molecule Detection of
+  Individual Species within a Mixture of anti-Biotin Antibodies Using an
+  Engineered Monomeric Nanopore}},}\ }\href {\doibase 10.1021/nn506606e}
+  {\bibfield  {journal} {\bibinfo  {journal} {ACS Nano}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {1089} (\bibinfo {year}
+  {2015}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chuah}\ \emph {et~al.}(2019)\citenamefont {Chuah},
+  \citenamefont {Wu}, \citenamefont {Vivekchand}, \citenamefont {Gaus},
+  \citenamefont {Reece}, \citenamefont {Micolich},\ and\ \citenamefont
+  {Gooding}}]{Chuah2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Chuah}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Wu}}, \bibinfo
+  {author} {\bibfnamefont {S.~R.~C.}\ \bibnamefont {Vivekchand}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Gaus}}, \bibinfo {author}
+  {\bibfnamefont {P.~J.}\ \bibnamefont {Reece}}, \bibinfo {author}
+  {\bibfnamefont {A.~P.}\ \bibnamefont {Micolich}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~J.}\ \bibnamefont {Gooding}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Nanopore blockade sensors for ultrasensitive
+  detection of proteins in complex biological samples}},}\ }\href {\doibase
+  10.1038/s41467-019-10147-7} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Communications}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages}
+  {2109} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2020)\citenamefont {Zhang},
+  \citenamefont {Huang}, \citenamefont {Versloot}, \citenamefont {Herwig},
+  \citenamefont {de~Souza}, \citenamefont {Marrink},\ and\ \citenamefont
+  {Maglia}}]{Zhang2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Huang}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Versloot}}, \bibinfo
+  {author} {\bibfnamefont {B.~M.}\ \bibnamefont {Herwig}}, \bibinfo {author}
+  {\bibfnamefont {P.~C.~T.}\ \bibnamefont {de~Souza}}, \bibinfo {author}
+  {\bibfnamefont {S.-J.}\ \bibnamefont {Marrink}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Bottom-up fabrication of a multi-component nanopore
+  sensor that unfolds, processes and recognizes single proteins}},}\ }\href
+  {\doibase 10.1101/2020.12.04.411884} {\bibfield  {journal} {\bibinfo
+  {journal} {bioRxiv}\ ,\ \bibinfo {pages} {2020.12.04.411884}} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nivala}\ \emph {et~al.}(2014)\citenamefont {Nivala},
+  \citenamefont {Mulroney}, \citenamefont {Li}, \citenamefont {Schreiber},\
+  and\ \citenamefont {Akeson}}]{Nivala2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nivala}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Mulroney}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Li}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Schreiber}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Akeson}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Discrimination among Protein Variants Using an
+  Unfoldase-Coupled Nanopore}},}\ }\href {\doibase 10.1021/nn5049987}
+  {\bibfield  {journal} {\bibinfo  {journal} {ACS Nano}\ }\textbf {\bibinfo
+  {volume} {8}},\ \bibinfo {pages} {12365} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galenkamp}\ and\ \citenamefont
+  {Maglia}(2020)}]{Galenkamp2020b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
+  {Galenkamp}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Maglia}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Substrate
+  binding and turnover modulate the affinity landscape of dihydrofolate
+  reductase to increase its catalytic efficiency}},}\ }\href {\doibase
+  10.1101/2020.04.14.040733} {\bibfield  {journal} {\bibinfo  {journal}
+  {bioRxiv}\ ,\ \bibinfo {pages} {2020.04.14.040733}} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schmid}\ \emph {et~al.}(2021)\citenamefont {Schmid},
+  \citenamefont {St{\"{o}}mmer}, \citenamefont {Dietz},\ and\ \citenamefont
+  {Dekker}}]{Schmid2021a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Schmid}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {St{\"{o}}mmer}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Dietz}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Nanopore
+  electro-osmotic trap for the label-free study of single proteins and their
+  conformations}},}\ }\href {\doibase 10.1038/s41565-021-00958-5} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo
+  {volume} {18}},\ \bibinfo {pages} {2} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sutherland}\ \emph {et~al.}(2004)\citenamefont
+  {Sutherland}, \citenamefont {Long}, \citenamefont {Stefureac}, \citenamefont
+  {Bediako-Amoa}, \citenamefont {Kraatz},\ and\ \citenamefont
+  {Lee}}]{Sutherland2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~C.}\ \bibnamefont
+  {Sutherland}}, \bibinfo {author} {\bibfnamefont {Y.-T.}\ \bibnamefont
+  {Long}}, \bibinfo {author} {\bibfnamefont {R.-I.}\ \bibnamefont {Stefureac}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Bediako-Amoa}}, \bibinfo
+  {author} {\bibfnamefont {H.-B.}\ \bibnamefont {Kraatz}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Lee}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Structure of Peptides Investigated by Nanopore
+  Analysis}},}\ }\href {\doibase 10.1021/nl049413e} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume} {4}},\
+  \bibinfo {pages} {1273} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Restrepo-P{\'{e}}rez}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Restrepo-P{\'{e}}rez},
+  \citenamefont {Wong}, \citenamefont {Maglia}, \citenamefont {Dekker},\ and\
+  \citenamefont {Joo}}]{Restrepo-Perez2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Restrepo-P{\'{e}}rez}}, \bibinfo {author} {\bibfnamefont {C.~H.}\
+  \bibnamefont {Wong}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Maglia}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Joo}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Label-Free Detection of
+  Post-translational Modifications with a Nanopore}},}\ }\href {\doibase
+  10.1021/acs.nanolett.9b03134} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nano Letters}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {7957}
+  (\bibinfo {year} {2019}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Robertson}\ \emph {et~al.}(2007)\citenamefont
+  {Robertson}, \citenamefont {Rodrigues}, \citenamefont {Stanford},
+  \citenamefont {Rubinson}, \citenamefont {Krasilnikov},\ and\ \citenamefont
+  {Kasianowicz}}]{Robertson2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.~F.}\
+  \bibnamefont {Robertson}}, \bibinfo {author} {\bibfnamefont {C.~G.}\
+  \bibnamefont {Rodrigues}}, \bibinfo {author} {\bibfnamefont {V.~M.}\
+  \bibnamefont {Stanford}}, \bibinfo {author} {\bibfnamefont {K.~A.}\
+  \bibnamefont {Rubinson}}, \bibinfo {author} {\bibfnamefont {O.~V.}\
+  \bibnamefont {Krasilnikov}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~J.}\
+  \bibnamefont {Kasianowicz}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Single-molecule mass spectrometry in solution using a solitary
+  nanopore}},}\ }\href {\doibase 10.1073/pnas.0611085104} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proceedings of the National Academy of Sciences}\
+  }\textbf {\bibinfo {volume} {104}},\ \bibinfo {pages} {8207} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chavis}\ \emph {et~al.}(2017)\citenamefont {Chavis},
+  \citenamefont {Brady}, \citenamefont {Hatmaker}, \citenamefont {Angevine},
+  \citenamefont {Kothalawala}, \citenamefont {Dass}, \citenamefont
+  {Robertson},\ and\ \citenamefont {Reiner}}]{Chavis2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Chavis}}, \bibinfo {author} {\bibfnamefont {K.~T.}\ \bibnamefont {Brady}},
+  \bibinfo {author} {\bibfnamefont {G.~A.}\ \bibnamefont {Hatmaker}}, \bibinfo
+  {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Angevine}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Kothalawala}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Dass}}, \bibinfo {author} {\bibfnamefont
+  {J.~W.~F.}\ \bibnamefont {Robertson}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~E.}\ \bibnamefont {Reiner}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Single Molecule Nanopore Spectrometry for Peptide
+  Detection}},}\ }\href {\doibase 10.1021/acssensors.7b00362} {\bibfield
+  {journal} {\bibinfo  {journal} {ACS Sensors}\ }\textbf {\bibinfo {volume}
+  {2}},\ \bibinfo {pages} {1319} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Huang}\ \emph {et~al.}(2017)\citenamefont {Huang},
+  \citenamefont {Willems}, \citenamefont {Soskine}, \citenamefont {Wloka},\
+  and\ \citenamefont {Maglia}}]{Huang2017a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Willems}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Soskine}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Wloka}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Electro-osmotic capture and ionic discrimination of
+  peptide and protein biomarkers with FraC nanopores}},}\ }\href {\doibase
+  10.1038/s41467-017-01006-4} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Communications}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages}
+  {1} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}\ \emph {et~al.}(2019)\citenamefont {Huang},
+  \citenamefont {Voet},\ and\ \citenamefont {Maglia}}]{Huang2019a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Voet}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{FraC nanopores with adjustable diameter
+  identify the mass of opposite-charge peptides with 44 dalton resolution}},}\
+  }\href {\doibase 10.1038/s41467-019-08761-6} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Communications}\ }\textbf {\bibinfo {volume} {10}},\
+  \bibinfo {pages} {835} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Restrepo-P{\'{e}}rez}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Restrepo-P{\'{e}}rez},
+  \citenamefont {Huang}, \citenamefont {Bohl{\"{a}}nder}, \citenamefont {Worp},
+  \citenamefont {Eelkema}, \citenamefont {Maglia}, \citenamefont {Joo},\ and\
+  \citenamefont {Dekker}}]{Restrepo-Perez2019a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Restrepo-P{\'{e}}rez}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont
+  {Bohl{\"{a}}nder}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Worp}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Eelkema}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Maglia}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Joo}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Resolving Chemical Modifications to a Single Amino Acid
+  within a Peptide Using a Biological Nanopore}},}\ }\href {\doibase
+  10.1021/acsnano.9b05156} {\bibfield  {journal} {\bibinfo  {journal} {ACS
+  Nano}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {13668} (\bibinfo
+  {year} {2019}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boersma}\ and\ \citenamefont
+  {Bayley}(2012)}]{Boersma2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Boersma}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Bayley}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Continuous
+  Stochastic Detection of Amino Acid Enantiomers with a Protein Nanopore}},}\
+  }\href {\doibase https://doi.org/10.1002/anie.201205687} {\bibfield
+  {journal} {\bibinfo  {journal} {Angewandte Chemie International Edition}\
+  }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages} {9606} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nivala}\ \emph {et~al.}(2013)\citenamefont {Nivala},
+  \citenamefont {Marks},\ and\ \citenamefont {Akeson}}]{Nivala2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Nivala}}, \bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Marks}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Akeson}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Unfoldase-mediated protein
+  translocation through an $\alpha$-hemolysin nanopore}},}\ }\href {\doibase
+  10.1038/nbt.2503} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Biotechnology}\ }\textbf {\bibinfo {volume} {31}},\ \bibinfo {pages} {247}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brinkerhoff}\ \emph {et~al.}(2021)\citenamefont
+  {Brinkerhoff}, \citenamefont {Kang}, \citenamefont {Liu}, \citenamefont
+  {Aksimentiev},\ and\ \citenamefont {Dekker}}]{Brinkerhoff2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Brinkerhoff}}, \bibinfo {author} {\bibfnamefont {A.~S.~W.}\ \bibnamefont
+  {Kang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liu}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Aksimentiev}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Infinite re-reading of single proteins at
+  single-amino-acid resolution using nanopore sequencing}},}\ }\href
+  {https://www.biorxiv.org/content/10.1101/2021.07.13.452225v1%0Ahttps://www.biorxiv.org/content/10.1101/2021.07.13.452225v1.abstract}
+  {\bibfield  {journal} {\bibinfo  {journal} {bioRxiv}\ ,\ \bibinfo {pages}
+  {2021.07.13.452225}} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kukwikila}\ and\ \citenamefont
+  {Howorka}(2015)}]{Kukwikila2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kukwikila}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Howorka}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Nanopore-Based
+  Electrical and Label-Free Sensing of Enzyme Activity in Blood Serum}},}\
+  }\href {\doibase 10.1021/acs.analchem.5b01764} {\bibfield  {journal}
+  {\bibinfo  {journal} {Analytical Chemistry}\ }\textbf {\bibinfo {volume}
+  {87}},\ \bibinfo {pages} {9149} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chu}\ \emph {et~al.}(2010)\citenamefont {Chu},
+  \citenamefont {Gonz{\'{a}}lez-L{\'{o}}pez}, \citenamefont {Cockroft},
+  \citenamefont {Amorin},\ and\ \citenamefont {Ghadiri}}]{Chu2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Chu}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Gonz{\'{a}}lez-L{\'{o}}pez}}, \bibinfo {author} {\bibfnamefont {S.~L.}\
+  \bibnamefont {Cockroft}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Amorin}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~R.}\ \bibnamefont
+  {Ghadiri}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Real-Time
+  Monitoring of DNA Polymerase Function and Stepwise Single-Nucleotide DNA
+  Strand Translocation through a Protein Nanopore}},}\ }\href {\doibase
+  https://doi.org/10.1002/anie.201005460} {\bibfield  {journal} {\bibinfo
+  {journal} {Angewandte Chemie International Edition}\ }\textbf {\bibinfo
+  {volume} {49}},\ \bibinfo {pages} {10106} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Manrao}\ \emph {et~al.}(2012)\citenamefont {Manrao},
+  \citenamefont {Derrington}, \citenamefont {Laszlo}, \citenamefont {Langford},
+  \citenamefont {Hopper}, \citenamefont {Gillgren}, \citenamefont {Pavlenok},
+  \citenamefont {Niederweis},\ and\ \citenamefont {Gundlach}}]{Manrao2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~a.}\ \bibnamefont
+  {Manrao}}, \bibinfo {author} {\bibfnamefont {I.~M.}\ \bibnamefont
+  {Derrington}}, \bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont
+  {Laszlo}}, \bibinfo {author} {\bibfnamefont {K.~W.}\ \bibnamefont
+  {Langford}}, \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont
+  {Hopper}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Gillgren}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Pavlenok}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Niederweis}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Gundlach}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Reading DNA at single-nucleotide
+  resolution with a mutant MspA nanopore and phi29 DNA polymerase}},}\ }\href
+  {\doibase 10.1038/nbt.2171} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Biotechnology}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages}
+  {349} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cheley}\ \emph {et~al.}(2006)\citenamefont {Cheley},
+  \citenamefont {Xie},\ and\ \citenamefont {Bayley}}]{Cheley2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Cheley}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Xie}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{A Genetically Encoded Pore for the
+  Stochastic Detection of a Protein Kinase}},}\ }\href {\doibase
+  https://doi.org/10.1002/cbic.200600274} {\bibfield  {journal} {\bibinfo
+  {journal} {ChemBioChem}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages}
+  {1923} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}\ \emph {et~al.}(2020)\citenamefont {Huang},
+  \citenamefont {Willems}, \citenamefont {Bartelds}, \citenamefont {van Dorpe},
+  \citenamefont {Soskine},\ and\ \citenamefont {Maglia}}]{Huang2020a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Willems}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bartelds}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {van Dorpe}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Soskine}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Electro-Osmotic Vortices Promote the Capture of Folded
+  Proteins by PlyAB Nanopores}},}\ }\href {\doibase
+  10.1021/acs.nanolett.0c00877} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nano Letters}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages} {3819}
+  (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zernia}\ \emph {et~al.}(2020)\citenamefont {Zernia},
+  \citenamefont {van~der Heide}, \citenamefont {Galenkamp}, \citenamefont
+  {Gouridis},\ and\ \citenamefont {Maglia}}]{Zernia2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Zernia}}, \bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont {van~der
+  Heide}}, \bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont {Galenkamp}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Gouridis}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Current Blockades of Proteins inside
+  Nanopores for Real-Time Metabolome Analysis}},}\ }\href {\doibase
+  10.1021/acsnano.9b09434} {\bibfield  {journal} {\bibinfo  {journal} {ACS
+  Nano}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {2296} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galenkamp}\ \emph {et~al.}(2020)\citenamefont
+  {Galenkamp}, \citenamefont {Biesemans},\ and\ \citenamefont
+  {Maglia}}]{Galenkamp2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
+  {Galenkamp}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Biesemans}}, \ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Maglia}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Directional
+  conformer exchange in dihydrofolate reductase revealed by single-molecule
+  nanopore recordings}},}\ }\href {\doibase 10.1038/s41557-020-0437-0}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Chemistry}\ }\textbf
+  {\bibinfo {volume} {12}},\ \bibinfo {pages} {481} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Van Meervelt}}\ \emph {et~al.}(2017)\citenamefont
+  {{Van Meervelt}}, \citenamefont {Soskine}, \citenamefont {Singh},
+  \citenamefont {Schuurman-Wolters}, \citenamefont {Wijma}, \citenamefont
+  {Poolman},\ and\ \citenamefont {Maglia}}]{VanMeervelt2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {{Van
+  Meervelt}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Soskine}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Singh}}, \bibinfo
+  {author} {\bibfnamefont {G.~K.}\ \bibnamefont {Schuurman-Wolters}}, \bibinfo
+  {author} {\bibfnamefont {H.~J.}\ \bibnamefont {Wijma}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Poolman}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Maglia}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Real-Time Conformational Changes and Controlled
+  Orientation of Native Proteins Inside a Protein Nanoreactor}},}\ }\href
+  {\doibase 10.1021/jacs.7b10106} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of the American Chemical Society}\ }\textbf {\bibinfo {volume}
+  {139}},\ \bibinfo {pages} {18640} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Rajagopalan}\ \emph {et~al.}(2002)\citenamefont
+  {Rajagopalan}, \citenamefont {Zhang}, \citenamefont {McCourt}, \citenamefont
+  {Dwyer}, \citenamefont {Benkovic},\ and\ \citenamefont
+  {Hammes}}]{Rajagopalan2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~T.~R.}\
+  \bibnamefont {Rajagopalan}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {McCourt}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Dwyer}}, \bibinfo {author} {\bibfnamefont {S.~J.}\
+  \bibnamefont {Benkovic}}, \ and\ \bibinfo {author} {\bibfnamefont {G.~G.}\
+  \bibnamefont {Hammes}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Interaction of dihydrofolate reductase with methotrexate: Ensemble and
+  single-molecule kinetics}},}\ }\href {\doibase 10.1073/pnas.172501499}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proceedings of the National
+  Academy of Sciences}\ }\textbf {\bibinfo {volume} {99}},\ \bibinfo {pages}
+  {13481 LP } (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Waduge}\ \emph {et~al.}(2017)\citenamefont {Waduge},
+  \citenamefont {Hu}, \citenamefont {Bandarkar}, \citenamefont {Yamazaki},
+  \citenamefont {Cressiot}, \citenamefont {Zhao}, \citenamefont {Whitford},\
+  and\ \citenamefont {Wanunu}}]{Waduge2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Waduge}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Hu}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Bandarkar}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Yamazaki}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Cressiot}}, \bibinfo {author}
+  {\bibfnamefont {Q.}~\bibnamefont {Zhao}}, \bibinfo {author} {\bibfnamefont
+  {P.~C.}\ \bibnamefont {Whitford}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Wanunu}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Nanopore-Based Measurements of Protein Size, Fluctuations, and
+  Conformational Changes}},}\ }\href {\doibase 10.1021/acsnano.7b01212}
+  {\bibfield  {journal} {\bibinfo  {journal} {ACS Nano}\ }\textbf {\bibinfo
+  {volume} {11}},\ \bibinfo {pages} {5706} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bayley}\ and\ \citenamefont
+  {Cremer}(2001)}]{Bayley2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Bayley}}\ and\ \bibinfo {author} {\bibfnamefont {P.~S.}\ \bibnamefont
+  {Cremer}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Stochastic
+  sensors inspired by biology}},}\ }\href {\doibase 10.1038/35093038}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {413}},\ \bibinfo {pages} {226} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bayley}\ \emph {et~al.}(2008)\citenamefont {Bayley},
+  \citenamefont {Luchian}, \citenamefont {Shin},\ and\ \citenamefont
+  {Steffensen}}]{Bayley2008a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Bayley}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Luchian}},
+  \bibinfo {author} {\bibfnamefont {S.-H.}\ \bibnamefont {Shin}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Steffensen}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Single Molecule Covalent Chemistry
+  in a Protein Nanoreactor}}}\ (\bibinfo {year} {2008})\ pp.\ \bibinfo {pages}
+  {251--277}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Steffensen}\ \emph {et~al.}(2014)\citenamefont
+  {Steffensen}, \citenamefont {Rotem},\ and\ \citenamefont
+  {Bayley}}]{Steffensen2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {Steffensen}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Rotem}}, \
+  and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Single-molecule analysis of
+  chirality in a multicomponent reaction network}},}\ }\href {\doibase
+  10.1038/nchem.1949} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Chemistry}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {603}
+  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ramsay}\ and\ \citenamefont
+  {Bayley}(2018)}]{Ramsay2018a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~J.}\ \bibnamefont
+  {Ramsay}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Bayley}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Single-Molecule
+  Determination of the Isomers of d-Glucose and d-Fructose that Bind to Boronic
+  Acids}},}\ }\href {\doibase https://doi.org/10.1002/anie.201712740}
+  {\bibfield  {journal} {\bibinfo  {journal} {Angewandte Chemie International
+  Edition}\ }\textbf {\bibinfo {volume} {57}},\ \bibinfo {pages} {2841}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lee}\ and\ \citenamefont {Bayley}(2015)}]{Lee2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Lee}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Semisynthetic protein
+  nanoreactor for single-molecule chemistry}},}\ }\href {\doibase
+  10.1073/pnas.1510565112} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences}\ }\textbf {\bibinfo
+  {volume} {112}},\ \bibinfo {pages} {13768 LP } (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Luchian}\ \emph
+  {et~al.}(2003{\natexlab{a}})\citenamefont {Luchian}, \citenamefont {Shin},\
+  and\ \citenamefont {Bayley}}]{Luchian2003aSte}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Luchian}}, \bibinfo {author} {\bibfnamefont {S.-H.}\ \bibnamefont {Shin}}, \
+  and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Kinetics of a Three-Step
+  Reaction Observed at the Single-Molecule Level}},}\ }\href {\doibase
+  https://doi.org/10.1002/anie.200250666} {\bibfield  {journal} {\bibinfo
+  {journal} {Angewandte Chemie International Edition}\ }\textbf {\bibinfo
+  {volume} {42}},\ \bibinfo {pages} {1926} (\bibinfo {year}
+  {2003}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pulcu}\ \emph {et~al.}(2019)\citenamefont {Pulcu},
+  \citenamefont {Galenkamp}, \citenamefont {Qing}, \citenamefont {Gasparini},
+  \citenamefont {Mikhailova}, \citenamefont {Matile},\ and\ \citenamefont
+  {Bayley}}]{Pulcu2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~S.}\ \bibnamefont
+  {Pulcu}}, \bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
+  {Galenkamp}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Qing}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Gasparini}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Mikhailova}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Matile}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Single-Molecule Kinetics of Growth and Degradation of
+  Cell-Penetrating Poly(disulfide)s}},}\ }\href {\doibase 10.1021/jacs.9b00387}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of the American Chemical
+  Society}\ }\textbf {\bibinfo {volume} {141}},\ \bibinfo {pages} {12444}
+  (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lu}\ \emph {et~al.}(2010)\citenamefont {Lu},
+  \citenamefont {Li}, \citenamefont {Rotem}, \citenamefont {Mikhailova},\ and\
+  \citenamefont {Bayley}}]{Lu2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Lu}}, \bibinfo {author} {\bibfnamefont {W.-W.}\ \bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Rotem}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Mikhailova}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{A primary hydrogen–deuterium isotope effect observed at
+  the single-molecule level}},}\ }\href {\doibase 10.1038/nchem.821} {\bibfield
+   {journal} {\bibinfo  {journal} {Nature Chemistry}\ }\textbf {\bibinfo
+  {volume} {2}},\ \bibinfo {pages} {921} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ramsay}\ \emph {et~al.}(2018)\citenamefont {Ramsay},
+  \citenamefont {Bell}, \citenamefont {Qing},\ and\ \citenamefont
+  {Bayley}}]{Ramsay2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~J.}\ \bibnamefont
+  {Ramsay}}, \bibinfo {author} {\bibfnamefont {N.~A.~W.}\ \bibnamefont {Bell}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Qing}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Single-Molecule Observation of the Intermediates
+  in a Catalytic Cycle}},}\ }\href {\doibase 10.1021/jacs.8b09282} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of the American Chemical Society}\
+  }\textbf {\bibinfo {volume} {140}},\ \bibinfo {pages} {17538} (\bibinfo
+  {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kang}\ \emph {et~al.}(2005)\citenamefont {Kang},
+  \citenamefont {Gu}, \citenamefont {Cheley},\ and\ \citenamefont
+  {Bayley}}]{Kang2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.-f.}\ \bibnamefont
+  {Kang}}, \bibinfo {author} {\bibfnamefont {L.-Q.}\ \bibnamefont {Gu}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Cheley}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Single Protein Pores Containing Molecular
+  Adapters at High Temperatures}},}\ }\href {\doibase
+  https://doi.org/10.1002/anie.200461885} {\bibfield  {journal} {\bibinfo
+  {journal} {Angewandte Chemie International Edition}\ }\textbf {\bibinfo
+  {volume} {44}},\ \bibinfo {pages} {1495} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Luchian}\ \emph
+  {et~al.}(2003{\natexlab{b}})\citenamefont {Luchian}, \citenamefont {Shin},\
+  and\ \citenamefont {Bayley}}]{Luchian2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Luchian}}, \bibinfo {author} {\bibfnamefont {S.-H.}\ \bibnamefont {Shin}}, \
+  and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Single-Molecule Covalent
+  Chemistry with Spatially Separated Reactants}},}\ }\href {\doibase
+  https://doi.org/10.1002/anie.200351313} {\bibfield  {journal} {\bibinfo
+  {journal} {Angewandte Chemie International Edition}\ }\textbf {\bibinfo
+  {volume} {42}},\ \bibinfo {pages} {3766} (\bibinfo {year}
+  {2003}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Qing}\ \emph
+  {et~al.}(2018{\natexlab{b}})\citenamefont {Qing}, \citenamefont {Pulcu},
+  \citenamefont {Bell},\ and\ \citenamefont {Bayley}}]{Qing2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Qing}}, \bibinfo {author} {\bibfnamefont {G.~S.}\ \bibnamefont {Pulcu}},
+  \bibinfo {author} {\bibfnamefont {N.~A.~W.}\ \bibnamefont {Bell}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Bioorthogonal Cycloadditions with
+  Sub-Millisecond Intermediates}},}\ }\href {\doibase
+  https://doi.org/10.1002/anie.201710262} {\bibfield  {journal} {\bibinfo
+  {journal} {Angewandte Chemie International Edition}\ }\textbf {\bibinfo
+  {volume} {57}},\ \bibinfo {pages} {1218} (\bibinfo {year}
+  {2018}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gu}\ \emph {et~al.}(2003)\citenamefont {Gu},
+  \citenamefont {Cheley},\ and\ \citenamefont {Bayley}}]{Gu2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.-Q.}\ \bibnamefont
+  {Gu}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Cheley}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Bayley}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Electroosmotic enhancement of the
+  binding of a neutral molecule to a transmembrane pore}},}\ }\href {\doibase
+  10.1073/pnas.2531778100} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences}\ }\textbf {\bibinfo
+  {volume} {100}},\ \bibinfo {pages} {15498 LP } (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Astumian}(2012)}]{Astumian2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
+  {Astumian}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Microscopic
+  reversibility as the organizing principle of molecular machines}},}\ }\href
+  {\doibase 10.1038/nnano.2012.188} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Nanotechnology}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages}
+  {684} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Dale Purves, George J. Augustine, David Fitzpatrick,
+  Lawrence C. Katz, Anthony-Samuel LaMantia, James O.
+  McNamara}}(2001)}]{DalePurvesGeorgeJ.AugustineDavidFitzpatrickLawrenceC.KatzAnthony-SamuelLaMantiaJamesO.McNamara2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~M.~W.}\
+  \bibnamefont {{Dale Purves, George J. Augustine, David Fitzpatrick, Lawrence
+  C. Katz, Anthony-Samuel LaMantia, James O. McNamara}}},\ }\href@noop {}
+  {\emph {\bibinfo {title} {{Channels and Transporters}}}},\ \bibinfo {edition}
+  {2nd}\ ed.,\ edited by\ \bibinfo {editor} {\bibnamefont {Neuroscience}}\
+  (\bibinfo  {publisher} {Sinauer Associates},\ \bibinfo {address} {Sunderland
+  (MA)},\ \bibinfo {year} {2001})\ p.\ \bibinfo {pages} {Chapter 4}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Dekker}\ \emph {et~al.}(1998)\citenamefont {Dekker},
+  \citenamefont {Ryan}, \citenamefont {Brix}, \citenamefont {M{\"{u}}ller},
+  \citenamefont {H{\"{o}}nlinger},\ and\ \citenamefont {Pfanner}}]{Dekker1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~J.~T.}\
+  \bibnamefont {Dekker}}, \bibinfo {author} {\bibfnamefont {M.~T.}\
+  \bibnamefont {Ryan}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Brix}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {M{\"{u}}ller}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {H{\"{o}}nlinger}}, \ and\
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Pfanner}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Preprotein Translocase of the Outer
+  Mitochondrial Membrane: Molecular Dissection and Assembly of the General
+  Import Pore Complex}},}\ }\href {\doibase 10.1128/mcb.18.11.6515} {\bibfield
+  {journal} {\bibinfo  {journal} {Molecular and Cellular Biology}\ }\textbf
+  {\bibinfo {volume} {18}},\ \bibinfo {pages} {6515} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(2018)\citenamefont {Kim},
+  \citenamefont {Fernandez-Martinez}, \citenamefont {Nudelman}, \citenamefont
+  {Shi}, \citenamefont {Zhang}, \citenamefont {Raveh}, \citenamefont
+  {Herricks}, \citenamefont {Slaughter}, \citenamefont {Hogan}, \citenamefont
+  {Upla}, \citenamefont {Chemmama}, \citenamefont {Pellarin}, \citenamefont
+  {Echeverria}, \citenamefont {Shivaraju}, \citenamefont {Chaudhury},
+  \citenamefont {Wang}, \citenamefont {Williams}, \citenamefont {Unruh},
+  \citenamefont {Greenberg}, \citenamefont {Jacobs}, \citenamefont {Yu},
+  \citenamefont {de~la Cruz}, \citenamefont {Mironska}, \citenamefont {Stokes},
+  \citenamefont {Aitchison}, \citenamefont {Jarrold}, \citenamefont {Gerton},
+  \citenamefont {Ludtke}, \citenamefont {Akey}, \citenamefont {Chait},
+  \citenamefont {Sali},\ and\ \citenamefont {Rout}}]{Kim2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Fernandez-Martinez}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Nudelman}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Shi}},
+  \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Raveh}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Herricks}}, \bibinfo {author}
+  {\bibfnamefont {B.~D.}\ \bibnamefont {Slaughter}}, \bibinfo {author}
+  {\bibfnamefont {J.~A.}\ \bibnamefont {Hogan}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Upla}}, \bibinfo {author} {\bibfnamefont
+  {I.~E.}\ \bibnamefont {Chemmama}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Pellarin}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Echeverria}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Shivaraju}}, \bibinfo {author} {\bibfnamefont {A.~S.}\
+  \bibnamefont {Chaudhury}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Williams}},
+  \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont {Unruh}}, \bibinfo
+  {author} {\bibfnamefont {C.~H.}\ \bibnamefont {Greenberg}}, \bibinfo {author}
+  {\bibfnamefont {E.~Y.}\ \bibnamefont {Jacobs}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Yu}}, \bibinfo {author} {\bibfnamefont
+  {M.~J.}\ \bibnamefont {de~la Cruz}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Mironska}}, \bibinfo {author} {\bibfnamefont {D.~L.}\
+  \bibnamefont {Stokes}}, \bibinfo {author} {\bibfnamefont {J.~D.}\
+  \bibnamefont {Aitchison}}, \bibinfo {author} {\bibfnamefont {M.~F.}\
+  \bibnamefont {Jarrold}}, \bibinfo {author} {\bibfnamefont {J.~L.}\
+  \bibnamefont {Gerton}}, \bibinfo {author} {\bibfnamefont {S.~J.}\
+  \bibnamefont {Ludtke}}, \bibinfo {author} {\bibfnamefont {C.~W.}\
+  \bibnamefont {Akey}}, \bibinfo {author} {\bibfnamefont {B.~T.}\ \bibnamefont
+  {Chait}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Sali}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Rout}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Integrative structure and functional
+  anatomy of a nuclear pore complex}},}\ }\href {\doibase 10.1038/nature26003}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {555}},\ \bibinfo {pages} {475} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Driessen, Arnold J. M. and
+  Nouwen}}(2008)}]{DriessenArnoldJ.M.andNouwen2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Driessen, Arnold J. M. and Nouwen}}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Protein Translocation Across the Bacterial Cytoplasmic
+  Membrane}},}\ }\href {\doibase 10.1146/annurev.biochem.77.061606.160747}
+  {\bibfield  {journal} {\bibinfo  {journal} {Annu. Rev. Biochem.}\ }\textbf
+  {\bibinfo {volume} {77}},\ \bibinfo {pages} {643} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baker}\ and\ \citenamefont
+  {Sauer}(2012)}]{Baker2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont
+  {Baker}}\ and\ \bibinfo {author} {\bibfnamefont {R.~T.}\ \bibnamefont
+  {Sauer}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{ClpXP, an
+  ATP-powered unfolding and protein-degradation machine}},}\ }\href {\doibase
+  10.1016/j.bbamcr.2011.06.007} {\bibfield  {journal} {\bibinfo  {journal}
+  {Biochimica et Biophysica Acta - Molecular Cell Research}\ }\textbf {\bibinfo
+  {volume} {1823}},\ \bibinfo {pages} {15} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Delcour}(2015)}]{Delcour2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont
+  {Delcour}},\ }\href {http://link.springer.com/10.1007/978-3-319-20149-8}
+  {\emph {\bibinfo {title} {{Electrophysiology of Unconventional Channels and
+  Pores}}}},\ Vol.~\bibinfo {volume} {18}\ (\bibinfo  {publisher} {Springer},\
+  \bibinfo {year} {2015})\ pp.\ \bibinfo {pages} {75--100}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sugawara}\ \emph {et~al.}(2015)\citenamefont
+  {Sugawara}, \citenamefont {Yamashita}, \citenamefont {Kato}, \citenamefont
+  {Peng}, \citenamefont {Ueda}, \citenamefont {Kaneko}, \citenamefont {Kamio},
+  \citenamefont {Tanaka},\ and\ \citenamefont {Yao}}]{Sugawara2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sugawara}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Yamashita}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kato}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Peng}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Ueda}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Kaneko}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Kamio}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tanaka}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Yao}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Structural basis for pore-forming mechanism of
+  staphylococcal $\alpha$-hemolysin}},}\ }\href {\doibase
+  10.1016/j.toxicon.2015.09.033} {\bibfield  {journal} {\bibinfo  {journal}
+  {Toxicon}\ }\textbf {\bibinfo {volume} {108}},\ \bibinfo {pages} {226}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph
+  {et~al.}(2017{\natexlab{a}})\citenamefont {Wang}, \citenamefont {Ji},
+  \citenamefont {Yan}, \citenamefont {Haque},\ and\ \citenamefont
+  {Guo}}]{Wang2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Ji}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Yan}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Haque}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Guo}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Three-step channel conformational changes common to DNA
+  packaging motors of bacterial viruses T3, T4, SPP1, and Phi29}},}\ }\href
+  {\doibase 10.1016/j.virol.2016.04.015} {\bibfield  {journal} {\bibinfo
+  {journal} {Virology}\ }\textbf {\bibinfo {volume} {500}},\ \bibinfo {pages}
+  {285} (\bibinfo {year} {2017}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xue}\ \emph {et~al.}(2020)\citenamefont {Xue},
+  \citenamefont {Yamazaki}, \citenamefont {Ren}, \citenamefont {Wanunu},
+  \citenamefont {Ivanov},\ and\ \citenamefont {Edel}}]{Xue2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Xue}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Yamazaki}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Ren}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Wanunu}}, \bibinfo {author} {\bibfnamefont
+  {A.~P.}\ \bibnamefont {Ivanov}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {J.~B.}\ \bibnamefont {Edel}},\ }\bibfield  {title} {\textit {\bibinfo
+  {title} {{Solid-state nanopore sensors}},}\ }\href {\doibase
+  10.1038/s41578-020-0229-6} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Reviews Materials}\ } (\bibinfo {year} {2020}),\
+  10.1038/s41578-020-0229-6}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2018)\citenamefont {Wang},
+  \citenamefont {Zhao}, \citenamefont {Haque},\ and\ \citenamefont
+  {Guo}}]{Wang2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Zhao}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Haque}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Guo}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Engineering of protein nanopores for sequencing, chemical
+  or protein sensing and disease diagnosis}},}\ }\href {\doibase
+  10.1016/j.copbio.2017.11.006} {\bibfield  {journal} {\bibinfo  {journal}
+  {Current Opinion in Biotechnology}\ }\textbf {\bibinfo {volume} {51}},\
+  \bibinfo {pages} {80} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ramezani}\ and\ \citenamefont
+  {Dietz}(2020)}]{Ramezani2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Ramezani}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Dietz}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Building machines
+  with DNA molecules}},}\ }\href {\doibase 10.1038/s41576-019-0175-6}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Reviews Genetics}\
+  }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages} {5} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Siwy}\ and\ \citenamefont
+  {Fuli{\'{n}}ski}(2002)}]{Siwy2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Siwy}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fuli{\'{n}}ski}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Fabrication of a Synthetic Nanopore Ion Pump}},}\ }\href {\doibase
+  10.1103/PhysRevLett.89.198103} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review Letters}\ }\textbf {\bibinfo {volume} {89}},\ \bibinfo
+  {pages} {4} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Burns}\ \emph {et~al.}(2016)\citenamefont {Burns},
+  \citenamefont {Seifert}, \citenamefont {Fertig},\ and\ \citenamefont
+  {Howorka}}]{Burns2016b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {Burns}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Seifert}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Fertig}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Howorka}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{A biomimetic DNA-based channel for the
+  ligand-controlled transport of charged molecular cargo across a biological
+  membrane}},}\ }\href {\doibase 10.1038/nnano.2015.279} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo {volume}
+  {11}},\ \bibinfo {pages} {152} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Jovanovic-Talisman}\ and\ \citenamefont
+  {Zilman}(2017)}]{Jovanovic-Talisman2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Jovanovic-Talisman}}\ and\ \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Zilman}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Protein Transport by the Nuclear Pore Complex: Simple Biophysics of a
+  Complex Biomachine.}}}\ }\href {\doibase 10.1016/j.bpj.2017.05.024}
+  {\bibfield  {journal} {\bibinfo  {journal} {Biophysical journal}\ }\textbf
+  {\bibinfo {volume} {113}},\ \bibinfo {pages} {6} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jovanovic-Talisman}\ \emph
+  {et~al.}(2009)\citenamefont {Jovanovic-Talisman}, \citenamefont
+  {Tetenbaum-Novatt}, \citenamefont {McKenney}, \citenamefont {Zilman},
+  \citenamefont {Peters}, \citenamefont {Rout},\ and\ \citenamefont
+  {Chait}}]{Jovanovic-Talisman2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Jovanovic-Talisman}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Tetenbaum-Novatt}}, \bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont
+  {McKenney}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Zilman}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Peters}}, \bibinfo
+  {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Rout}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {B.~T.}\ \bibnamefont {Chait}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Artificial nanopores that mimic the transport
+  selectivity of the nuclear pore complex}},}\ }\href {\doibase
+  10.1038/nature07600} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\
+  }\textbf {\bibinfo {volume} {457}},\ \bibinfo {pages} {1023} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kowalczyk}\ \emph {et~al.}(2011)\citenamefont
+  {Kowalczyk}, \citenamefont {Kapinos}, \citenamefont {Blosser}, \citenamefont
+  {Magalh{\~{a}}es}, \citenamefont {van Nies}, \citenamefont {Lim},\ and\
+  \citenamefont {Dekker}}]{Kowalczyk2011a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Kowalczyk}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Kapinos}},
+  \bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont {Blosser}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Magalh{\~{a}}es}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {van Nies}}, \bibinfo {author}
+  {\bibfnamefont {R.~Y.~H.}\ \bibnamefont {Lim}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Single-molecule transport across an individual biomimetic
+  nuclear pore complex}},}\ }\href {\doibase 10.1038/nnano.2011.88} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo
+  {volume} {6}},\ \bibinfo {pages} {433} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ananth}\ \emph {et~al.}(2018)\citenamefont {Ananth},
+  \citenamefont {Mishra}, \citenamefont {Frey}, \citenamefont {Dwarkasing},
+  \citenamefont {Versloot}, \citenamefont {van~der Giessen}, \citenamefont
+  {G{\"{o}}rlich}, \citenamefont {Onck},\ and\ \citenamefont
+  {Dekker}}]{Ananth2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Ananth}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Mishra}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Frey}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Dwarkasing}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Versloot}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {van~der Giessen}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {G{\"{o}}rlich}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Onck}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Spatial structure of disordered proteins dictates
+  conductance and selectivity in nuclear pore complex mimics}},}\ }\href
+  {\doibase 10.7554/eLife.31510} {\bibfield  {journal} {\bibinfo  {journal}
+  {eLife}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {1} (\bibinfo
+  {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ketterer}\ \emph {et~al.}(2018)\citenamefont
+  {Ketterer}, \citenamefont {Ananth}, \citenamefont {{Laman Trip}},
+  \citenamefont {Mishra}, \citenamefont {Bertosin}, \citenamefont {Ganji},
+  \citenamefont {{Van Der Torre}}, \citenamefont {Onck}, \citenamefont
+  {Dietz},\ and\ \citenamefont {Dekker}}]{Ketterer2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Ketterer}}, \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Ananth}}, \bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont {{Laman
+  Trip}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Mishra}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Bertosin}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Ganji}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Van Der Torre}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Onck}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Dietz}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{DNA origami scaffold for studying intrinsically disordered proteins of the
+  nuclear pore complex}},}\ }\href {\doibase 10.1038/s41467-018-03313-w}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf
+  {\bibinfo {volume} {9}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fisher}\ \emph {et~al.}(2018)\citenamefont {Fisher},
+  \citenamefont {Shen}, \citenamefont {Akpinar}, \citenamefont {Davis},
+  \citenamefont {Chung}, \citenamefont {Baddeley}, \citenamefont
+  {{\v{S}}ari{\'{c}}}, \citenamefont {Melia}, \citenamefont {Hoogenboom},
+  \citenamefont {Lin},\ and\ \citenamefont {Lusk}}]{Fisher2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~D.~E.}\
+  \bibnamefont {Fisher}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Shen}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Akpinar}},
+  \bibinfo {author} {\bibfnamefont {L.~K.}\ \bibnamefont {Davis}}, \bibinfo
+  {author} {\bibfnamefont {K.~K.~H.}\ \bibnamefont {Chung}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Baddeley}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{\v{S}}ari{\'{c}}}}, \bibinfo {author}
+  {\bibfnamefont {T.~J.}\ \bibnamefont {Melia}}, \bibinfo {author}
+  {\bibfnamefont {B.~W.}\ \bibnamefont {Hoogenboom}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Lin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.~P.}\ \bibnamefont {Lusk}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{A Programmable DNA Origami Platform for Organizing
+  Intrinsically Disordered Nucleoporins within Nanopore Confinement}},}\ }\href
+  {\doibase 10.1021/acsnano.7b08044} {\bibfield  {journal} {\bibinfo  {journal}
+  {ACS Nano}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {1508}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kelley}(2017)}]{Kelley2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~O.}\ \bibnamefont
+  {Kelley}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{What Are
+  Clinically Relevant Levels of Cellular and Biomolecular Analytes?}}}\ }\href
+  {\doibase 10.1021/acssensors.6b00691} {\bibfield  {journal} {\bibinfo
+  {journal} {ACS Sensors}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages}
+  {193} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Freedman}\ \emph {et~al.}(2016)\citenamefont
+  {Freedman}, \citenamefont {Otto}, \citenamefont {Ivanov}, \citenamefont
+  {Barik}, \citenamefont {Oh},\ and\ \citenamefont {Edel}}]{Freedman2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~J.}\ \bibnamefont
+  {Freedman}}, \bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont {Otto}},
+  \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Ivanov}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Barik}}, \bibinfo {author}
+  {\bibfnamefont {S.-H.}\ \bibnamefont {Oh}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~B.}\ \bibnamefont {Edel}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Nanopore sensing at ultra-low concentrations using
+  single-molecule dielectrophoretic trapping}},}\ }\href {\doibase
+  10.1038/ncomms10217} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Communications}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {10217}
+  (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Spitzberg}\ \emph {et~al.}(2020)\citenamefont
+  {Spitzberg}, \citenamefont {van Kooten}, \citenamefont {Bercovici},\ and\
+  \citenamefont {Meller}}]{Spitzberg2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Spitzberg}}, \bibinfo {author} {\bibfnamefont {X.~F.}\ \bibnamefont {van
+  Kooten}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bercovici}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Meller}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Microfluidic device for
+  coupling isotachophoretic sample focusing with nanopore single-molecule
+  sensing}},}\ }\href {\doibase 10.1039/D0NR05000H} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nanoscale}\ }\textbf {\bibinfo {volume} {12}},\
+  \bibinfo {pages} {17805} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tian}\ \emph {et~al.}(2018)\citenamefont {Tian},
+  \citenamefont {Chen}, \citenamefont {Luan}, \citenamefont {Singh},
+  \citenamefont {Yang}, \citenamefont {Gates}, \citenamefont {Lin},
+  \citenamefont {Mustapha},\ and\ \citenamefont {Gu}}]{Tian2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Tian}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Chen}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Luan}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Singh}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Yang}}, \bibinfo {author} {\bibfnamefont {K.~S.}\
+  \bibnamefont {Gates}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Lin}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Mustapha}}, \
+  and\ \bibinfo {author} {\bibfnamefont {L.-Q.}\ \bibnamefont {Gu}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Single Locked Nucleic
+  Acid-Enhanced Nanopore Genetic Discrimination of Pathogenic Serotypes and
+  Cancer Driver Mutations}},}\ }\href {\doibase 10.1021/acsnano.8b01198}
+  {\bibfield  {journal} {\bibinfo  {journal} {ACS Nano}\ }\textbf {\bibinfo
+  {volume} {12}},\ \bibinfo {pages} {4194} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph
+  {et~al.}(2017{\natexlab{b}})\citenamefont {Wang}, \citenamefont {Tian},
+  \citenamefont {Shi}, \citenamefont {Gu}, \citenamefont {Pennella},
+  \citenamefont {Alberts}, \citenamefont {Gates}, \citenamefont {Li},
+  \citenamefont {Fan}, \citenamefont {Wang},\ and\ \citenamefont
+  {Gu}}]{Wang2017a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Tian}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Shi}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Gu}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Pennella}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Alberts}}, \bibinfo {author} {\bibfnamefont {K.~S.}\
+  \bibnamefont {Gates}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Fan}}, \bibinfo
+  {author} {\bibfnamefont {M.~X.}\ \bibnamefont {Wang}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {L.-Q.}\ \bibnamefont {Gu}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Nanolock–Nanopore Facilitated Digital
+  Diagnostics of Cancer Driver Mutation in Tumor Tissue}},}\ }\href {\doibase
+  10.1021/acssensors.7b00235} {\bibfield  {journal} {\bibinfo  {journal} {ACS
+  Sensors}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {975} (\bibinfo
+  {year} {2017}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Burck}\ \emph {et~al.}(2021)\citenamefont {Burck},
+  \citenamefont {Gilboa}, \citenamefont {Gadi}, \citenamefont {{Patkin
+  Nehrer}}, \citenamefont {Schneider},\ and\ \citenamefont
+  {Meller}}]{Burck2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Burck}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Gilboa}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gadi}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Patkin Nehrer}}}, \bibinfo {author}
+  {\bibfnamefont {R.~J.}\ \bibnamefont {Schneider}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Nanopore Identification of Single Nucleotide Mutations in
+  Circulating Tumor DNA by Multiplexed Ligation}},}\ }\href {\doibase
+  10.1093/clinchem/hvaa328} {\bibfield  {journal} {\bibinfo  {journal}
+  {Clinical Chemistry}\ } (\bibinfo {year} {2021}),\
+  10.1093/clinchem/hvaa328}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sze}\ \emph {et~al.}(2017)\citenamefont {Sze},
+  \citenamefont {Ivanov}, \citenamefont {Cass},\ and\ \citenamefont
+  {Edel}}]{Sze2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~Y.}\ \bibnamefont
+  {Sze}}, \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Ivanov}},
+  \bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont {Cass}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont {Edel}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Single molecule multiplexed nanopore
+  protein screening in human serum using aptamer modified DNA carriers}},}\
+  }\href {\doibase 10.1038/s41467-017-01584-3} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Communications}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cai}\ \emph {et~al.}(2019)\citenamefont {Cai},
+  \citenamefont {Sze}, \citenamefont {Ivanov},\ and\ \citenamefont
+  {Edel}}]{Cai2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Cai}}, \bibinfo {author} {\bibfnamefont {J.~Y.~Y.}\ \bibnamefont {Sze}},
+  \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Ivanov}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont {Edel}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Small molecule electro-optical binding
+  assay using nanopores}},}\ }\href {\doibase 10.1038/s41467-019-09476-4}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf
+  {\bibinfo {volume} {10}},\ \bibinfo {pages} {1797} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fahie}\ \emph
+  {et~al.}(2015{\natexlab{b}})\citenamefont {Fahie}, \citenamefont {Yang},
+  \citenamefont {Mullis}, \citenamefont {Holden},\ and\ \citenamefont
+  {Chen}}]{Fahie2015a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Fahie}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Yang}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mullis}}, \bibinfo
+  {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Holden}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Chen}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Selective Detection of Protein Homologues in
+  Serum Using an OmpG Nanopore}},}\ }\href {\doibase
+  10.1021/acs.analchem.5b03350} {\bibfield  {journal} {\bibinfo  {journal}
+  {Analytical Chemistry}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo {pages}
+  {11143} (\bibinfo {year} {2015}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thakur}\ and\ \citenamefont
+  {Movileanu}(2019{\natexlab{b}})}]{Thakur2019a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Thakur}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Movileanu}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Single-Molecule Protein Detection in a Biofluid Using a Quantitative
+  Nanopore Sensor}},}\ }\href {\doibase 10.1021/acssensors.9b00848} {\bibfield
+  {journal} {\bibinfo  {journal} {ACS Sensors}\ }\textbf {\bibinfo {volume}
+  {4}},\ \bibinfo {pages} {2320} (\bibinfo {year}
+  {2019}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2011)\citenamefont {Wang},
+  \citenamefont {Zheng}, \citenamefont {Tan}, \citenamefont {Wang},\ and\
+  \citenamefont {Gu}}]{Wang2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Zheng}},
+  \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Tan}}, \bibinfo {author}
+  {\bibfnamefont {M.~X.}\ \bibnamefont {Wang}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {L.-Q.}\ \bibnamefont {Gu}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Nanopore-based detection of circulating microRNAs in lung
+  cancer patients}},}\ }\href {\doibase 10.1038/nnano.2011.147} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo
+  {volume} {6}},\ \bibinfo {pages} {668} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Math{\'{e}}}\ \emph {et~al.}(2004)\citenamefont
+  {Math{\'{e}}}, \citenamefont {Visram}, \citenamefont {Viasnoff},
+  \citenamefont {Rabin},\ and\ \citenamefont {Meller}}]{Mathe2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Math{\'{e}}}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Visram}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Viasnoff}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Rabin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Nanopore Unzipping of Individual DNA Hairpin
+  Molecules}},}\ }\href {\doibase https://doi.org/10.1529/biophysj.104.047274}
+  {\bibfield  {journal} {\bibinfo  {journal} {Biophysical Journal}\ }\textbf
+  {\bibinfo {volume} {87}},\ \bibinfo {pages} {3205} (\bibinfo {year}
+  {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rozevsky}\ \emph {et~al.}(2020)\citenamefont
+  {Rozevsky}, \citenamefont {Gilboa}, \citenamefont {van Kooten}, \citenamefont
+  {Kobelt}, \citenamefont {Huttner}, \citenamefont {Stein},\ and\ \citenamefont
+  {Meller}}]{Rozevsky2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Rozevsky}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Gilboa}},
+  \bibinfo {author} {\bibfnamefont {X.~F.}\ \bibnamefont {van Kooten}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Kobelt}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Huttner}}, \bibinfo {author}
+  {\bibfnamefont {U.}~\bibnamefont {Stein}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Quantification of mRNA Expression Using Single-Molecule
+  Nanopore Sensing}},}\ }\href {\doibase 10.1021/acsnano.0c06375} {\bibfield
+  {journal} {\bibinfo  {journal} {ACS Nano}\ }\textbf {\bibinfo {volume}
+  {14}},\ \bibinfo {pages} {13964} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%

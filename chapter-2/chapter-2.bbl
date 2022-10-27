@@ -1,0 +1,854 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{58}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \textit  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Fragasso}\ \emph {et~al.}(2019)\citenamefont
+  {Fragasso}, \citenamefont {Pud},\ and\ \citenamefont
+  {Dekker}}]{Fragasso2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fragasso}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pud}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{1/F Noise in Solid-State
+  Nanopores Is Governed By Access and Surface Regions}},}\ }\href {\doibase
+  10.1088/1361-6528/ab2d35} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nanotechnology}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages}
+  {395202} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dekker}(2007)}]{Dekker2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Solid-state
+  nanopores (Review Article)}},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Nanotechnology}\ ,\ \bibinfo {pages} {1}}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ying}\ \emph {et~al.}(2013)\citenamefont {Ying},
+  \citenamefont {Zhang}, \citenamefont {Gao},\ and\ \citenamefont
+  {Long}}]{Ying2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~L.}\ \bibnamefont
+  {Ying}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Zhang}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Gao}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Y.~T.}\ \bibnamefont {Long}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Nanopore-based sequencing and detection of
+  nucleic acids}},}\ }\href {\doibase 10.1002/anie.201303529} {\bibfield
+  {journal} {\bibinfo  {journal} {Angewandte Chemie - International Edition}\
+  }\textbf {\bibinfo {volume} {52}},\ \bibinfo {pages} {13154} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shi}\ \emph {et~al.}(2018)\citenamefont {Shi},
+  \citenamefont {Li}, \citenamefont {Gao}, \citenamefont {Si}, \citenamefont
+  {Liu}, \citenamefont {Aksimentiev},\ and\ \citenamefont {Long}}]{Shi2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Shi}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Gao}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Si}}, \bibinfo {author} {\bibfnamefont
+  {S.~C.}\ \bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Aksimentiev}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Y.~T.}\ \bibnamefont {Long}},\ }\bibfield  {title} {\textit {\bibinfo
+  {title} {{Dynamics of a Molecular Plug Docked onto a Solid-State
+  Nanopore}},}\ }\href {\doibase 10.1021/acs.jpclett.8b01755} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Physical Chemistry Letters}\
+  }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {4686} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lin}\ \emph {et~al.}(2018)\citenamefont {Lin},
+  \citenamefont {Ying},\ and\ \citenamefont {Long}}]{Lin2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Lin}}, \bibinfo {author} {\bibfnamefont {Y.~L.}\ \bibnamefont {Ying}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Y.~T.}\ \bibnamefont {Long}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Nanopore confinement for
+  electrochemical sensing at the single-molecule level}},}\ }\href {\doibase
+  10.1016/j.coelec.2017.12.002} {\bibfield  {journal} {\bibinfo  {journal}
+  {Current Opinion in Electrochemistry}\ }\textbf {\bibinfo {volume} {7}},\
+  \bibinfo {pages} {172} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Atas}\ \emph {et~al.}(2012)\citenamefont {Atas},
+  \citenamefont {Singer},\ and\ \citenamefont {Meller}}]{Atas2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Atas}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Singer}}, \ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\href
+  {\doibase 10.1002/elps.201200266} {\textit {\bibinfo {title} {{DNA sequencing
+  and bar-coding using solid-state nanopores}},}\ } (\bibinfo {year}
+  {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Squires}\ \emph {et~al.}(2013)\citenamefont
+  {Squires}, \citenamefont {Hersey}, \citenamefont {Grinstaff},\ and\
+  \citenamefont {Meller}}]{Squires2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont
+  {Squires}}, \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Hersey}},
+  \bibinfo {author} {\bibfnamefont {M.~W.}\ \bibnamefont {Grinstaff}}, \ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{A nanopore-nanofiber mesh biosensor to
+  control DNA translocation}},}\ }\href {\doibase 10.1021/ja408685x} {\bibfield
+   {journal} {\bibinfo  {journal} {Journal of the American Chemical Society}\
+  }\textbf {\bibinfo {volume} {135}},\ \bibinfo {pages} {16304} (\bibinfo
+  {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Miles}\ \emph {et~al.}(2012)\citenamefont {Miles},
+  \citenamefont {Ivanov}, \citenamefont {Wilson}, \citenamefont {Doğan},
+  \citenamefont {Japrung},\ and\ \citenamefont {Edel}}]{Miles2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~N.}\ \bibnamefont
+  {Miles}}, \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Ivanov}},
+  \bibinfo {author} {\bibfnamefont {K.~a.}\ \bibnamefont {Wilson}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Doğan}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Japrung}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~B.}\ \bibnamefont {Edel}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Single molecule sensing with solid-state nanopores: novel
+  materials, methods, and applications}},}\ }\href {\doibase
+  10.1039/c2cs35286a} {\bibfield  {journal} {\bibinfo  {journal} {Chemical
+  Society Reviews}\ }\textbf {\bibinfo {volume} {42}} (\bibinfo {year}
+  {2012}),\ 10.1039/c2cs35286a}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sze}\ \emph {et~al.}(2017)\citenamefont {Sze},
+  \citenamefont {Ivanov}, \citenamefont {Cass},\ and\ \citenamefont
+  {Edel}}]{Sze2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~Y.}\ \bibnamefont
+  {Sze}}, \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Ivanov}},
+  \bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont {Cass}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont {Edel}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Single molecule multiplexed nanopore
+  protein screening in human serum using aptamer modified DNA carriers}},}\
+  }\href {\doibase 10.1038/s41467-017-01584-3} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Communications}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}\ \emph {et~al.}(2018)\citenamefont {Yang},
+  \citenamefont {Birnie}, \citenamefont {Restrepo-P{\'{e}}rez}, \citenamefont
+  {van~der Torre}, \citenamefont {Bengtson}, \citenamefont {Heerema},\ and\
+  \citenamefont {Dekker}}]{Yang2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Birnie}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Restrepo-P{\'{e}}rez}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {van~der Torre}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Bengtson}}, \bibinfo {author}
+  {\bibfnamefont {S.~J.}\ \bibnamefont {Heerema}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Detection of CRISPR-dCas9 on DNA with Solid-State
+  Nanopores}},}\ }\href {\doibase 10.1021/acs.nanolett.8b02968} {\bibfield
+  {journal} {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume}
+  {18}},\ \bibinfo {pages} {6469} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Merchant}\ \emph {et~al.}(2010)\citenamefont
+  {Merchant}, \citenamefont {Healy}, \citenamefont {Wanunu}, \citenamefont
+  {Ray}, \citenamefont {Peterman}, \citenamefont {Bartel}, \citenamefont
+  {Fischbein}, \citenamefont {Venta}, \citenamefont {Luo}, \citenamefont
+  {Johnson},\ and\ \citenamefont {Drndi{\'{c}}}}]{Merchant2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~a.}\ \bibnamefont
+  {Merchant}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Healy}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Wanunu}}, \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Ray}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Peterman}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Bartel}}, \bibinfo {author} {\bibfnamefont
+  {M.~D.}\ \bibnamefont {Fischbein}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Venta}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Luo}}, \bibinfo {author} {\bibfnamefont {a.~T.~C.}\
+  \bibnamefont {Johnson}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Drndi{\'{c}}}},\ }\bibfield  {title} {\textit {\bibinfo
+  {title} {{DNA translocation through graphene nanopores}},}\ }\href {\doibase
+  10.1021/nl101046t} {\bibfield  {journal} {\bibinfo  {journal} {Nano Letters}\
+  }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {2915} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Howorka}\ and\ \citenamefont
+  {Siwy}(2009)}]{Howorka2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Howorka}}\ and\ \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Siwy}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Nanopore analytics: Sensing
+  of single molecules}},}\ }\href {\doibase 10.1039/b813796j} {\bibfield
+  {journal} {\bibinfo  {journal} {Chemical Society Reviews}\ }\textbf {\bibinfo
+  {volume} {38}},\ \bibinfo {pages} {2360} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kasianowicz}\ \emph {et~al.}(2008)\citenamefont
+  {Kasianowicz}, \citenamefont {Robertson}, \citenamefont {Chan}, \citenamefont
+  {Reiner},\ and\ \citenamefont {Stanford}}]{Kasianowicz2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Kasianowicz}}, \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Robertson}}, \bibinfo {author} {\bibfnamefont {E.~R.}\ \bibnamefont {Chan}},
+  \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont {Reiner}}, \ and\
+  \bibinfo {author} {\bibfnamefont {V.~M.}\ \bibnamefont {Stanford}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Nanoscopic Porous
+  Sensors}},}\ }\href {\doibase 10.1146/annurev.anchem.1.031207.112818}
+  {\bibfield  {journal} {\bibinfo  {journal} {Annual Review of Analytical
+  Chemistry}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo {pages} {737}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Deamer}\ \emph {et~al.}(2016)\citenamefont {Deamer},
+  \citenamefont {Akeson}, \citenamefont {Branton}, \citenamefont
+  {Kasianowicz},\ and\ \citenamefont {Bezrukov}}]{Deamer2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Deamer}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Akeson}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Branton}}, \bibinfo
+  {author} {\bibfnamefont {J.~J.}\ \bibnamefont {Kasianowicz}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.~M.}\ \bibnamefont {Bezrukov}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Three decades of nanopore
+  sequencing}},}\ }\href {\doibase 10.1038/nbt.3570} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Biotechnology}\ }\textbf {\bibinfo {volume}
+  {34}},\ \bibinfo {pages} {481} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kasianowicz}\ and\ \citenamefont
+  {Bezrukov}(2016)}]{Kasianowicz2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Kasianowicz}}\ and\ \bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont
+  {Bezrukov}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{On 'three
+  decades of nanopore sequencing'}},}\ }\href {\doibase 10.1038/nbt.3570}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Biotechnology}\ }\textbf
+  {\bibinfo {volume} {34}},\ \bibinfo {pages} {481} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wei}\ \emph {et~al.}(2012)\citenamefont {Wei},
+  \citenamefont {Gatterdam}, \citenamefont {Wieneke}, \citenamefont
+  {Tamp{\'{e}}},\ and\ \citenamefont {Rant}}]{Wei2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Wei}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Gatterdam}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Wieneke}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Tamp{\'{e}}}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {U.}~\bibnamefont {Rant}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Stochastic sensing of proteins with
+  receptor-modified solid-state nanopores}},}\ }\href {\doibase
+  10.1038/nnano.2012.24} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Nanotechnology}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {257}
+  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kowalczyk}\ \emph
+  {et~al.}(2011{\natexlab{a}})\citenamefont {Kowalczyk}, \citenamefont
+  {Kapinos}, \citenamefont {Blosser}, \citenamefont {Magalh{\~{a}}es},
+  \citenamefont {van Nies}, \citenamefont {Lim},\ and\ \citenamefont
+  {Dekker}}]{Kowalczyk2011a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Kowalczyk}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Kapinos}},
+  \bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont {Blosser}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Magalh{\~{a}}es}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {van Nies}}, \bibinfo {author}
+  {\bibfnamefont {R.~Y.~H.}\ \bibnamefont {Lim}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Single-molecule transport across an individual biomimetic
+  nuclear pore complex}},}\ }\href {\doibase 10.1038/nnano.2011.88} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo
+  {volume} {6}},\ \bibinfo {pages} {433} (\bibinfo {year}
+  {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bell}\ and\ \citenamefont {Keyser}(2016)}]{Bell2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
+  {Bell}}\ and\ \bibinfo {author} {\bibfnamefont {U.~F.}\ \bibnamefont
+  {Keyser}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Digitally
+  encoded DNA nanostructures for multiplexed, single-molecule protein sensing
+  with nanopores}},}\ }\href {\doibase 10.1038/nnano.2016.50} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo
+  {volume} {11}},\ \bibinfo {pages} {645} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Plesa}\ \emph {et~al.}(2016)\citenamefont {Plesa},
+  \citenamefont {Verschueren}, \citenamefont {Pud}, \citenamefont {van~der
+  Torre}, \citenamefont {Ruitenberg}, \citenamefont {Witteveen}, \citenamefont
+  {Jonsson}, \citenamefont {Grosberg}, \citenamefont {Rabin},\ and\
+  \citenamefont {Dekker}}]{Plesa2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Plesa}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Verschueren}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pud}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {van~der Torre}}, \bibinfo {author}
+  {\bibfnamefont {J.~W.}\ \bibnamefont {Ruitenberg}}, \bibinfo {author}
+  {\bibfnamefont {M.~J.}\ \bibnamefont {Witteveen}}, \bibinfo {author}
+  {\bibfnamefont {M.~P.}\ \bibnamefont {Jonsson}}, \bibinfo {author}
+  {\bibfnamefont {A.~Y.}\ \bibnamefont {Grosberg}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Rabin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Direct observation of DNA knots using a solid-state
+  nanopore}},}\ }\href {\doibase 10.1038/nnano.2016.153} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Nanotechnology}\ ,\ \bibinfo {pages} {1}}
+  (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Venta}\ \emph {et~al.}(2013)\citenamefont {Venta},
+  \citenamefont {Shemer}, \citenamefont {Puster}, \citenamefont
+  {Rodr{\'{i}}guez-Manzo}, \citenamefont {Balan}, \citenamefont {Rosenstein},
+  \citenamefont {Shepard},\ and\ \citenamefont {Drndi{\'{c}}}}]{Venta2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Venta}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Shemer}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Puster}}, \bibinfo
+  {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Rodr{\'{i}}guez-Manzo}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Balan}}, \bibinfo
+  {author} {\bibfnamefont {J.~K.}\ \bibnamefont {Rosenstein}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Shepard}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Drndi{\'{c}}}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Differentiation of short,
+  single-stranded DNA homopolymers in solid-state nanopores}},}\ }\href
+  {\doibase 10.1021/nn4014388} {\bibfield  {journal} {\bibinfo  {journal} {ACS
+  Nano}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {4629} (\bibinfo
+  {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kasianowicz}\ \emph {et~al.}(2002)\citenamefont
+  {Kasianowicz}, \citenamefont {Brandin}, \citenamefont {Branton},\ and\
+  \citenamefont {Deamer}}]{Kasianowicz2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Kasianowicz}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Brandin}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Branton}}, \
+  and\ \bibinfo {author} {\bibfnamefont {D.~W.}\ \bibnamefont {Deamer}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Characterization of
+  individual polynucleotide molecules using a membrane channel}},}\ }\href
+  {\doibase 10.1073/pnas.93.24.13770} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {93}},\ \bibinfo {pages} {13770} (\bibinfo {year}
+  {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Manrao}\ \emph {et~al.}(2012)\citenamefont {Manrao},
+  \citenamefont {Derrington}, \citenamefont {Laszlo}, \citenamefont {Langford},
+  \citenamefont {Hopper}, \citenamefont {Gillgren}, \citenamefont {Pavlenok},
+  \citenamefont {Niederweis},\ and\ \citenamefont {Gundlach}}]{Manrao2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~a.}\ \bibnamefont
+  {Manrao}}, \bibinfo {author} {\bibfnamefont {I.~M.}\ \bibnamefont
+  {Derrington}}, \bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont
+  {Laszlo}}, \bibinfo {author} {\bibfnamefont {K.~W.}\ \bibnamefont
+  {Langford}}, \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont
+  {Hopper}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Gillgren}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Pavlenok}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Niederweis}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Gundlach}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Reading DNA at single-nucleotide
+  resolution with a mutant MspA nanopore and phi29 DNA polymerase}},}\ }\href
+  {\doibase 10.1038/nbt.2171} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Biotechnology}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages}
+  {349} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kumar}\ \emph {et~al.}(2012)\citenamefont {Kumar},
+  \citenamefont {Tao}, \citenamefont {Chien}, \citenamefont {Hellner},
+  \citenamefont {Balijepalli}, \citenamefont {Robertson}, \citenamefont {Li},
+  \citenamefont {Russo}, \citenamefont {Reiner}, \citenamefont {Kasianowicz},\
+  and\ \citenamefont {Ju}}]{Kumar2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kumar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Tao}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Chien}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Hellner}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Balijepalli}}, \bibinfo {author} {\bibfnamefont
+  {J.~W.~F.}\ \bibnamefont {Robertson}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont {J.~J.}\
+  \bibnamefont {Russo}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {Reiner}}, \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Kasianowicz}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Ju}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{PEG-labeled
+  nucleotides and nanopore detection for single molecule DNA sequencing by
+  synthesis}},}\ }\href {\doibase 10.1038/srep00684} {\bibfield  {journal}
+  {\bibinfo  {journal} {Scientific Reports}\ }\textbf {\bibinfo {volume} {2}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Robertson}\ \emph {et~al.}(2007)\citenamefont
+  {Robertson}, \citenamefont {Rodrigues}, \citenamefont {Stanford},
+  \citenamefont {Rubinson}, \citenamefont {Krasilnikov},\ and\ \citenamefont
+  {Kasianowicz}}]{Robertson2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.~F.}\
+  \bibnamefont {Robertson}}, \bibinfo {author} {\bibfnamefont {C.~G.}\
+  \bibnamefont {Rodrigues}}, \bibinfo {author} {\bibfnamefont {V.~M.}\
+  \bibnamefont {Stanford}}, \bibinfo {author} {\bibfnamefont {K.~A.}\
+  \bibnamefont {Rubinson}}, \bibinfo {author} {\bibfnamefont {O.~V.}\
+  \bibnamefont {Krasilnikov}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~J.}\
+  \bibnamefont {Kasianowicz}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Single-molecule mass spectrometry in solution using a solitary
+  nanopore}},}\ }\href {\doibase 10.1073/pnas.0611085104} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proceedings of the National Academy of Sciences}\
+  }\textbf {\bibinfo {volume} {104}},\ \bibinfo {pages} {8207} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fuller}\ \emph {et~al.}(2016)\citenamefont {Fuller},
+  \citenamefont {Kumar}, \citenamefont {Porel}, \citenamefont {Chien},
+  \citenamefont {Bibillo}, \citenamefont {Stranges}, \citenamefont {Dorwart},
+  \citenamefont {Tao}, \citenamefont {Li}, \citenamefont {Guo}, \citenamefont
+  {Shi}, \citenamefont {Korenblum}, \citenamefont {Trans}, \citenamefont
+  {Aguirre}, \citenamefont {Liu}, \citenamefont {Harada}, \citenamefont
+  {Pollard}, \citenamefont {Bhat}, \citenamefont {Cech}, \citenamefont {Yang},
+  \citenamefont {Arnold}, \citenamefont {Palla}, \citenamefont {Hovis},
+  \citenamefont {Chen}, \citenamefont {Morozova}, \citenamefont {Kalachikov},
+  \citenamefont {Russo}, \citenamefont {Kasianowicz}, \citenamefont {Davis},
+  \citenamefont {Roever}, \citenamefont {Church},\ and\ \citenamefont
+  {Ju}}]{Fuller2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Fuller}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Kumar}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Porel}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Chien}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Bibillo}}, \bibinfo {author} {\bibfnamefont
+  {P.~B.}\ \bibnamefont {Stranges}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Dorwart}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Tao}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Guo}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Shi}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Korenblum}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Trans}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Aguirre}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {E.~T.}\
+  \bibnamefont {Harada}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Pollard}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bhat}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Cech}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Yang}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Arnold}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Palla}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Hovis}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Morozova}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kalachikov}}, \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Russo}}, \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Kasianowicz}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Davis}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Roever}}, \bibinfo
+  {author} {\bibfnamefont {G.~M.}\ \bibnamefont {Church}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Ju}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Real-time single-molecule electronic DNA
+  sequencing by synthesis using polymer-tagged nucleotides on a nanopore
+  array}},}\ }\href {\doibase 10.1073/pnas.1601782113} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proceedings of the National Academy of Sciences}\
+  }\textbf {\bibinfo {volume} {113}},\ \bibinfo {pages} {5233} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Plesa}\ \emph {et~al.}(2013)\citenamefont {Plesa},
+  \citenamefont {Kowalczyk}, \citenamefont {Zinsmeester}, \citenamefont
+  {Grosberg}, \citenamefont {Rabin},\ and\ \citenamefont {Dekker}}]{Plesa2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Plesa}}, \bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Kowalczyk}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Zinsmeester}}, \bibinfo {author} {\bibfnamefont {A.~Y.}\ \bibnamefont
+  {Grosberg}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Rabin}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Fast translocation of
+  proteins through solid state nanopores}},}\ }\href {\doibase
+  10.1021/nl3042678} {\bibfield  {journal} {\bibinfo  {journal} {Nano Letters}\
+  }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {658} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Storm}\ \emph {et~al.}(2005)\citenamefont {Storm},
+  \citenamefont {Storm}, \citenamefont {Chen}, \citenamefont {Zandbergen},
+  \citenamefont {Joanny},\ and\ \citenamefont {Dekker}}]{Storm2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Storm}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Storm}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Zandbergen}}, \bibinfo {author}
+  {\bibfnamefont {J.~F.}\ \bibnamefont {Joanny}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Fast DNA translocation through a solid-state
+  nanopore}},}\ }\href {\doibase 10.1021/nl048030d} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume} {5}},\
+  \bibinfo {pages} {1193} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smeets}\ \emph {et~al.}(2009)\citenamefont {Smeets},
+  \citenamefont {Dekker},\ and\ \citenamefont {Dekker}}]{Smeets2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.~M.}\
+  \bibnamefont {Smeets}}, \bibinfo {author} {\bibfnamefont {N.~H.}\
+  \bibnamefont {Dekker}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Low-frequency noise in solid-state nanopores}},}\ }\href {\doibase
+  10.1088/0957-4484/20/9/095501} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nanotechnology}\ }\textbf {\bibinfo {volume} {20}} (\bibinfo {year}
+  {2009}),\ 10.1088/0957-4484/20/9/095501}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ketterer}\ \emph {et~al.}(2018)\citenamefont
+  {Ketterer}, \citenamefont {Ananth}, \citenamefont {{Laman Trip}},
+  \citenamefont {Mishra}, \citenamefont {Bertosin}, \citenamefont {Ganji},
+  \citenamefont {{Van Der Torre}}, \citenamefont {Onck}, \citenamefont
+  {Dietz},\ and\ \citenamefont {Dekker}}]{Ketterer2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Ketterer}}, \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Ananth}}, \bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont {{Laman
+  Trip}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Mishra}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Bertosin}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Ganji}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {{Van Der Torre}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Onck}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Dietz}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{DNA origami scaffold for studying intrinsically disordered proteins of the
+  nuclear pore complex}},}\ }\href {\doibase 10.1038/s41467-018-03313-w}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf
+  {\bibinfo {volume} {9}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Heerema}\ \emph {et~al.}(2015)\citenamefont
+  {Heerema}, \citenamefont {Schneider}, \citenamefont {Rozemuller},
+  \citenamefont {Vicarelli}, \citenamefont {Zandbergen},\ and\ \citenamefont
+  {Dekker}}]{Heerema2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Heerema}}, \bibinfo {author} {\bibfnamefont {G.~F.}\ \bibnamefont
+  {Schneider}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Rozemuller}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Vicarelli}}, \bibinfo {author} {\bibfnamefont {H.~W.}\ \bibnamefont
+  {Zandbergen}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{1/F Noise in
+  Graphene Nanopores}},}\ }\href {\doibase 10.1088/0957-4484/26/7/074001}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nanotechnology}\ }\textbf
+  {\bibinfo {volume} {26}} (\bibinfo {year} {2015}),\
+  10.1088/0957-4484/26/7/074001}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Uram}\ \emph {et~al.}(2008)\citenamefont {Uram},
+  \citenamefont {Ke},\ and\ \citenamefont {Mayer}}]{Uram2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Uram}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ke}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont {Mayer}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Noise and bandwidth of current
+  recordings from submicrometer pores and nanopores}},}\ }\href {\doibase
+  10.1021/nn700322m} {\bibfield  {journal} {\bibinfo  {journal} {ACS Nano}\
+  }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {857} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smeets}\ \emph {et~al.}(2008)\citenamefont {Smeets},
+  \citenamefont {Keyser}, \citenamefont {Dekker},\ and\ \citenamefont
+  {Dekker}}]{Smeets2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.~M.}\
+  \bibnamefont {Smeets}}, \bibinfo {author} {\bibfnamefont {U.~F.}\
+  \bibnamefont {Keyser}}, \bibinfo {author} {\bibfnamefont {N.~H.}\
+  \bibnamefont {Dekker}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Noise in solid-state nanopores}},}\ }\href {\doibase
+  10.1073/pnas.0705349105} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences of the United States of
+  America}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages} {417}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Roelen}\ \emph {et~al.}(2018)\citenamefont {Roelen},
+  \citenamefont {Bustamante}, \citenamefont {Carlsen}, \citenamefont
+  {Baker-Murray},\ and\ \citenamefont {Tabard-Cossa}}]{Roelen2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Roelen}}, \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Bustamante}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Carlsen}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Baker-Murray}}, \ and\
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Tabard-Cossa}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Instrumentation for low
+  noise nanopore-based ionic current recording under laser illumination}},}\
+  }\href {\doibase 10.1063/1.5006262} {\bibfield  {journal} {\bibinfo
+  {journal} {Review of Scientific Instruments}\ }\textbf {\bibinfo {volume}
+  {89}} (\bibinfo {year} {2018}),\ 10.1063/1.5006262}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {DeFelice}(1981)}]{DeFelice1981}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont
+  {DeFelice}},\ }\href@noop {} {\emph {\bibinfo {title} {{Introduction to
+  Membrane Noise}}}},\ \bibinfo {edition} {1st}\ ed.\ (\bibinfo  {publisher}
+  {Springer US},\ \bibinfo {year} {1981})\ pp.\ \bibinfo {pages}
+  {1--516}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tabard-Cossa}\ \emph {et~al.}(2007)\citenamefont
+  {Tabard-Cossa}, \citenamefont {Trivedi}, \citenamefont {Wiggin},
+  \citenamefont {Jetha},\ and\ \citenamefont {Marziali}}]{Tabard-Cossa2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Tabard-Cossa}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Trivedi}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Wiggin}},
+  \bibinfo {author} {\bibfnamefont {N.~N.}\ \bibnamefont {Jetha}}, \ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Marziali}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Noise analysis and reduction in
+  solid-state nanopores}},}\ }\href {\doibase 10.1088/0957-4484/18/30/305505}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nanotechnology}\ }\textbf
+  {\bibinfo {volume} {18}} (\bibinfo {year} {2007}),\
+  10.1088/0957-4484/18/30/305505}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Balan}\ \emph {et~al.}(2015)\citenamefont {Balan},
+  \citenamefont {Chien}, \citenamefont {Engelke},\ and\ \citenamefont
+  {Drndic}}]{Balan2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Balan}}, \bibinfo {author} {\bibfnamefont {C.~C.}\ \bibnamefont {Chien}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Engelke}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Drndic}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Suspended Solid-state Membranes on Glass
+  Chips with Sub 1-pF Capacitance for Biomolecule Sensing Applications}},}\
+  }\href {\doibase 10.1038/srep17775} {\bibfield  {journal} {\bibinfo
+  {journal} {Scientific Reports}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Park}\ \emph {et~al.}(2016)\citenamefont {Park},
+  \citenamefont {Kim}, \citenamefont {Kim}, \citenamefont {Han}, \citenamefont
+  {Lee}, \citenamefont {Kim},\ and\ \citenamefont {Kim}}]{Park2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~B.}\ \bibnamefont
+  {Park}}, \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont {Kim}},
+  \bibinfo {author} {\bibfnamefont {H.~M.}\ \bibnamefont {Kim}}, \bibinfo
+  {author} {\bibfnamefont {S.~A.}\ \bibnamefont {Han}}, \bibinfo {author}
+  {\bibfnamefont {K.~H.}\ \bibnamefont {Lee}}, \bibinfo {author} {\bibfnamefont
+  {S.~W.}\ \bibnamefont {Kim}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {K.~B.}\ \bibnamefont {Kim}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Noise and sensitivity characteristics of solid-state nanopores with a boron
+  nitride 2-D membrane on a pyrex substrate}},}\ }\href {\doibase
+  10.1039/c5nr09085g} {\bibfield  {journal} {\bibinfo  {journal} {Nanoscale}\
+  }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages} {5755} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2004)\citenamefont {Chen},
+  \citenamefont {Mitsui}, \citenamefont {Farmer}, \citenamefont {Golovchenko},
+  \citenamefont {Gordon},\ and\ \citenamefont {Branton}}]{Chen2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Mitsui}},
+  \bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Farmer}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Golovchenko}}, \bibinfo {author}
+  {\bibfnamefont {R.~G.}\ \bibnamefont {Gordon}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Branton}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Atomic layer deposition to fine-tune the surface
+  properties and diameters of fabricated nanopores}},}\ }\href {\doibase
+  10.1021/nl0494001} {\bibfield  {journal} {\bibinfo  {journal} {Nano Letters}\
+  }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {1333} (\bibinfo {year}
+  {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wen}\ \emph {et~al.}(2017)\citenamefont {Wen},
+  \citenamefont {Zeng}, \citenamefont {Arstila}, \citenamefont {Sajavaara},
+  \citenamefont {Zhu}, \citenamefont {Zhang},\ and\ \citenamefont
+  {Zhang}}]{Wen2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Wen}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Zeng}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Arstila}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Sajavaara}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Zhu}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Zhang}}, \ and\ \bibinfo {author} {\bibfnamefont {S.~L.}\
+  \bibnamefont {Zhang}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Generalized Noise Study of Solid-State Nanopores at Low Frequencies}},}\
+  }\href {\doibase 10.1021/acssensors.6b00826} {\bibfield  {journal} {\bibinfo
+  {journal} {ACS Sensors}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages}
+  {300} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hall}(1975)}]{Hall1975}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {Hall}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Access resistance
+  of a small circular pore}},}\ }\href {\doibase 10.1085/jgp.66.4.531}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Journal of General
+  Physiology}\ }\textbf {\bibinfo {volume} {66}},\ \bibinfo {pages} {531}
+  (\bibinfo {year} {1975})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bezrukov}\ \emph {et~al.}(1996)\citenamefont
+  {Bezrukov}, \citenamefont {Vodyanoy}, \citenamefont {Brutyan},\ and\
+  \citenamefont {Kasianowicz}}]{Bezrukov1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont
+  {Bezrukov}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Vodyanoy}},
+  \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont {Brutyan}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont {Kasianowicz}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Dynamics and Free Energy of
+  Polymers Partitioning into a Nanoscale Pore}},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Macromolecules}\ }\textbf {\bibinfo {volume}
+  {29}},\ \bibinfo {pages} {8517} (\bibinfo {year} {1996})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kowalczyk}\ \emph
+  {et~al.}(2011{\natexlab{b}})\citenamefont {Kowalczyk}, \citenamefont
+  {Grosberg},\ and\ \citenamefont {Rabin}}]{Kowalczyk2011b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Kowalczyk}}, \bibinfo {author} {\bibfnamefont {A.~Y.}\ \bibnamefont
+  {Grosberg}}, \ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Rabin}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Modeling the
+  conductance and DNA blockade of solid-state nanopores}},}\ }\href {\doibase
+  10.1088/0957-4484/22/31/315101} {\ \textbf {\bibinfo {volume} {22}} (\bibinfo
+  {year} {2011}{\natexlab{b}}),\ 10.1088/0957-4484/22/31/315101}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Smeets}\ \emph {et~al.}(2006)\citenamefont {Smeets},
+  \citenamefont {Keyser}, \citenamefont {Wu}, \citenamefont {Dekker},\ and\
+  \citenamefont {Dekker}}]{Smeets2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.~M.}\
+  \bibnamefont {Smeets}}, \bibinfo {author} {\bibfnamefont {U.~F.}\
+  \bibnamefont {Keyser}}, \bibinfo {author} {\bibfnamefont {M.~Y.}\
+  \bibnamefont {Wu}}, \bibinfo {author} {\bibfnamefont {N.~H.}\ \bibnamefont
+  {Dekker}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Nanobubbles in
+  solid-state nanopores}},}\ }\href {\doibase 10.1103/PhysRevLett.97.088101}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {97}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(2006)\citenamefont {Kim},
+  \citenamefont {Wanunu}, \citenamefont {Bell},\ and\ \citenamefont
+  {Meller}}]{Kim2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Wanunu}},
+  \bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont {Bell}}, \ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Meller}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Rapid fabrication of uniformly sized
+  nanopores and nanopore arrays for parallel DNA analysis}},}\ }\href {\doibase
+  10.1002/adma.200601191} {\bibfield  {journal} {\bibinfo  {journal} {Advanced
+  Materials}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages} {3149}
+  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hooge}(1976)}]{Hooge1976}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Hooge}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{1/F Noise}},}\
+  }\href {\doibase 10.1016/0378-4363(76)90089-9} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physica B+C}\ }\textbf {\bibinfo {volume} {83}},\
+  \bibinfo {pages} {14} (\bibinfo {year} {1976})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Janssen}\ \emph {et~al.}(2012)\citenamefont
+  {Janssen}, \citenamefont {Jonsson}, \citenamefont {Plesa}, \citenamefont
+  {Soni}, \citenamefont {Dekker},\ and\ \citenamefont {Dekker}}]{Janssen2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.~J.~a.}\
+  \bibnamefont {Janssen}}, \bibinfo {author} {\bibfnamefont {M.~P.}\
+  \bibnamefont {Jonsson}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Plesa}}, \bibinfo {author} {\bibfnamefont {G.~V.}\ \bibnamefont {Soni}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {N.~H.}\ \bibnamefont {Dekker}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Rapid manufacturing of low-noise membranes for
+  nanopore sensors by trans-chip illumination lithography}},}\ }\href {\doibase
+  10.1088/0957-4484/23/47/475302} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nanotechnology}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo {pages}
+  {475302} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Van Den Hout}}\ \emph {et~al.}(2010)\citenamefont
+  {{Van Den Hout}}, \citenamefont {Hall}, \citenamefont {Wu}, \citenamefont
+  {Zandbergen}, \citenamefont {Dekker},\ and\ \citenamefont
+  {Dekker}}]{VanDenHout2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Van
+  Den Hout}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont {Hall}},
+  \bibinfo {author} {\bibfnamefont {M.~Y.}\ \bibnamefont {Wu}}, \bibinfo
+  {author} {\bibfnamefont {H.~W.}\ \bibnamefont {Zandbergen}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {N.~H.}\ \bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Controlling nanopore size, shape and stability}},}\
+  }\href {\doibase 10.1088/0957-4484/21/11/115304} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nanotechnology}\ }\textbf {\bibinfo {volume} {21}}
+  (\bibinfo {year} {2010}),\ 10.1088/0957-4484/21/11/115304}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Balan}\ \emph {et~al.}(2014)\citenamefont {Balan},
+  \citenamefont {Machielse}, \citenamefont {Niedzwiecki}, \citenamefont {Lin},
+  \citenamefont {Ong}, \citenamefont {Engelke}, \citenamefont {Shepard},\ and\
+  \citenamefont {Drndi{\'{c}}}}]{Balan2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Balan}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Machielse}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Niedzwiecki}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Lin}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Ong}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Engelke}}, \bibinfo {author} {\bibfnamefont {K.~L.}\
+  \bibnamefont {Shepard}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Drndi{\'{c}}}},\ }\bibfield  {title} {\textit {\bibinfo
+  {title} {{Improving signal-to-noise performance for DNA translocation in
+  solid-state nanopores at MHz bandwidths}},}\ }\href {\doibase
+  10.1021/nl504345y} {\bibfield  {journal} {\bibinfo  {journal} {Nano Letters}\
+  }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {7215} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2018)\citenamefont {Zhang},
+  \citenamefont {Deng}, \citenamefont {Tian}, \citenamefont {Yan},
+  \citenamefont {Cui},\ and\ \citenamefont {Wang}}]{Zhang2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.-Y.}\ \bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {Y.-S.}\ \bibnamefont {Deng}},
+  \bibinfo {author} {\bibfnamefont {H.-B.}\ \bibnamefont {Tian}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Yan}}, \bibinfo {author}
+  {\bibfnamefont {H.-L.}\ \bibnamefont {Cui}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {D.-Q.}\ \bibnamefont {Wang}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Noise Analysis of Monolayer Graphene Nanopores}},}\
+  }\href {\doibase 10.3390/ijms19092639} {\bibfield  {journal} {\bibinfo
+  {journal} {International Journal of Molecular Sciences}\ }\textbf {\bibinfo
+  {volume} {19}},\ \bibinfo {pages} {2639} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bezrukov}\ and\ \citenamefont
+  {Kasianowicz}(1993)}]{Bezrukov1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bezrukov}}\ and\ \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Kasianowicz}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Current
+  Noise Reveals Protonation Kinetics and Number of Ionizable Sites in an Open
+  Protein Ion Channel}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {70}},\
+  \bibinfo {pages} {2352} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hoogerheide}\ \emph {et~al.}(2009)\citenamefont
+  {Hoogerheide}, \citenamefont {Garaj},\ and\ \citenamefont
+  {Golovchenko}}]{Hoogerheide2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Hoogerheide}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Garaj}},
+  \ and\ \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Golovchenko}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Probing
+  surface charge fluctuations with solid-state nanopores}},}\ }\href {\doibase
+  10.1103/PhysRevLett.102.256804} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review Letters}\ }\textbf {\bibinfo {volume} {102}} (\bibinfo
+  {year} {2009}),\ 10.1103/PhysRevLett.102.256804}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vandamme}\ and\ \citenamefont
+  {Rigaud}(1994)}]{Vandamme1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~K.~J.}\
+  \bibnamefont {Vandamme}}\ and\ \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Rigaud}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{1/f noise in MOS devices, mobility or number fluctuations?}}}\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {IEEE Trans. Electron Devices}\
+  }\textbf {\bibinfo {volume} {41}},\ \bibinfo {pages} {1936} (\bibinfo {year}
+  {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jindal}\ and\ \citenamefont {{Van Der
+  Ziel}}(1981)}]{Jindal1981}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~P.}\ \bibnamefont
+  {Jindal}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Van Der
+  Ziel}}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Model for mobility
+  fluctuation 1/f noise}},}\ }\href {\doibase 10.1063/1.92310} {\bibfield
+  {journal} {\bibinfo  {journal} {Applied Physics Letters}\ }\textbf {\bibinfo
+  {volume} {38}},\ \bibinfo {pages} {290} (\bibinfo {year} {1981})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Dutta}\ and\ \citenamefont {Horn}(1981)}]{Dutta1981}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Dutta}}\ and\ \bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont
+  {Horn}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Low-frequency
+  fluctuations in solids: 1/f noise}},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume}
+  {53}} (\bibinfo {year} {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lide}(2005)}]{Lide2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {Lide}},\ }\href@noop {} {\emph {\bibinfo {title} {{CRC Handbook of Chemistry
+  and Physics}}}},\ \bibinfo {edition} {85th}\ ed.\ (\bibinfo {year}
+  {2005})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sonnefeld}(1996)}]{Sonnefeld1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Sonnefeld}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Determination
+  of surface charge density parameters of silicon nitride}},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Colloids and Surfaces A:
+  Physicochemical and Engineering Aspects}\ }\textbf {\bibinfo {volume}
+  {108}},\ \bibinfo {pages} {27} (\bibinfo {year} {1996})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Haynes}(2010)}]{Haynes2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~M.}\ \bibnamefont
+  {Haynes}},\ }\href@noop {} {\emph {\bibinfo {title} {{CRC Handbook of
+  Chemistry and Physics}}}},\ \bibinfo {edition} {91st}\ ed.\ (\bibinfo {year}
+  {2010})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hille}(1968)}]{Hille1968}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Hille}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Pharmacological
+  Modifications of the Sodium Channels of Frog Nerve}},}\ }\href {\doibase
+  10.1085/jgp.51.2.199} {\bibfield  {journal} {\bibinfo  {journal} {The Journal
+  of General Physiology}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages}
+  {199} (\bibinfo {year} {1968})}\BibitemShut {NoStop}%
+\end{thebibliography}%

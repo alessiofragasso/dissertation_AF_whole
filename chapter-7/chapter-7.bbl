@@ -1,0 +1,654 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{42}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \textit  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(2018)\citenamefont {Kim},
+  \citenamefont {Fernandez-Martinez}, \citenamefont {Nudelman}, \citenamefont
+  {Shi}, \citenamefont {Zhang}, \citenamefont {Raveh}, \citenamefont
+  {Herricks}, \citenamefont {Slaughter}, \citenamefont {Hogan}, \citenamefont
+  {Upla}, \citenamefont {Chemmama}, \citenamefont {Pellarin}, \citenamefont
+  {Echeverria}, \citenamefont {Shivaraju}, \citenamefont {Chaudhury},
+  \citenamefont {Wang}, \citenamefont {Williams}, \citenamefont {Unruh},
+  \citenamefont {Greenberg}, \citenamefont {Jacobs}, \citenamefont {Yu},
+  \citenamefont {de~la Cruz}, \citenamefont {Mironska}, \citenamefont {Stokes},
+  \citenamefont {Aitchison}, \citenamefont {Jarrold}, \citenamefont {Gerton},
+  \citenamefont {Ludtke}, \citenamefont {Akey}, \citenamefont {Chait},
+  \citenamefont {Sali},\ and\ \citenamefont {Rout}}]{Kim2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Fernandez-Martinez}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Nudelman}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Shi}},
+  \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Raveh}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Herricks}}, \bibinfo {author}
+  {\bibfnamefont {B.~D.}\ \bibnamefont {Slaughter}}, \bibinfo {author}
+  {\bibfnamefont {J.~A.}\ \bibnamefont {Hogan}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Upla}}, \bibinfo {author} {\bibfnamefont
+  {I.~E.}\ \bibnamefont {Chemmama}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Pellarin}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Echeverria}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Shivaraju}}, \bibinfo {author} {\bibfnamefont {A.~S.}\
+  \bibnamefont {Chaudhury}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Williams}},
+  \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont {Unruh}}, \bibinfo
+  {author} {\bibfnamefont {C.~H.}\ \bibnamefont {Greenberg}}, \bibinfo {author}
+  {\bibfnamefont {E.~Y.}\ \bibnamefont {Jacobs}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Yu}}, \bibinfo {author} {\bibfnamefont
+  {M.~J.}\ \bibnamefont {de~la Cruz}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Mironska}}, \bibinfo {author} {\bibfnamefont {D.~L.}\
+  \bibnamefont {Stokes}}, \bibinfo {author} {\bibfnamefont {J.~D.}\
+  \bibnamefont {Aitchison}}, \bibinfo {author} {\bibfnamefont {M.~F.}\
+  \bibnamefont {Jarrold}}, \bibinfo {author} {\bibfnamefont {J.~L.}\
+  \bibnamefont {Gerton}}, \bibinfo {author} {\bibfnamefont {S.~J.}\
+  \bibnamefont {Ludtke}}, \bibinfo {author} {\bibfnamefont {C.~W.}\
+  \bibnamefont {Akey}}, \bibinfo {author} {\bibfnamefont {B.~T.}\ \bibnamefont
+  {Chait}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Sali}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Rout}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Integrative structure and functional
+  anatomy of a nuclear pore complex}},}\ }\href {\doibase 10.1038/nature26003}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {555}},\ \bibinfo {pages} {475} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Veenhoff}\ \emph {et~al.}(2007)\citenamefont
+  {Veenhoff}, \citenamefont {Kipper}, \citenamefont {Karni-Schmidt},
+  \citenamefont {Dokudovskaya}, \citenamefont {Zhang}, \citenamefont {Sali},
+  \citenamefont {Devos}, \citenamefont {Rout}, \citenamefont {Suprapto},
+  \citenamefont {Alber}, \citenamefont {Williams},\ and\ \citenamefont
+  {Chait}}]{Veenhoff2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Veenhoff}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Kipper}},
+  \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Karni-Schmidt}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Dokudovskaya}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Sali}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Devos}}, \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Rout}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Suprapto}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Alber}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Williams}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {B.~T.}\ \bibnamefont {Chait}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Determining the architectures of macromolecular
+  assemblies}},}\ }\href {\doibase 10.1038/nature06404} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {450}},\ \bibinfo
+  {pages} {683} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wente}(2000)}]{Wente2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {Wente}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Gatekeepers of
+  the Nucleus}},}\ }\href {\doibase 10.1126/science.288.5470.1374} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {288}},\ \bibinfo {pages} {1374} (\bibinfo {year} {2000})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Terry}\ and\ \citenamefont
+  {Wente}(2009)}]{Terry2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont
+  {Terry}}\ and\ \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {Wente}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Flexible Gates:
+  Dynamic Topologies and Functions for FG Nucleoporins in Nucleocytoplasmic
+  Transport}},}\ }\href {\doibase 10.1128/ec.00225-09} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eukaryotic Cell}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {1814} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yamada}\ \emph {et~al.}(2010)\citenamefont {Yamada},
+  \citenamefont {Phillips}, \citenamefont {Patel}, \citenamefont {Goldfien},
+  \citenamefont {Calestagne-Morelli}, \citenamefont {Huang}, \citenamefont
+  {Reza}, \citenamefont {Acheson}, \citenamefont {Krishnan}, \citenamefont
+  {Newsam}, \citenamefont {Gopinathan}, \citenamefont {Lau}, \citenamefont
+  {Colvin}, \citenamefont {Uversky},\ and\ \citenamefont
+  {Rexach}}]{Yamada2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Yamada}}, \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {Phillips}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Patel}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Goldfien}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Calestagne-Morelli}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Huang}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Reza}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Acheson}}, \bibinfo {author} {\bibfnamefont {V.~V.}\
+  \bibnamefont {Krishnan}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Newsam}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gopinathan}},
+  \bibinfo {author} {\bibfnamefont {E.~Y.}\ \bibnamefont {Lau}}, \bibinfo
+  {author} {\bibfnamefont {M.~E.}\ \bibnamefont {Colvin}}, \bibinfo {author}
+  {\bibfnamefont {V.~N.}\ \bibnamefont {Uversky}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.~F.}\ \bibnamefont {Rexach}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{A Bimodal Distribution of Two Distinct Categories of
+  Intrinsically Disordered Structures with Separate Functions in FG
+  Nucleoporins}},}\ }\href {\doibase 10.1074/mcp.m000035-mcp201} {\bibfield
+  {journal} {\bibinfo  {journal} {Molecular and Cellular Proteomics}\ }\textbf
+  {\bibinfo {volume} {9}},\ \bibinfo {pages} {2205} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stewart}(2007)}]{Stewart2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Stewart}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Molecular
+  mechanism of the nuclear protein import cycle}},}\ }\href {\doibase
+  10.1038/nrm2114} {\bibfield  {journal} {\bibinfo  {journal} {Nature Reviews
+  Molecular Cell Biology}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages}
+  {195} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {David}\ \emph {et~al.}(2014)\citenamefont {David},
+  \citenamefont {H},\ and\ \citenamefont {Rout}}]{David2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {David}}, \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont {H}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Rout}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Nuclear export dynamics of RNA-protein
+  complexes}},}\ }\href {\doibase 10.1038/nature10318} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Chemical and Pharmaceutical Research}\
+  }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {504} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lim}\ and\ \citenamefont {Kapinos}(2015)}]{Lim2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~Y.}\ \bibnamefont
+  {Lim}}\ and\ \bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont
+  {Kapinos}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{How to operate
+  a nuclear pore complex by kap-centric control}},}\ }\href {\doibase
+  10.1080/19491034.2015.1090061} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucleus}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {366}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rout}\ \emph {et~al.}(2003)\citenamefont {Rout},
+  \citenamefont {Aitchison}, \citenamefont {Magnasco},\ and\ \citenamefont
+  {Chait}}]{Rout2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Rout}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Aitchison}},
+  \bibinfo {author} {\bibfnamefont {M.~O.}\ \bibnamefont {Magnasco}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.~T.}\ \bibnamefont {Chait}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Virtual gating and nuclear transport:
+  The hole picture}},}\ }\href {\doibase 10.1016/j.tcb.2003.10.007} {\bibfield
+  {journal} {\bibinfo  {journal} {Trends in Cell Biology}\ }\textbf {\bibinfo
+  {volume} {13}},\ \bibinfo {pages} {622} (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Frey}(2006)}]{Frey2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Frey}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{FG-Rich Repeats of
+  Nuclear Pore Proteins with Hydrogel-Like Properties}},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science (New York, N.Y.)}\
+  }\textbf {\bibinfo {volume} {314}},\ \bibinfo {pages} {815} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frey}\ and\ \citenamefont
+  {G{\"{o}}rlich}(2007)}]{Frey2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Frey}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {G{\"{o}}rlich}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{A
+  Saturated FG-Repeat Hydrogel Can Reproduce the Permeability Properties of
+  Nuclear Pore Complexes}},}\ }\href {\doibase 10.1016/j.cell.2007.06.024}
+  {\bibfield  {journal} {\bibinfo  {journal} {Cell}\ }\textbf {\bibinfo
+  {volume} {130}},\ \bibinfo {pages} {512} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kapinos}\ \emph {et~al.}(2014)\citenamefont
+  {Kapinos}, \citenamefont {Schoch}, \citenamefont {Wagner}, \citenamefont
+  {Schleicher},\ and\ \citenamefont {Lim}}]{Kapinos2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont
+  {Kapinos}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont {Schoch}},
+  \bibinfo {author} {\bibfnamefont {R.~S.}\ \bibnamefont {Wagner}}, \bibinfo
+  {author} {\bibfnamefont {K.~D.}\ \bibnamefont {Schleicher}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.~Y.}\ \bibnamefont {Lim}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Karyopherin-centric control of nuclear pores
+  based on molecular occupancy and kinetic analysis of multivalent binding with
+  FG nucleoporins}},}\ }\href {\doibase 10.1016/j.bpj.2014.02.021} {\bibfield
+  {journal} {\bibinfo  {journal} {Biophysical Journal}\ }\textbf {\bibinfo
+  {volume} {106}},\ \bibinfo {pages} {1751} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peters}(2005)}]{Peters2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Peters}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Translocation
+  through the nuclear pore complex: Selectivity and speed by
+  reduction-of-dimensionality}},}\ }\href {\doibase
+  10.1111/j.1600-0854.2005.00287.x} {\bibfield  {journal} {\bibinfo  {journal}
+  {Traffic}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {421}
+  (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lim}\ \emph {et~al.}(2007)\citenamefont {Lim},
+  \citenamefont {Fahrenkrog}, \citenamefont {K{\"{o}}ser}, \citenamefont
+  {Schwarz-Herion}, \citenamefont {Deng},\ and\ \citenamefont
+  {Aebi}}]{Lim2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~Y.~H.}\
+  \bibnamefont {Lim}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Fahrenkrog}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {K{\"{o}}ser}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Schwarz-Herion}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Deng}}, \ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Aebi}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Nanomechanical basis of
+  selective gating by the nuclear pore complex}},}\ }\href {\doibase
+  10.1126/science.1145980} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {318}},\ \bibinfo {pages} {640}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schleicher}\ \emph {et~al.}(2014)\citenamefont
+  {Schleicher}, \citenamefont {Dettmer}, \citenamefont {Kapinos}, \citenamefont
+  {Pagliara}, \citenamefont {Keyser}, \citenamefont {Jeney},\ and\
+  \citenamefont {Lim}}]{Schleicher2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~D.}\ \bibnamefont
+  {Schleicher}}, \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont
+  {Dettmer}}, \bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont
+  {Kapinos}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pagliara}},
+  \bibinfo {author} {\bibfnamefont {U.~F.}\ \bibnamefont {Keyser}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Jeney}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.~Y.}\ \bibnamefont {Lim}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Selective transport control on molecular velcro made from
+  intrinsically disordered proteins}},}\ }\href {\doibase
+  10.1038/nnano.2014.103} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Nanotechnology}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {525}
+  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kapinos}\ \emph {et~al.}(2017)\citenamefont
+  {Kapinos}, \citenamefont {Huang}, \citenamefont {Rencurel},\ and\
+  \citenamefont {Lim}}]{Kapinos2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont
+  {Kapinos}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Huang}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Rencurel}}, \ and\
+  \bibinfo {author} {\bibfnamefont {R.~Y.}\ \bibnamefont {Lim}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Karyopherins regulate nuclear pore
+  complex barrier and transport function}},}\ }\href {\doibase
+  10.1083/jcb.201702092} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Cell Biology}\ }\textbf {\bibinfo {volume} {216}},\ \bibinfo {pages} {3609}
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bayliss}\ \emph {et~al.}(2000)\citenamefont
+  {Bayliss}, \citenamefont {Littlewood},\ and\ \citenamefont
+  {Stewart}}]{Bayliss2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Bayliss}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Littlewood}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Stewart}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Structural basis for the
+  interaction between FxFG nucleoporin repeats and importin-$\beta$ in nuclear
+  trafficking}},}\ }\href {\doibase 10.1016/S0092-8674(00)00014-3} {\bibfield
+  {journal} {\bibinfo  {journal} {Cell}\ }\textbf {\bibinfo {volume} {102}},\
+  \bibinfo {pages} {99} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dange}\ \emph {et~al.}(2008)\citenamefont {Dange},
+  \citenamefont {Gr{\"{u}}nwald}, \citenamefont {Gr{\"{u}}nwald}, \citenamefont
+  {Peters},\ and\ \citenamefont {Kubitscheck}}]{Dange2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Dange}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Gr{\"{u}}nwald}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Gr{\"{u}}nwald}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Peters}}, \ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Kubitscheck}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Autonomy
+  and robustness of translocation through the nuclear pore complex: A
+  single-molecule study}},}\ }\href {\doibase 10.1083/jcb.200806173} {\bibfield
+   {journal} {\bibinfo  {journal} {Journal of Cell Biology}\ }\textbf {\bibinfo
+  {volume} {183}},\ \bibinfo {pages} {77} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ribbeck}\ and\ \citenamefont
+  {G{\"{o}}rlich}(2001)}]{Ribbeck2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Ribbeck}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {G{\"{o}}rlich}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Kinetic
+  analysis of translocation through nuclear pore complexes}},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {The EMBO journal}\ }\textbf
+  {\bibinfo {volume} {20}},\ \bibinfo {pages} {1320} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jovanovic-Talisman}\ \emph
+  {et~al.}(2009)\citenamefont {Jovanovic-Talisman}, \citenamefont
+  {Tetenbaum-Novatt}, \citenamefont {McKenney}, \citenamefont {Zilman},
+  \citenamefont {Peters}, \citenamefont {Rout},\ and\ \citenamefont
+  {Chait}}]{Jovanovic-Talisman2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Jovanovic-Talisman}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Tetenbaum-Novatt}}, \bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont
+  {McKenney}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Zilman}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Peters}}, \bibinfo
+  {author} {\bibfnamefont {M.~P.}\ \bibnamefont {Rout}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {B.~T.}\ \bibnamefont {Chait}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Artificial nanopores that mimic the transport
+  selectivity of the nuclear pore complex}},}\ }\href {\doibase
+  10.1038/nature07600} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\
+  }\textbf {\bibinfo {volume} {457}},\ \bibinfo {pages} {1023} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kowalczyk}\ \emph {et~al.}(2011)\citenamefont
+  {Kowalczyk}, \citenamefont {Kapinos}, \citenamefont {Blosser}, \citenamefont
+  {Magalh{\~{a}}es}, \citenamefont {van Nies}, \citenamefont {Lim},\ and\
+  \citenamefont {Dekker}}]{Kowalczyk2011a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Kowalczyk}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Kapinos}},
+  \bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont {Blosser}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Magalh{\~{a}}es}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {van Nies}}, \bibinfo {author}
+  {\bibfnamefont {R.~Y.~H.}\ \bibnamefont {Lim}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Single-molecule transport across an individual biomimetic
+  nuclear pore complex}},}\ }\href {\doibase 10.1038/nnano.2011.88} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo
+  {volume} {6}},\ \bibinfo {pages} {433} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Eisele}\ \emph {et~al.}(2010)\citenamefont {Eisele},
+  \citenamefont {Frey}, \citenamefont {Piehler}, \citenamefont
+  {G{\"{o}}rlich},\ and\ \citenamefont {Richter}}]{Eisele2010a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~B.}\ \bibnamefont
+  {Eisele}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Frey}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Piehler}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {G{\"{o}}rlich}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.~P.}\ \bibnamefont {Richter}},\ }\bibfield
+  {title} {\textit {\bibinfo {title} {{Ultrathin nucleoporin
+  phenylalanine-glycine repeat films and their interaction with nuclear
+  transport receptors}},}\ }\href {\doibase 10.1038/embor.2010.34} {\bibfield
+  {journal} {\bibinfo  {journal} {EMBO Reports}\ }\textbf {\bibinfo {volume}
+  {11}},\ \bibinfo {pages} {366} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Malekian}\ \emph {et~al.}(2018)\citenamefont
+  {Malekian}, \citenamefont {Kapinos}, \citenamefont {Schoch}, \citenamefont
+  {{Ferrand -Drake del Castillo}}, \citenamefont {Xiong}, \citenamefont {Lim},
+  \citenamefont {Emilsson}, \citenamefont {Dahlin},\ and\ \citenamefont
+  {Robson}}]{Malekian2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Malekian}}, \bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont
+  {Kapinos}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont {Schoch}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Ferrand -Drake del
+  Castillo}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Xiong}},
+  \bibinfo {author} {\bibfnamefont {R.~Y.~H.}\ \bibnamefont {Lim}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Emilsson}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Dahlin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Robson}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Detecting Selective Protein Binding Inside Plasmonic
+  Nanopores: Toward a Mimic of the Nuclear Pore Complex}},}\ }\href {\doibase
+  10.3389/fchem.2018.00637} {\bibfield  {journal} {\bibinfo  {journal}
+  {Frontiers in Chemistry}\ }\textbf {\bibinfo {volume} {6}} (\bibinfo {year}
+  {2018}),\ 10.3389/fchem.2018.00637}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schoch}\ \emph {et~al.}(2012)\citenamefont {Schoch},
+  \citenamefont {Kapinos},\ and\ \citenamefont {Lim}}]{Schoch2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {Schoch}}, \bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont {Kapinos}},
+  \ and\ \bibinfo {author} {\bibfnamefont {R.~Y.}\ \bibnamefont {Lim}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Nuclear transport receptor
+  binding avidity triggers a self-healing collapse transition in FG-nucleoporin
+  molecular brushes}},}\ }\href {\doibase 10.1073/pnas.1208440109} {\bibfield
+  {journal} {\bibinfo  {journal} {Proceedings of the National Academy of
+  Sciences of the United States of America}\ }\textbf {\bibinfo {volume}
+  {109}},\ \bibinfo {pages} {16911} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Schmidt}\ and\ \citenamefont
+  {G{\"{o}}rlich}(2015)}]{Schmidt2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~B.}\ \bibnamefont
+  {Schmidt}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {G{\"{o}}rlich}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Nup98 FG
+  domains from diverse species spontaneously phase-separate into particles with
+  nuclear pore-like permselectivity}},}\ }\href {\doibase
+  10.7554/eLife.04251.001} {\bibfield  {journal} {\bibinfo  {journal} {eLife}\
+  }\textbf {\bibinfo {volume} {2015}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ananth}\ \emph
+  {et~al.}(2018{\natexlab{a}})\citenamefont {Ananth}, \citenamefont {Mishra},
+  \citenamefont {Frey}, \citenamefont {Dwarkasing}, \citenamefont {Versloot},
+  \citenamefont {van~der Giessen}, \citenamefont {G{\"{o}}rlich}, \citenamefont
+  {Onck},\ and\ \citenamefont {Dekker}}]{Ananth2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Ananth}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Mishra}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Frey}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Dwarkasing}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Versloot}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {van~der Giessen}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {G{\"{o}}rlich}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Onck}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Spatial structure of disordered proteins dictates
+  conductance and selectivity in nuclear pore complex mimics}},}\ }\href
+  {\doibase 10.7554/eLife.31510} {\bibfield  {journal} {\bibinfo  {journal}
+  {eLife}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {1} (\bibinfo
+  {year} {2018}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fragasso}\ \emph {et~al.}(2021)\citenamefont
+  {Fragasso}, \citenamefont {de~Vries}, \citenamefont {Andersson},
+  \citenamefont {van~der Sluis}, \citenamefont {van~der Giessen}, \citenamefont
+  {Dahlin}, \citenamefont {Onck},\ and\ \citenamefont {Dekker}}]{Fragasso2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fragasso}}, \bibinfo {author} {\bibfnamefont {H.~W.}\ \bibnamefont
+  {de~Vries}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Andersson}},
+  \bibinfo {author} {\bibfnamefont {E.~O.}\ \bibnamefont {van~der Sluis}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {van~der Giessen}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dahlin}}, \bibinfo
+  {author} {\bibfnamefont {P.~R.}\ \bibnamefont {Onck}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{A designer FG-Nup that reconstitutes the
+  selective transport barrier of the nuclear pore complex}},}\ }\href {\doibase
+  10.1038/s41467-021-22293-y} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature communications}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages}
+  {2010} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fragasso}\ \emph {et~al.}(2020)\citenamefont
+  {Fragasso}, \citenamefont {Schmid},\ and\ \citenamefont
+  {Dekker}}]{Fragasso2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fragasso}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Schmid}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Comparing Current Noise in
+  Biological and Solid-State Nanopores}},}\ }\href {\doibase
+  10.1021/acsnano.9b09353} {\bibfield  {journal} {\bibinfo  {journal} {ACS
+  Nano}\ ,\ \bibinfo {pages} {acsnano.9b09353}} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Machlup}(1954)}]{Machlup1954}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Machlup}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Noise in
+  semiconductors: Spectrum of a two-parameter random signal}},}\ }\href
+  {\doibase 10.1063/1.1721637} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Applied Physics}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo
+  {pages} {341} (\bibinfo {year} {1954})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hooge}(1976)}]{Hooge1976}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Hooge}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{1/F Noise}},}\
+  }\href {\doibase 10.1016/0378-4363(76)90089-9} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physica B+C}\ }\textbf {\bibinfo {volume} {83}},\
+  \bibinfo {pages} {14} (\bibinfo {year} {1976})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smeets}\ \emph {et~al.}(2009)\citenamefont {Smeets},
+  \citenamefont {Dekker},\ and\ \citenamefont {Dekker}}]{Smeets2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.~M.}\
+  \bibnamefont {Smeets}}, \bibinfo {author} {\bibfnamefont {N.~H.}\
+  \bibnamefont {Dekker}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Low-frequency noise in solid-state nanopores}},}\ }\href {\doibase
+  10.1088/0957-4484/20/9/095501} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nanotechnology}\ }\textbf {\bibinfo {volume} {20}} (\bibinfo {year}
+  {2009}),\ 10.1088/0957-4484/20/9/095501}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smeets}\ \emph {et~al.}(2008)\citenamefont {Smeets},
+  \citenamefont {Keyser}, \citenamefont {Dekker},\ and\ \citenamefont
+  {Dekker}}]{Smeets2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.~M.}\
+  \bibnamefont {Smeets}}, \bibinfo {author} {\bibfnamefont {U.~F.}\
+  \bibnamefont {Keyser}}, \bibinfo {author} {\bibfnamefont {N.~H.}\
+  \bibnamefont {Dekker}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title}
+  {{Noise in solid-state nanopores}},}\ }\href {\doibase
+  10.1073/pnas.0705349105} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences of the United States of
+  America}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages} {417}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fragasso}\ \emph {et~al.}(2019)\citenamefont
+  {Fragasso}, \citenamefont {Pud},\ and\ \citenamefont
+  {Dekker}}]{Fragasso2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fragasso}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pud}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{1/F Noise in Solid-State
+  Nanopores Is Governed By Access and Surface Regions}},}\ }\href {\doibase
+  10.1088/1361-6528/ab2d35} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nanotechnology}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages}
+  {395202} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wagner}\ \emph {et~al.}(2015)\citenamefont {Wagner},
+  \citenamefont {Kapinos}, \citenamefont {Marshall}, \citenamefont {Stewart},\
+  and\ \citenamefont {Lim}}]{Wagner2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~S.}\ \bibnamefont
+  {Wagner}}, \bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont {Kapinos}},
+  \bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont {Marshall}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Stewart}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.~Y.}\ \bibnamefont {Lim}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Promiscuous binding of karyopherin$\beta$1
+  modulates FG nucleoporin barrier function and expedites NTF2 transport
+  kinetics}},}\ }\href {\doibase 10.1016/j.bpj.2014.12.041} {\bibfield
+  {journal} {\bibinfo  {journal} {Biophysical Journal}\ }\textbf {\bibinfo
+  {volume} {108}},\ \bibinfo {pages} {918} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Otto}\ and\ \citenamefont {Keyser}(2013)}]{Otto2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Otto}}\ and\ \bibinfo {author} {\bibfnamefont {U.~F.}\ \bibnamefont
+  {Keyser}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{DNA
+  Translocation}},}\ }in\ \href {\doibase 10.1016/B978-1-4377-3473-7.00002-9}
+  {\emph {\bibinfo {booktitle} {Engineered Nanopores for Bioanalytical
+  Applications: A Volume in Micro and Nano Technologies}}}\ (\bibinfo {year}
+  {2013})\ pp.\ \bibinfo {pages} {31--58}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ananth}\ \emph
+  {et~al.}(2018{\natexlab{b}})\citenamefont {Ananth}, \citenamefont {Genua},
+  \citenamefont {Aissaoui}, \citenamefont {D{\'{i}}az}, \citenamefont {Eisele},
+  \citenamefont {Frey}, \citenamefont {Dekker}, \citenamefont {Richter},\ and\
+  \citenamefont {G{\"{o}}rlich}}]{Eisele2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Ananth}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Genua}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Aissaoui}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {D{\'{i}}az}}, \bibinfo {author}
+  {\bibfnamefont {N.~B.}\ \bibnamefont {Eisele}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Frey}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Dekker}}, \bibinfo {author} {\bibfnamefont {R.~P.}\
+  \bibnamefont {Richter}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {G{\"{o}}rlich}},\ }\bibfield  {title} {\textit {\bibinfo
+  {title} {{Reversible Immobilization of Proteins in Sensors and Solid-State
+  Nanopores}},}\ }\href {\doibase 10.1002/smll.201703357} {\bibfield  {journal}
+  {\bibinfo  {journal} {Small}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo
+  {pages} {1703357} (\bibinfo {year} {2018}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Reviakine}\ \emph {et~al.}(2011)\citenamefont
+  {Reviakine}, \citenamefont {Johannsmann},\ and\ \citenamefont
+  {Richter}}]{Reviakine2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Reviakine}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Johannsmann}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~P.}\ \bibnamefont
+  {Richter}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Hearing what
+  you cannot see and visualizing what you hear: Interpreting quartz crystal
+  microbalance data from solvated interfaces}},}\ }\href {\doibase
+  10.1021/ac201778h} {\bibfield  {journal} {\bibinfo  {journal} {Analytical
+  Chemistry}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {8838}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eisele}\ \emph {et~al.}(2013)\citenamefont {Eisele},
+  \citenamefont {Labokha}, \citenamefont {Frey}, \citenamefont
+  {G{\"{o}}rlich},\ and\ \citenamefont {Richter}}]{Eisele2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~B.}\ \bibnamefont
+  {Eisele}}, \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont {Labokha}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Frey}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {G{\"{o}}rlich}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.~P.}\ \bibnamefont {Richter}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Cohesiveness tunes assembly and morphology of FG
+  nucleoporin domain meshworks - Implications for nuclear pore
+  permeability}},}\ }\href {\doibase 10.1016/j.bpj.2013.09.006} {\bibfield
+  {journal} {\bibinfo  {journal} {Biophysical Journal}\ }\textbf {\bibinfo
+  {volume} {105}},\ \bibinfo {pages} {1860} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ma}\ \emph {et~al.}(2012)\citenamefont {Ma},
+  \citenamefont {Goryaynov}, \citenamefont {Sarma},\ and\ \citenamefont
+  {Yang}}]{Ma2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Ma}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Goryaynov}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Sarma}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Yang}},\ }\bibfield  {title}
+  {\textit {\bibinfo {title} {{Self-regulated viscous channel in the nuclear
+  pore complex}},}\ }\href {\doibase 10.1073/pnas.1201724109} {\bibfield
+  {journal} {\bibinfo  {journal} {Proceedings of the National Academy of
+  Sciences of the United States of America}\ }\textbf {\bibinfo {volume}
+  {109}},\ \bibinfo {pages} {7326} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Klughammer}\ and\ \citenamefont
+  {Dekker}(2021)}]{Klughammer2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Klughammer}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Dekker}},\ }\bibfield  {title} {\textit {\bibinfo {title} {{Palladium
+  zero-mode waveguides for optical single-molecule detection with
+  nanopores}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nanotechnology}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages}
+  {18LT01} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Van Den Hout}}\ \emph {et~al.}(2010)\citenamefont
+  {{Van Den Hout}}, \citenamefont {Hall}, \citenamefont {Wu}, \citenamefont
+  {Zandbergen}, \citenamefont {Dekker},\ and\ \citenamefont
+  {Dekker}}]{VanDenHout2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Van
+  Den Hout}}}, \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont {Hall}},
+  \bibinfo {author} {\bibfnamefont {M.~Y.}\ \bibnamefont {Wu}}, \bibinfo
+  {author} {\bibfnamefont {H.~W.}\ \bibnamefont {Zandbergen}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {N.~H.}\ \bibnamefont {Dekker}},\ }\bibfield  {title} {\textit
+  {\bibinfo {title} {{Controlling nanopore size, shape and stability}},}\
+  }\href {\doibase 10.1088/0957-4484/21/11/115304} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nanotechnology}\ }\textbf {\bibinfo {volume} {21}}
+  (\bibinfo {year} {2010}),\ 10.1088/0957-4484/21/11/115304}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Plesa}\ and\ \citenamefont
+  {Dekker}(2015)}]{Plesa2015a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Plesa}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dekker}},\
+  }\bibfield  {title} {\textit {\bibinfo {title} {{Data analysis methods for
+  solid-state nanopores}},}\ }\href {\doibase 10.1088/0957-4484/26/8/084003}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nanotechnology}\ }\textbf
+  {\bibinfo {volume} {26}},\ \bibinfo {pages} {84003} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\end{thebibliography}%

@@ -1,0 +1,957 @@
+\chapter[Reconstitution of ultrawide DNA origami pores in liposomes for transmembrane transport of macromolecules]{Reconstitution of ultrawide DNA origami pores in liposomes for transmembrane transport of macromolecules}
+\chaptermark{Reconstitution of ultrawide DNA origami pores in liposomes}
+\label{chapter_5}
+
+%% The following annotation is customary for chapter which have already been
+%% published as a paper.
+\blfootnote{This chapter has been published as: Alessio Fragasso, Nicola De Franceschi, Pierre Stömmer, Eli O. van der Sluis, Hendrik Dietz, Cees Dekker. \emph{Reconstitution of ultrawide DNA origami pores in liposomes for transmembrane transport of macromolecules}. ACS Nano 15(8), 12768-12779 (2021) \cite{Fragasso2021a}.}
+
+%% It is only necessary to list the authors if multiple people contributed
+%% significantly to the chapter.
+%\authors{Albert {\titleshape Einstein}}
+%
+%%% The '0pt' option ensures that no extra vertical space follows this epigraph,
+%%% since there is another epigraph after it.
+%\epigraph[0pt]{
+%    Nature and nature's laws lay hid in the night; \\
+%    God said `Let Newton be!' and all was light.
+%}{Alexander Pope}
+%
+%\epigraph{
+%    It did not last: the devil shouting `Ho. \\
+%    Let Einstein be!' restore the status quo.
+%}{Sir John Collings Squire}
+
+\begin{abstract}
+Molecular traffic across lipid membranes is a vital process in cell biology that involves specialized biological pores with a great variety of pore diameters, from fractions of a nanometer to >30 nm. Creating artificial membrane pores covering similar size and complexity will aid the understanding of transmembrane molecular transport in cells, while artificial pores are also a necessary ingredient for synthetic cells. Here, we report the construction of DNA origami nanopores that have an inner diameter as large as 30 nm. We developed methods to successfully insert these ultrawide pores into the lipid membrane of giant unilamellar vesicles (GUVs) by administering the pores concomitantly with vesicle formation in an inverted-emulsion cDICE technique. The reconstituted pores permit the transmembrane diffusion of large macromolecules such as folded proteins, which demonstrates the formation of large membrane-spanning open pores. The pores are size selective as dextran molecules with a diameter up to 28 nm can traverse the pores, whereas larger dextran molecules are blocked. By FRAP measurements and modelling of the GFP influx rate, we find that up to hundreds of pores can be functionally reconstituted into a single GUV. Our technique bears great potential for applications across different fields from biomimetics, synthetic biology, to drug delivery. 
+\end{abstract}
+
+%% Start the actual chapter on a new page.
+\newpage
+
+
+\section{Introduction}
+In the last decade, advancements in the field of DNA nanotechnology have enabled the fabrication of a great variety of ‘DNA origami’ nanostructures\cite{Rothemund2006,Douglas2009a}, including transmembrane structures that resemble the biological pores found in cells\cite{Hernandez-Ainsa2014}. Drawing inspiration from protein pores such as alpha-hemolysin\cite{Sugawara2015}, artificial pores have been engineered with DNA origami\cite{Rothemund2006,Douglas2009a} that can insert into lipid bilayers and allow for transmembrane diffusion of ions\cite{Martin2012,Gyenes2016} and small molecules such as fluorophores\cite{Krishnan2016,Thomsen}, DNA oligomers\cite{Martin2012,Krishnan2016}, short PEG\cite{Burns2016}, and dextran\cite{Thomsen,Iwabuchi2021}. To favor partitioning into the lipid bilayer, a popular strategy relies on the chemical modification of the outer nanopore surface with hydrophobic groups, \emph{e.g.} cholesterols, that anchor and stabilize the strongly hydrophilic DNA-based nanopores into the lipid membrane\cite{Hernandez-Ainsa2014}. As DNA origami structures can be designed with virtually any shape or size\cite{Ramezani2020} up to the dimensions comparable to those of viruses\cite{Wagenbauer2017}, the approach bears great potential for various applications, from recapitulating the function of complex enzymes like flippase\cite{Ohmann2018}, to mimicking large protein transporters such as the nuclear pore complex\cite{Ketterer2018,Fisher2018}.
+
+However, so far only small pores with an inner diameter of a few nm have been realized\cite{Thomsen,Iwabuchi2021}, which is because wider pores are increasingly difficult to insert into a membrane. A commonly used strategy to reconstitute pores into a bilayer relies on spontaneous insertion into a preformed lipid membrane\cite{Hernandez-Ainsa2014}. This method relies on transient membrane instabilities\cite{Exerowa1992} and becomes quickly ineffective for larger size objects. This is because the work required to open up a hole in a membrane grows quadratically with the diameter of the hole\cite{Gyenes2016,Thomsen,Akimov2017}, and spontaneous creation of such a hole occurs in a Boltzmann weighted fashion, which exponentially decreases the chances of success for inserting large pores into spontaneously occurring membrane defects. Scaling up the size of artificial pores thus requires an alternative insertion process that can circumvent the barriers associated with spontaneous insertion.
+
+
+Here, we overcome these challenges by employing a continuous droplet interface crossing encapsulation (cDICE) technique\cite{Abkarian2011} to incorporate ultrawide ($\sim$30 nm inner diameter, $\sim$55 nm outer diameter) DNA origami pores into the membrane of giant unilamellar vesicles (GUVs). As we show below, by administering the pores concomitantly with vesicle formation, the pores can be localized efficiently at the membrane. To demonstrate the transmembrane transport through the pores, we measured the influx of multiple fluorescent macromolecules with different sizes using confocal microscopy. We find that the origami pores indeed support the transit of large (up to 28 nm) molecular structures, consistent with the 30 nm inner diameter of the pores. Using fluorescence recovery after photobleaching (FRAP), we estimate that up to hundreds of pores can be functionally reconstituted in a single liposome. These ultrawide pores represent an exciting tool for various applications, from the mimicking of large biological pores such as the nuclear pore complex, to applications in synthetic biology and drug delivery.
+
+\section{Results}
+\subsection{Design and assembly of ultrawide DNA origami pores }
+Using DNA origami folding of a template strand\cite{Rothemund2006,Douglas2009a}, we designed and assembled a rigid octagonal ring-like structure, see Fig.\ref{fig:fig5.1}. A multi-layer DNA origami object was designed in square-lattice helical packing and folded from a 7560 bases long scaffold single strand with 240 individual oligonucleotide single strands, arranged in a 4$\times$4 double-helical pattern. It was designed to form a closed-loop octagonal shape, formed by 8 corner design motifs\cite{Wagenbauer2017a} with single-stranded poly-T strands at the corner sites.
+
+\begin{figure}[htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.1.pdf}
+	\caption{DNA origami pore design and incorporation approach. a,  DNA origami pore in front (left) and side view (right). Blue cylinders represent DNA double helices. The outer diameter is 55 nm, the inner diameter is 35 nm. Green objects along the outer side of the DNA origami pore indicate the 32 cholesterol modifications. They vertically span over a width of $\sim$3 nm (purposely slightly less than the hydrophobic thickness of $\sim$3.7 nm of a DOPC-lipid bilayer\cite{Marquardt2016}). Black cylinders represent an asymmetric feature that was introduced for class averaging of single particles from TEM. Violet spots along the outer surface of the DNA origami pore indicate the positions of 12 Atto647N dye modifications. The pore is designed with a height of 10 nm. b, Schematic representation of K\textsubscript{10}-PEG\textsubscript{5k} coating of the origami pore. c, Schematic representation of the DNA origami pore incorporated into the lipid bilayer of a GUV. Left: a GUV with pores incorporated in the lipid bilayer; middle: zoom-in on one of the incorporated origami pores resulting in a 30 nm diameter hole; right: a further zoom-in showing individual lipid molecules of the bilayer; white spheres represent lipid heads, white strokes represent lipid tails, the green object represents a cholesterol.}
+	\label{fig:fig5.1}
+\end{figure}
+
+  \noindent Deletions were introduced every 32 bases to correct for global twist\cite{Dietz2009}. The origami pore was designed with a nominal outer diameter of 55 nm, an inner diameter of 35 nm, and a height of 10 nm (Fig.\ref{fig:fig5.1}a) which represents the channel length. The design includes 48 single stranded handles that were distributed evenly on the interior surface facing the central cavity, as sites for future functionalization purposes (Fig.\ref{fig:fig5.21}). The octagon furthermore included 32 cholesterol modifications on the outer surface that were arranged evenly with a $\sim$5.5 nm horizontal spacing and $\sim$3 nm vertical distance between neighboring cholesterols (Fig.\ref{fig:fig5.1}a). An asymmetric feature was added (Fig.\ref{fig:fig5.1}b) consisting of four additional double helices on top of the octagon, arranged in a 2$\times$2 double helical pattern on the top side of the octagon, spanning over 3 corners. The octagon further features 12 Atto647N dyes for fluorescence imaging, one at each corner on the bottom side of the octagon and four more on both ends of the asymmetric feature (Fig. \ref{fig:fig5.1}a). We iteratively refined the octagon design using gel-electrophoretic mobility analysis as read-out, in order to minimize the occurrence of higher order aggregates and improve the folding quality of the octagon object (Figs.\ref{fig:fig5.9}-\ref{fig:fig5.16}). 
+
+
+\begin{figure}[htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.2.pdf}
+	\caption{Negative-staining TEM and class averaging of the DNA origami pores. a, Typical field of view of a negative-stained DNA-origami sample. The pores in this image were prepared as described in the Methods section. The image is high-pass filtered with a radius of 20 nm and auto leveled in Photoshop. Scale bar: 50 nm. b, Top: Front view class average of N=682 single particles (Fig.\ref{fig:fig5.18}, left). Bottom: Side view class average of N=80 single particles (Fig.\ref{fig:fig5.18}, right). Scale bar: 25 nm. c, Two exemplary slices of negative-stained TEM tomograms calculated from EM tilt series, showing octagons (indicated by white arrows) embedded in the membrane of liposomes at a z-height away from the TEM support surface. See SI Fig.\ref{fig:fig5.29} for a z-stack of the TEM tomography data.  Scale bar: 50 nm.}
+	\label{fig:fig5.2}
+\end{figure}
+The origami pore was coated with K\textsubscript{10}-PEG\textsubscript{5k} molecules, which consist of 10 positively charged lysine amino acids (K) linked to a short polyethylene glycol chain (PEG, 5 kDa) (Fig. \ref{fig:fig5.1}B) as described in Ponnuswamy \emph{et al.}\cite{Ponnuswamy2017} This coating serves two purposes: (i) it stabilizes the octagon in low-ionic strength environments, where uncoated DNA origami structures would otherwise disassemble; and (ii) it prevents the cholesterol-modified origami pores from aggregating in bulk. Figure \ref{fig:fig5.1}c shows a schematic illustration of the incorporation of origami pores into the lipid membrane of a liposome (left). The zoom-ins highlight the interaction of the cholesterol-modified origami pores with the lipid molecules.
+
+Characterization of the proper folding and verification of the intended dimensions of the structure were performed using negative-stain TEM imaging and subsequent class averaging of single particles (Figure \ref{fig:fig5.2}). Figure \ref{fig:fig5.2}a shows a high-pass-filtered image of a typical field of view with several octagon pores. The overall shape of the majority of the particles matches the intended design, without obvious defects, in which 8 straight edges and 8 corners form an octagonal ring-like structure with a $\sim$35 nm inner diameter and a $\sim$11 nm thickness. Most of the structures are oriented in a flat orientation on the surface, while a few can be seen in their side view. 
+
+
+We computed 2D class averages from single particle micrographs (Figure \ref{fig:fig5.18}), which resulted in two distinct images (Figure \ref{fig:fig5.2}b), corresponding to front and side view transmission projections of the particles. The front view displays four distinct layers of double-stranded DNA. The asymmetric feature is visible on the outer two helices on the top side (Figure \ref{fig:fig5.2}b top). The class averaged image of the side view shows less detail of the expected 4 layers of DNA and the asymmetric feature. This is likely due to the staining with uranyl-formate and the tendency of the structures to adhere to the grid surface predominantly with their front side up resulting in less side-view particles. From these images, we measured an inner diameter of $\sim$35 nm and a thickness of $\sim$11 nm (Fig.\ref{fig:fig5.19}). Accounting for the K\textsubscript{10}-PEG\textsubscript{5k} coating by including a layer with thickness $2.4\pm1.3$ nm, as measured by Ponnuswamy \emph{et al.}\cite{Ponnuswamy2017} would result in an effective inner diameter of $\sim$30 nm, and an effective height of $\sim$16 nm including the unstructured PEG brushes. Class-averaged images of K\textsubscript{10}-PEG\textsubscript{5k}-coated and bare octagons match well (Figure \ref{fig:fig5.20}), which shows that the coating preserves the global shape of the octagon pore.
+
+Liposomes with octagons were imaged using negative-stained EM tomography, showing that the octagons can be well incorporated within the lipid membrane (Movie 4 and Movie 5). The tomograms were calculated from EM tilt series. Slices through the tomograms show octagons located at different heights on the surface of the liposomes (Figure \ref{fig:fig5.29}). The top slices of the tomograms show octagons embedded in the lipid membrane on top of liposomes (Figure \ref{fig:fig5.2}c). The global shape and the inner diameter of these octagons remained intact.
+
+\subsection{DNA origami pore reconstitution in liposomes by cDICE}
+We first tested spontaneous insertions observed for our 55 nm (outer diameter) large DNA origami pores into free-standing planar lipid bilayers or into pre-formed GUVs, under various conditions and with different nanopore versions with either 32 or 64 cholesterols.  As expected, these attempts were unsuccessful.  While membrane interactions drove the DNA origami objects to adhere on the GUVs (Fig.\ref{fig:fig5.22}), there was a total lack of influx of molecules (Fig.\ref{fig:fig5.24}), indicating that no actual pores were created with a functional transmembrane opening. 
+
+\begin{figure}[!htbp]
+	\includegraphics[width=0.95\linewidth]{figures/Figure5.3.1.pdf}
+	\caption{Reconstitution of wide DNA origami pores in GUVs by cDICE. Schematics of the cDICE workflow. A section of the rotating chamber is depicted, including the oil and outer buffer phases. Origami pores are indicated in yellow.}
+	\label{fig:fig5.3.1}
+\end{figure}
+
+We therefore used an alternative approach where we incorporate the DNA origami pores during the process of the formation of the GUVs. We employed an inverted emulsion technique called cDICE\cite{Abkarian2011} which yields unilamellar liposomes with good encapsulation of a large variety of macromolecules\cite{VandeCauter2021}. Briefly, in cDICE, layers of buffer solution and lipid-in-oil suspension are deposited subsequently in a rotating chamber. As illustrated in Fig.\ref{fig:fig5.3.1}, an inner buffer solution containing the origami pores is then injected through a capillary into the rotating lipid-in-oil suspension at a constant flow rate. Shear forces due to the rotation result in detachment of droplets from the capillary orifice. While travelling through the oil phase, these droplets acquire a first monolayer of lipids where the origami pores can insert. A second monolayer is subsequently formed when the droplets cross the oil-water interface, resulting in GUVs that are eventually collected from the outer buffer solution. In this cDICE process, we thus aimed to reconstitute the pore within the lipid monolayer that is formed in the water-in-oil droplets during the first step of cDICE. Whereas the origami rings with 64 cholesterols mainly resulted in formation of large aggregates at the droplet interface (Fig.\ref{fig:fig5.25}), the rings with 32-cholesterols appeared to interact with the lipid monolayer without inducing significant aggregation, suggesting a more promising route. Hereafter, we report the results for the 32-cholesterols version of the DNA origami rings.
+
+
+In a standard cDICE protocol\cite{VandeCauter2021}, the inner buffer solution that is injected contains either sucrose or Optiprep\cite{VandeCauter2021} to obtain an optimal density of the inner GUV solution. We found, however, that in these conditions the reconstitution of 32-cholesterols origami rings was inefficient, with most of the origami pores remaining in solution after vesicle formation (Fig.\ref{fig:fig5.3.2}a). When we included high molecular weight dextran ($\sim$2 MDa) in the inner buffer, we found that 32-cholesterol origami rings could be fully localized at the membrane (Fig.\ref{fig:fig5.3.2}a). Note that the choice of such a large dextran molecule (2 MDa) was also motivated by the high diameter of gyration ($\sim$76 nm; Ref.23) which makes it large enough to stay in the vesicle despite the presence of the 30 nm wide DNA origami pores. 
+\begin{figure}[!htbp]
+	\includegraphics[width=0.95\linewidth]{figures/Figure5.3.2.pdf}
+	\caption{Reconstitution of wide DNA origami pores in GUVs by cDICE. a, Comparison of the efficiency of DNA origami pore localization at the membrane by addition of 2 MDa dextran in the inner buffer. Without dextran, origami pores were observed to remain dispersed in bulk, whereas inclusion of dextran drove the origami pores to the lipid surface. b, FRAP analysis of origami pores reconstituted in GUV that shows that the pores are mobile within the lipid bilayer. The dashed rectangle indicates the bleached area, which recovers within a few minutes. c, Example of large field of GUVs with reconstituted origami pores. d, Example of a GUV retaining the 2 MDa dextran in the lumen after 24 hours incubation in buffer. Scale bars: 10$\mu$m.}
+	\label{fig:fig5.3.2}
+\end{figure}
+The origami pores appeared to be evenly distributed on the GUV surface, only occasionally forming clusters, which then were also enriched in lipids (Movie 1 and Movie 2: z-stack and 3D rendering). Moreover, Fluorescence Recovery After Photobleaching (FRAP) analysis revealed that DNA origami pores could freely diffuse within lipid bilayer of the vesicle membrane (Fig.\ref{fig:fig5.3.2}b). Hundreds of GUVs could be obtained from a single preparation (Fig.\ref{fig:fig5.3.2}c). The resulting GUVs retained the 2 MDa dextran over prolonged periods of time ($>24$hrs, Fig.\ref{fig:fig5.3.2}d) and were remarkably stable, remaining spherical in spite of osmotic changes, suggesting that the origami pores were very well able to equilibrate osmotic differences by allowing osmolytes to rapidly cross the membrane.  All in all, the data indicate the successful insertion of wide DNA origami pores in the membrane of GUVs. 
+
+
+
+
+\subsection{Protein influx through the pores demonstrates their transmembrane transport capabilities}
+To assess whether the DNA origami pores were functional, \emph{i.e.}, inserted in the intended orientation that allows for transmembrane transport through the central cavity of the octagon, we tested the influx of IBB-mEGFP-Cys, a 34.6 kDa variant of the soluble green fluorescent protein that includes an importin$\beta$ binding domain\cite{Gorlich1996} (see supporting information \ref{section:IBB-mEGFP-Cys protein}), henceforth referred to as ‘GFP’ for simplicity. 
+
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.4.1.png}
+	\caption{Schematic of the influx experiment. Left: Sketch of a vesicle (red) containing pores (blue), that is incubated with GFP (green). Right: Fluorescence intensities Iin and Iout that are expected to be measured in a time-lapse experiment on the dashed purple and yellow areas, respectively. The right part of the graph illustrates the end-point intensities after $\sim$24hrs, after an initial transient.}
+	\label{fig:fig5.4.1}
+\end{figure}
+We measured the normalized fluorescence intensity difference I\textsubscript{n,diff}$=$(I\textsubscript{out}-I\textsubscript{in})/I\textsubscript{out} of the vesicles, \emph{i.e.}, the difference between in-vesicle intensity (I\textsubscript{in}) and the outer bulk (I\textsubscript{out}) divided by I\textsubscript{out} (Fig.\ref{fig:fig5.4.1}) after overnight incubation of the GUVs in an outer solution with $2.3\mu M$ of GFP. While pore-less vesicles (control, Fig.\ref{fig:fig5.4.2}a) remained empty yielding a finite value I\textsubscript{n,diff}$= 0.13\pm0.05$ (errors are S.D., N=34), the pore-containing liposomes showed influx of GFP for about $50\%$ of the vesicles (Fig.\ref{fig:fig5.4.2}b): Half of the vesicles exhibited an almost complete saturation to I\textsubscript{n1,diff}$= 0.01\pm0.03$ (N=45), while the other half yielded I\textsubscript{n2,diff}$= 0.09\pm0.03$ (N=45), \emph{i.e.}, no significant change compared to the control. We note that heterogeneity in GUV samples is a widely reported phenomenon\cite{Baykal-Caglar2012}, that here apparently is associated with variations in the efficiency of pore insertion during vesicle formation in cDICE. Most importantly, a clear fraction of the liposomes unambiguously showed transmembrane transport of the folded proteins, indicating transport through the ultrawide DNA origami pores.
+
+
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.4.2.pdf}
+	\caption{a, Influx experiment with vesicles that were not subjected to DNA-pore insertion. Top right: sketch of a pore-less vesicle that excludes GFP. Top left: example of fluorescence image for a pore-less vesicle (cyan) that prevents GFP (green) from entering the vesicle, showing up as a darker area signifying the absence of GFP. Bottom: histogram of the normalized end-point intensity difference (Iout-Iin)/Iout for the pore-less vesicles, verifying that no vesicles showed GFP influx. b, Influx experiment with vesicles that were functionalized with origami pores. Top right: sketch of a pore-containing vesicle filled with GFP. Top left: example of fluorescence image for a pore-containing vesicle (cyan) that allows GFP to diffuse (green) into the vescicle, resulting in I\textsubscript{out}-I\textsubscript{in}$\approx$0. Bottom: histogram showing normalized end-point intensity difference (I\textsubscript{out}-I\textsubscript{in})/I\textsubscript{out} for the pore-less vesicles. We find that $\sim$50\% of the vesicle population manifested GFP influx. Scale bars: 10$\mu$m.}
+	\label{fig:fig5.4.2}
+\end{figure}
+
+Next, we characterized the GFP influx rate quantitatively using a FRAP assay (Fig.\ref{fig:fig5.5}a). In this experiment, we selected pore-containing vesicles that showed that influx occurred during the overnight incubation (\emph{i.e.}, those with I\textsubscript{n,diff}$\approx$0), then photobleached the inner part, and subsequently measured the recovery of the fluorescence signal. An example of FRAP experiment is shown in Fig.\ref{fig:fig5.5}b (top) and Movie 3. Starting from an equilibrium state where I\textsubscript{in}$\approx$I\textsubscript{out} (Fig.\ref{fig:fig5.5}b, left), the vesicle fluorescence drops upon photobleaching to a level comparable to the one of an empty vesicle, to subsequently fully recover within a few minutes (Fig.\ref{fig:fig5.5}b, right). Notably this timescale is much faster compared to those of previously reported fluorescence recovery with DNA origami pores\cite{Krishnan2016,Thomsen}. A control with vesicles lacking pores (Fig.\ref{fig:fig5.5}b, bottom) resulted in no appreciable recovery upon photobleaching. Figure \ref{fig:fig5.5}c displays I\textsubscript{in} and I\textsubscript{out} for a pore-containing GUV as a function of time where, after initial transient behavior (grey area), I\textsubscript{out} is constant, whereas I\textsubscript{in} continues to slowly increase over time, which represents the influx of GFP through the ultrawide DNA origami pores.
+
+
+To obtain the number of functional pores, we model the influx rate using a diffusion model derived from the Fick’s first law\cite{Fick1855}       
+
+\begin{equation}\label{eqn:eq.5.1}
+\Phi=-D\frac{dc}{dx},
+\end{equation}
+which describes the flux $\Phi$ of GFP molecules with diffusion constant $D$, as a result of the concentration gradient $\frac{dc}{dx}$ between the outer ($c_{out}$) and inner ($c_{in}$) environment of the GUV. The flux $\Phi$ is defined as number of molecules $dN$ crossing a membrane area $dA$ in a time $dt$. Since the vesicle volume $V$ is constant over time, the in-vesicle concentration $c_{in}(t)$ is a time-dependent variable that reflects the fact that the vesicle is filling up over time, \emph{i.e.}, $\frac{dc_{in}(t)}{dt}=\frac{1}{V}\frac{dN}{dt}$.
+
+ The outside concentration $c_{out}$ instead is assumed to be constant over time, which is reasonable given the large volume ($\sim200~\mu$L) of the bulk solution as compared to the $\sim$pL volume of the vesicle. Assuming that the diffusion occurs through a number $N_p$ of DNA origami pores that each have a length $L_p$ and an area $A_p$, yielding a total integrated area $A=A_p N_p$, we can rewrite \ref{eqn:eq.5.1} as the first order differential equation
+
+\begin{equation}\label{eqn:eq.5.2}
+	\frac{dc_{in}(t)}{dt}=\frac{AD}{V}\frac{c_{out}-c_{in}(t)}{L_p},
+\end{equation}
+
+\noindent which, with $c_{in}(t=0)=c_{in,start}$, has a solution
+
+\begin{equation}\label{eqn:eq.5.3}
+	c_{in}(t)=c_{out}-(c_{out}-c_{in,start})e^{-\frac{D_{eff}A}{VL_p}t}.
+\end{equation}
+
+\noindent Note, however, that for the transport through the pores, we need to employ an effective diffusion constant $D_{eff}$ which is reduced compared to the bulk diffusion constant $D$ to account for the confined transport through the pores, as reported by Dechadilok and Deen\cite{Dechadilok2006}. For our pore dimensions, this results in almost a factor of 2 decrease of the GFP diffusivity, \emph{i.e.}, $D_{eff} = 0.54 D_{bulk}$. Upon rearranging Equation \ref{eqn:eq.5.3}, we then finally obtain
+
+
+\begin{equation}\label{eqn:eq.5.4}
+	\frac{c_{out}-c_{in}(t)}{c_{out}}=\left(1-\frac{c_{in,start}}{c_{out}}\right)e^{-\frac{D_{eff}A_pN_p}{VL_p}t}.
+\end{equation}
+
+\noindent As the measured fluorescence intensities are a good measure for the protein concentrations of the fluorescent GFP, we can use Equation \ref{eqn:eq.5.4} to fit the I\textsubscript{n,diff}(t) data, with $c_{in,start}/c_{out}$  and $N_p$ as fit parameters. Figure \ref{fig:fig5.5}d provides an example, showing an excellent fit to the FRAP data. From fitting FRAP curves acquired from different vesicles, we find that the estimated number of pores $N_p$ varies between a few to a few hundred per GUV. Despite the substantial scatter in the extracted $N_p$ (grey circles in Fig.\ref{fig:fig5.5}e), which we attribute to the stochasticity inherent to the vesicle production and origami insertion during cDICE, we do observe an overall increase of $N_p$ with the vesicle diameter. Assuming that all origami pores would move from the volume into the membrane during GUV formation, $N_p$ should scale with the cube of the vesicle diameter, which is consistent with the behavior observed (black line in Fig.\ref{fig:fig5.5}e). 
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/Figure5.5.pdf}
+	\caption{FRAP assay, modelling, and extraction of number of functional pores. a, Schematic of the FRAP assay: 1) the vesicle is left to equilibrate with bulk solution containing GFP; 2) GFP molecules inside the vesicle are photobleached; 3) new GFP molecules are driven through the ultrawide origami pores from the outer solution, causing a recovery of the fluorescence signal. b, Example of a FRAP experiment. Top: (left) image showing the pore-containing vesicle (origami pores in cyan) at equilibrium with the outer GFP (green) solution. Right: series of frames showing recovery (within minutes) of the GFP signal after photobleaching. Bottom: (left) image showing a pore-less vesicle (cyan) that excludes GFP (green) present in the outer solution. Right: series of frames showing the absence of a signal increase after photobleaching. c, Fluorescence intensities Iin (red) and Iout (purple) that reduce and recover after photobleaching for the vesicle shown in b. Grey area denotes the initial transient, after which Iout can be considered constant. Inset: highlight of the regions where Iin (red) and Iout (purple) were measured. d, Normalized intensity difference I\textsubscript{n,diff} over time for the vesicle illustrated in b. Data are fitted by Equation \ref{eqn:eq.5.4}. Grey area was excluded from the fit as the model assumes a constant Iout. For such 13.3 $\mu$m diameter vesicle we estimated a number of functional pores $N_p=250$. e, Number of origami pores extracted from fits for different vesicles, as a function of vesicle diameter (grey circles). Averaged data over 2.5 $\mu$m bins (red squares, error bars are S.D.) show an increase of the number of pores as a function of vesicle diameter. Black line represents a cubic fit to the data. Scale bars: 10 $\mu$m.}
+	\label{fig:fig5.5}
+\end{figure}
+
+\subsection{The ultrawide DNA origami pores act as a molecular sieve with $\sim$30 nm cut off.}
+To provide evidence that our DNA origami pores indeed form open channels with an effective  size of the order of the inner pore diameter of 30 nm, we tested the influx of dextran-FITC molecules with a variety of sizes, \emph{viz}, D\textsubscript{g} $\approx 15$ nm (70 kDa),  22 nm (150 kDa), 28 nm (250 kDa), 39 nm (500 kDa), and 76 nm (2 MDa), see Fig.\ref{fig:fig5.6.1}, where D\textsubscript{g} is the diameter of gyration as measured by Hanselmann and Burchard\cite{Hanselmann1995}.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/Figure5.6.1.pdf}
+	\caption{Diameter of gyration of dextran $D_g$ vs molecular weight $M_w$. Black line is a fit of $D_g=0.072\cdot M^{0.48}_w$(Ref.\cite{Hanselmann1995}). Dextran sizes of 70 kDa, 150 kDa, 250 kDa, 500 kDa, and 2 MDa employed in our study are highlighted in blue, yellow, magenta, and black, respectively.  Grey area underlies dextran sizes larger than the origami pore (red) which are not expected to translocate.}
+	\label{fig:fig5.6.1}
+\end{figure}
+
+\noindent As in the GFP influx experiment, we incubated the pore-containing vesicles with 2 $\mu$M of dextran-FITC, and measured the normalized intensity difference I\textsubscript{n,diff} after $\sim$24 hrs. This was done independently for each of the 5 molecules, keeping the same molar concentration of dextran-FITC molecules in bulk solution. Similar to the GFP experiments (Fig. \ref{fig:fig5.4.2}b), I\textsubscript{n,diff} of pore-containing vesicles yielded two populations when incubated with 70kDa dextran-FITC (Fig.\ref{fig:fig5.6.2}, left), where $58\%$ manifested influx (I\textsubscript{n1,diff,70k}$= 0.02\pm0.03$, errors are S.D., N=47), while $42\%$ remained empty (I\textsubscript{n2,diff,70k}$=0.13\pm0.02$, N=34). Incubation with 150 kDa dextran-FITC (Fig.\ref{fig:fig5.6.2}, center-left) led to a similar result, with $47\%$ GUVs that were filled (I\textsubscript{n1,diff,150k}$=0.03\pm0.03$, N=24), against $53\%$ of empty vesicles (I\textsubscript{n2,diff,150k}$=0.11\pm0.03$, N=27). Influx of the larger 250 kDa dextran-FITC (Fig.\ref{fig:fig5.6.2}, center) resulted in a reduced ($19\%$), yet present, population of filled vesicles (I\textsubscript{n1,diff,250k}$=0.01\pm0.02$, N=8), while $79\%$ (I\textsubscript{n2,diff,250k}$=0.10\pm0.02$, N=34) showed no sign of influx. Importantly, this demonstrates that very large (250 kDa; 28 nm) macromolecules can be transported across the ultrawide DNA origami nanopores. By contrast, incubation with the even larger 500 kDa and 2 MDa dextran-FITC (Fig.\ref{fig:fig5.6.2}, center-right and right) resulted in only one population of empty vesicles, with I\textsubscript{n,diff,500k}$=0.13\pm0.03$ (N=49), and I\textsubscript{n,diff,2M}$=0.09\pm0.04$ (N=98), respectively, indicating a lack of any transmembrane transport during 24 hours. This is fully consistent with expectations as their size clearly exceeds the 30 nm size of the origami pore. It is also consistent with the use of 2 MDa dextran as a macromolecular crowder, \emph{cf.} Fig. \ref{fig:fig5.3.2}d.
+
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.6.2.pdf}
+	\caption{Size selectivity of DNA origami nanopores.  Histograms showing normalized intensity difference of pore-containing vesicles after overnight incubation the dextran molecules. Blue indicate vesicles that showed influx of 70 kDa, yellow bars for 150 kDa, magenta bars for 250 kDa, whereas grey bars represent empty vesicles. Dashed lines represent hypothetical populations of vesicles that would have been present if influx of 500 kDa or 2 MDa through the origami pores had occurred.}
+	\label{fig:fig5.6.2}
+\end{figure}
+\section{Conclusion}
+In this work, we achieved functional reconstitution of ultrawide DNA origami pores in giant liposomes, obtaining stable transmembrane pores of 30 nm inner diameter within the lipid bilayer. We successfully achieved the pore reconstitution by inserting of the origami pore into a lipid monolayer followed by bilayer formation. This methodology lowers the energy barrier for pore insertion, allowing functional reconstitution of pores with much larger diameter than previously possible. 
+
+Our results open the way to a number of biomimetic applications. For example, future efforts can be directed towards the functionalization of the origami pore with FG-nucleoporins from the Nuclear Pore Complex (NPC), the macromolecular complex mediating transport across the nuclear envelope in eukaryotes\cite{Wente2010}, as reported in previous works\cite{Ketterer2018,Fisher2018}. This will enable the creation of selective biomimetic pores that permit the exclusive transport of specific transport receptor proteins. While such biomimetic pores constitute an exciting platform for investigating nucleocytoplasmic transport \emph{in vitro}, it may also be employed as a building block for synthetic cells, thus paving the way towards the \emph{in vitro} reconstitution of an artificial model of a nucleus. This will, for example, aid the study of emergent properties of liposome-confined genomes\cite{Birnie2021}, by allowing the controlled injection of genome-processing proteins. Indeed, our DNA origami pores may be a great asset for building a synthetic cell as they provide a stable portal that is large enough for biological macromolecules like proteins and RNAs to enter a liposome. The long-term stability and functionality of these liposomes is a particularly useful feature in such synthetic-biology applications. Finally, responsive drug-delivery systems that release clinically relevant macromolecules such as antibodies upon stimulation by specific biomolecules could be envisioned as well. We expect that the ultrawide DNA origami nanopores may thus find a broad variety of different applications. 
+
+
+\section{Methods}
+\subsection{Design of scaffolded DNA origami objects}
+The objects were designed using caDNAno v0.2\cite{Douglas2009}.
+\subsection{Optimal folding conditions of the octagon}
+The folding reaction mixture for the octagon contained scaffold DNA\cite{Kick2015} at a final concentration of 10 nM and oligonucleotide strands (IDT Integrated DNA Technologies) at 300 nM each. The folding reaction buffer contained 5 mM TRIS, 1 mM EDTA, 5 mM NaCl (pH 8) and 24 mM MgCl\textsubscript{2}. The folding reaction mixtures were subjected to the following thermal annealing ramp using TETRAD (MJ Research, now Biorad) thermal cycling devices: 15 minutes at 65°C, followed by 16 hours at 50°C, followed by incubation at 20°C before further sample preparation steps.
+\subsection{Purification of DNA origami nanostructures}
+Excess oligonucleotides were removed \emph{via} ultrafiltration (Amicon Ultra 0.5 ml Ultracel filters, 50K) with FoB5 (5 mM TRIS, 1 mM EDTA, 5 mM NaCl and 5 mM MgCl\textsubscript{2}) buffer\cite{Wagenbauer2017a}. All centrifugation steps were performed at 10 kG for 3 minutes at 25°C. Step 1: 0.5 ml of FoB5 buffer was added to the filters and centrifuged. Step 2: 0.1 ml of folded object sample and 0.4 ml of FoB5 buffer was added to the filters and centrifuged. Step 3: 0.45 ml FoB5 buffer was added to the filters and centrifuged. Step 3 was repeated 3 times before a final retrieving step: the filter insets were turned upside down, placed into a new tube and centrifuged. This concludes one round of ultrafiltration.
+\subsection{Coating of the octagon}
+Different volumes of purified octagons were mixed with PEG-oligolysine (K\textsubscript{10}-PEG\textsubscript{5k}). The optimal amount of K\textsubscript{10}-PEG\textsubscript{5k} added was determined based on the ratio of nitrogen in amines to the phosphates in DNA (Ponnuswamy \emph{et al.}\cite{Ponnuswamy2017}), to a final ratio of 0.75:1 (N:P). 
+\subsection{Negative-stain TEM}
+A carbon Formvar grid (Electron Microscopy Sciences) was plasma-treated (45 s, 35 mA) right before use. 5 $\mu$L of uncoated octagon sample (10-50 nM DNA object concentrations, 5–20 mM MgCl\textsubscript{2} concentration) was pipetted onto the grid. Coated octagon samples were pipetted onto the grids without plasma-treatment, in order to reduce positive staining effects. The sample droplets were incubated for 30-120 s on the grids and then blotted away with filter paper. A 5 $\mu$L droplet of 2\% aqueous uranyl formate (UFO) solution containing 25 mM sodium hydroxide was pipetted onto the grid and immediately blotted away. A 20 $\mu$L UFO droplet was then pipetted onto the grid, incubated for 30 s and blotted away. The grids were then air dried for 20 minutes before imaging in a Philips CM100 and an FEI Tecnai 120 microscope. Particles were picked automatically using crYOLO\cite{Wagner2019} and subsequently class averaged using Relion3.0\cite{Zivanov2018}.
+
+Negative stain EM tomography was used to visualize octagons at the surface of liposomes. The samples (5 $\mu$L) containing liposomes with incorporated octagons were incubated on the grid surface until the liquid evaporated ($\sim$15 min). The sample was not blotted away using filter paper in an effort not to damage the liposomes through shear forces. All other grid preparation steps were the same as described before.
+
+The tilt series were acquired at a magnification of 30000$\times$ using an FEI Tecnai 120. The stage was tilted from -50° to 50° and micrographs were acquired every 2°. The tilt series were then processed using Etomo (IMOD)\cite{Kremer1996} to acquire tomograms. The micrographs were first aligned by calculating a cross correlation of the consecutive images. The tomograms were then generated using a filtered back projection. The Gaussian-Filter used a cutoff of 0.35 and a fall-off of 0.035.
+
+
+\subsection{Gel electrophoresis of octagon samples}
+Octagon samples were electrophoresed on 1.5 and 2.0\% agarose gels containing 0.5$\times$tris-borate-EDTA and 5 mM MgCl\textsubscript{2}  (unless noted otherwise) for around 1-2 hours at 70 or 90 V bias voltage in a gel box, cooled in a water or ice water bath. The loaded samples contained final monomer concentrations of 10 nM (unless otherwise noted). The gels were scanned with a Typhoon FLA 9500 laser scanner (GE Healthcare) at a resolution of 25 or 50 $\mu$m/pixel. Further enhancing resulting images or parts of images was performed using Photoshop CS5.
+\subsection{DNA origami sample preparation protocol}
+\begin{enumerate}
+	\item Folding of DNA origami samples at previously described optimal folding conditions.
+	\item Three rounds of ultrafiltration to purify the samples of excess oligonucleotides.
+	\item Addition of Atto647N modified oligonucleotide at a final oligonucleotide:DNA origami ratio of 48:1 (12 handles per DNA origami; effective 4:1 ratio).
+	\item One round of ultrafiltration to purify the samples of excess Atto647N  oligonucleotides.
+	\item Addition of PEG-oligolysine at N:P ratio of 0.75:1, incubate at room temperature overnight.
+	\item Addition of cholesterol modified oligonucleotide at a final oligonucleotide: DNA origami ratio of 128:1 (32 handles per DNA origami; effective 4:1 ratio).
+	\item One round of ultrafiltration to purify the samples of excess cholesterol oligonucleotides.
+\end{enumerate}
+
+\subsection{Reagents}
+The 2MDa dextran (D5376), MgCl2 (M8266), glucose (G7021), Optiprep (60\% (w/v) iodixanol in water, D1556),  Silicon oil (317667) and Mineral oil (M3516-1L) were purchased from Sigma Aldrich. Tris-HCl (10812846001) was purchased from Roche. DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine) (850375) and DOPE-Rhodamine (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine-N-(lissamine rhodamine B sulfonyl) (ammonium salt)) (810150C) were purchased from Avanti Lipids. Lipids were stored and resuspended in anhydrous chloroform (288306, Sigma Alrich). Sodium dodecyl sulfate (SDS) employed for cleaning steps was purchased from Sigma Aldrich. UltraPure Bovine Serum Albumine (BSA) used for passivation of the glass coverslips was purchased by ThermoFisher. For the influx experiments, we employed 70kDa dextran-FITC (FITC:Glucose (mol/mol) = 0.004) (Sigma Aldrich), 150kDa dextran-FITC (FITC:Glucose (mol/mol)  = 0.004) (Sigma Aldrich) , 250kDa dextran-FITC (FITC:Glucose (mol/mol)  = 0.003-0.020) (Sigma Aldrich) , 500kDa dextran-FITC (FITC:Glucose (mol/mol)  = 0.003-0.020) (Sigma Aldrich), and 2MDa dextran-FITC (FITC:glucose (mol/mol) = 0.001-0.004) (Sigma Aldrich). 
+
+\subsection{Expression and purification of IBB-eGFP}
+For the expression of His14-TEV-IBB-mEGFP-Cys (‘IBB-GFP’) plasmid pSF807 (Eisele \emph{et al.}\cite{Eisele2010a}) was transformed into \emph{Escherichia coli} BLR cells. Cultures were grown in TB medium supplemented with 50 $\mu$g/mL kanamycin, and expression was induced with 0.5 mM IPTG during overnight incubation at 18°C, shaking at 150 rpm in baffled flasks. Cells were harvested by centrifugation (10 min 4000 rpm, JLA8.1000 rotor), washed in 1$\times$PBS buffer and lysed using a French Press (Constant Systems) at 20 kpsi at 4°C in buffer A (2 M NaCl, 50 mM Tris/HCl pH 8.0, 5 mM MgCl\textsubscript{2}). Unbroken cells, debris and aggregates were pelleted in a Ti45 rotor (30 min, 40.000 rpm, 4°C), and the lysate resulting from 1 liter cell culture was applied to 2 mL (bed volume) of Ni-NTA matrix pre-washed with buffer A. After 60 min incubation while slowly inverting the tube in a cold room (4°C) the matrix was washed extensively with buffer A supplemented with 60 mM imidazole, and buffer B (50 mM Tris/HCl pH 7.5, 300 mM NaCl, 5 mM MgCl\textsubscript{2}, 1 mM $\beta$ME, 10\% glycerol). Following overnight elution by homemade TEV protease in buffer B, the eluate was concentrated by ultracentrifugation and further purified by size exclusion chromatography on a Superdex 200 column (GE Healthcare) pre-equilibrated with buffer B supplemented with 0.5 mM EDTA. The final IBB-GFP sample with a concentration of 138 $\mu$M was aliquoted, snap frozen in liquid nitrogen, and stored at -80°C. 
+
+\subsection{cDICE buffers and solutions}
+The encapsulated inner solution contains 50mM Tris-HCl pH 7.4, 5mM MgCl\textsubscript{2}, 15$\mu$M 2MDa dextran, 2 nM DNA origami pores. The outer solution contains glucose in milliQ water and is osmotically matched to the inner solution. The oil phase is a mixture of silicone and mineral oil (4:1 ratio) and contains lipids dissolved at 0.2mg/mL. The lipid-in-oil suspension was prepared as in Van de Cauter \emph{et al.}\cite{VandeCauter2021} and used immediately.
+
+\subsection{Preparation of lipid-in-oil suspension }
+DOPC and DOPE-Rhodamine lipids solubilized in chloroform were mixed at 99.9:0.1 ratio and blow-dried with pure nitrogen. Inside a glove-box filled with pure nitrogen, lipids were subsequently resolubilized with anhydrous chloroform. The freshly prepared mixture of silicon and mineral oil was added to the lipids dropwise while vortexing at 1400 rpm. The lipid-in-oil solution was finally vortexed at 2800 rpm for two minutes, further sonicated in an ice bath for 15 minutes.
+
+\subsection{cDICE equipment and GUV production}
+The rotating component of the cDICE device is built from a Magnetic stirrer L-71 (LAbinco). A Teflon adaptor connects the rotating shaft with the cDICE chamber, assembled from a standard 3.5 cm cell culture dish (corning) modified to decrease the height. The chamber has an inner height of 8 mm and a circular opening of 10 mm on the top to allow insertion of the capillary and collection of the GUVs. The detailed protocol for GUV production is reported in Van de Cauter \emph{et al.}\cite{VandeCauter2021}, while here we describe it briefly. First, the cDICE chamber is set to rotate at 300 rpm. 350 $\mu$L of outer aqueous solution is injected into the rotating the chamber, followed by 1 mL of lipid-in-oil solution, resulting in the two phases being stacked as depicted in Fig.\ref{fig:fig5.3.1}. The tip of a 100 $\mu$m PEEK capillary tube (211633-3, BGB) is then inserted into the oil phase of the rotating chamber, allowing for a continuous supply of inner aqueous solution into the oil phase by a pressure pump (MFCS-EZ, Fluigent) set at 900 mbar. After 15 min, the rotating speed is set to zero, and GUVs are collected from the outer aqueous solution and moved to a pre-passivated imaging well to carry out the fluorescence experiments.
+
+\subsection{Data collection and analysis}
+Fluorescence images were acquired using spinning disk confocal laser microscopy (Olympus IXB1/BX61 microscope, 60$\times$ objective, iXon camera) with Andor iQ3 software. To induce GFP photobleaching, we employed raster scanning 491 nm laser (at 9.8 mW) over the region of interest. To measure the recovery signal, frames were collected every 15 seconds, starting right after the photobleaching event. Fluorescence images were analyzed and processed using ImageJ (v2.1.0). The extracted fluorescence data were plotted and fitted using MATLAB. 
+
+\subsection{Diffusion model}
+Fluorescence recovery data were fitted with a diffusion model, described by Equation \ref{eqn:eq.5.4}, derived from the Fick’s law of diffusion. While $\frac{c_{in,start}}{c_{out}}$  and $N_p$ were free parameters of the fit, all the other parameters were known or could be calculated. More particularly, the area of the pore $A_p=745.6$ nm\textsuperscript{2} was calculated from assuming an octagonal pore with an effective radius of 15 nm (as discussed in the text). The effective diffusion constant $D_{eff}=47$ $\mu$m\textsuperscript{2}/s of GFP was calculated using the formula provided by Dechadilok and Deen\cite{Dechadilok2006}
+
+\begin{equation}\label{eqn:eq.5.5}
+	\begin{aligned}
+			\frac{D_{eff}}{D_{bulk}}=&1+\frac{9}{8}\left(\frac{R_g}{R_p}\right)ln\left(\frac{R_g}{R_p}\right)-1.56034\left(\frac{R_g}{R_p}\right)+0.528155\left(\frac{R_g}{R_p}\right)^2+1.91521\left(\frac{R_g}{R_p}\right)^3\\
+			&-2.81903\left(\frac{R_g}{R_p}\right)^4+0.270788\left(\frac{R_g}{R_p}\right)^5+1.10115\left(\frac{R_g}{R_p}\right)^6-0.435933\left(\frac{R_g}{R_p}\right)^7,
+	\end{aligned}
+\end{equation}
+
+\noindent where $R_g$ is the molecule radius of gyration (for GFP, $R_g=1.77$ nm), $R_p$ is the pore radius (here 15 nm), and $D_{bulk}$ is the diffusion constant of the molecule in free solution (for GFP, $D_{bulk}$=87 $\mu$m\textsuperscript{2}/s, Ref.\cite{Potma2001}). The channel length $L=16$ nm was assumed to equal the effective height of the origami, which was measured by TEM imaging (Fig.\ref{fig:fig5.19}b). Finally, $V$ was the volume of the vesicle which was estimated from the fluorescence images. 
+ 
+ \newpage
+\section{Supporting information}
+\renewcommand{\thefigure}{S\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{S\thechapter.\arabic{table}}
+\renewcommand{\theequation}{S\thechapter.\arabic{equation}}
+\subsection{Oligonucleotide sequences of the DNA origami nanopore structure}
+
+\begin{longtable}{|p{0.2\linewidth}|p{0.7\linewidth}|}
+	\hline 
+		core\_1 & \seqsplit{ACGGATTTTTTGATTTGTATCATGACAATGTATGATA} \\
+		\hline 
+		core\_2 & \seqsplit{GTTACTTTTTTTTAGCCGGAACGTCGGTTTAACTAAA} \\
+		\hline 
+			core\_3 & \seqsplit{ACTTTTTTTTTGAAAGAGGACAGTAATAATGAGTAGA} \\
+			\hline 
+			core\_4 & \seqsplit{TTCATTTTTTTCAAGAGTAATCTAAACAACTTTTCAT} \\
+			\hline 
+			core\_5 & \seqsplit{ACGGATTTTTTAATTATTCATTAGATCTAAATCCAAT} \\
+			\hline 
+			core\_6 & \seqsplit{CGACTTGTAAAGTATCGCTATATTTTGTAGTGTTG} \\
+			\hline 
+			core\_7 & \seqsplit{CGGGAGGTTTTTTTTTTGAAGCCTTTTTTCGAGGGGATGATAAGCATATTAAA} \\
+			\hline 
+			core\_8 & \seqsplit{CACCCAGACAACGCAACGCCAATCAGAAGCGAAAA} \\
+			\hline 
+			core\_9 & \seqsplit{CTACAATTTTTTTTTTATCCTGAATGCTTAATCGTTGTAAGCATGTCTACGTG} \\
+			\hline 
+			core\_10 & \seqsplit{TCCAGAGTACCAGTCTCAGGAAAGAGAATGGGGTC} \\
+					\hline 
+		   core\_11 & \seqsplit{CCTAATTTGCTTTTTTCAGTTACAAGTATCATCTTCTAATCAGGTCGAACCCT} \\
+						\hline 
+			core\_12& \seqsplit{CTTCAAAGGAATCAACGCTGAGTAGCTATGACGGG} \\
+						\hline 
+			core\_13 & \seqsplit{TATCGCGTTTTTTTTTTAATTCGAGAAGGCGTTTATCAACGTTCTAAGGAAGG} \\
+						\hline 
+			core\_14 & \seqsplit{CGAACCAGACCGGAAGGTTGGGAATCGAAATCCGCGACCTCTTAAAAATGCTG} \\
+						\hline 
+			core\_15 & \seqsplit{CAAACTCAATTGCTTTTTAACTATATTTTAGGGCG} \\
+						\hline 
+			core\_16 & \seqsplit{CAACAGGTCATTTTTTGGATTAGAGCATTTTTTATATAAAAGACAACGCGTAA} \\
+						\hline 
+			core\_17 & \seqsplit{TAATTGCTCCAAGAACTGAATTACTCATAAGGGAACCGAAAAAAGGCATATAA} \\
+						\hline 
+			core\_18 & \seqsplit{GGGTATTTCTTTCCTCGTAACTCACGTTCGCCGCT} \\
+						\hline 
+			core\_19 & \seqsplit{AAACCAAGTATTTTTTCCGCACTCAGTAGAAAAGGGGACACAAACGTGACGAG} \\
+						\hline 
+			core\_20 & \seqsplit{AAGCAAGCCGTTTTTAACGAGTAGCCAGGCGCATAGGCTAATAGAATCGCAAA} \\
+						\hline 
+			core\_21 & \seqsplit{TTTTCATAAAATAAATCGCACCGAGTAAAGAATCA} \\
+						\hline 
+			core\_22 & \seqsplit{CGTAGGAATCTTTTTTATTACCGCGAACAATAACCGCTTGTAGCCAATTAAAG} \\
+						\hline 
+			core\_23 & \seqsplit{CAAGCAAATCAGATATCAAAGCTGTTCATTACCCAAATCAGTAAATCATCAAT} \\
+						\hline 
+			core\_24 & \seqsplit{AGAAGGCGTTCAGCGCCATTCCCATCAACAGAATC} \\
+						\hline 
+			core\_25 & \seqsplit{TTATCCGGTATTTTTTTTCTAAGAATCCAGACCTGTTGGAAATCAGGAGGCCA} \\
+						\hline 
+							core\_26	& \seqsplit{GTTTTAGCGAACCTCCAAAGACAAGTCACCGA}
+\\
+								\hline 
+							core\_27	& \seqsplit{CTCAGAGCGTACAAAC}
+\\
+								\hline 
+							core\_28	& \seqsplit{GAGAAGCCCGGCTACA}
+\\
+								\hline 
+							core\_29	& \seqsplit{ATGCCTGAGGCCGCTT}\\
+								\hline 
+							core\_30	& \seqsplit{ACCATCAAACAACAAC}\\
+								\hline 
+							 core\_31	& \seqsplit{AAATATGCATCAGCTT}\\
+								\hline 
+								core\_32	& \seqsplit{CTGCGAACTTTTTCAC}\\
+								\hline 
+								core\_33	& \seqsplit{TAGCTATATTTCAACA}\\
+								\hline 
+								core\_34	& \seqsplit{GCATTAACAGTTTTGT}\\
+								\hline 
+								core\_35	& \seqsplit{GCGCAAAGTAATTACTAGAAAAAGAGCGATTAAGAAAGAT}\\
+								\hline 
+								core\_36	& \seqsplit{TAAGTGTCGCCATATTATTTAAGATTACAGGT}\\
+								\hline 
+
+								core\_37	& \seqsplit{ATGCGGCCTTCGTCGTTTTTAGTCCACAATATTTA}\\
+								\hline 
+								core\_38	& \seqsplit{ATGCGGCCTTCGTCGTTTTTTGGCCCACAATCATA}\\
+								\hline 
+								core\_39	& \seqsplit{ATGCGGCCTTCGTCGTTTTTTAAATCGATTGCCTG}\\
+								\hline 
+								core\_40	& \seqsplit{ATGCGGCCTTCGTCGTTTTTGCGAGAAGCTGATAA}\\
+								\hline 
+								core\_41	& \seqsplit{ATGCGGCCTTCGTCGTTTTTCACGCTGAGAACGCG}\\
+								\hline 
+								core\_42	& \seqsplit{ATGCGGCCTTCGTCGTTTTTGTTGCTTGCGGATTG}\\
+								\hline 
+								core\_43	& \seqsplit{ATGCGGCCTTCGTCGTTTTTGAGGCCGGCTTTCAT}\\
+								\hline 
+								core\_44	& \seqsplit{ATGCGGCCTTCGTCGTTTTTAATCAGTCTCATTTT}\\
+								\hline 
+								asym\_1	& \seqsplit{AATTATTTTTTGAGCCAGCAATTTTCACCGGAGTTTTCAT}\\
+										\hline 
+									asym\_2	& \seqsplit{AATACTTTTTTGTAATCCACCTTTACCCTCAGGGGTCAGT}\\
+										\hline 
+									asym\_3	& \seqsplit{ACTAATTTTTTAACACGAGGTTTTTGACAGGATCCAGTAA}\\
+										\hline 
+									asym\_4	& \seqsplit{TACCAAGCTAGCCCGGGCCTTGATGAATGGAA}\\
+										\hline 
+									asym\_5	& \seqsplit{ATTAGTTGCTATTTTGTAAGTTTAGGAAGTTTCAAGCCCACTCCCTCAAAACAGTT}\\
+										\hline 
+									asym\_6	& \seqsplit{CGCTAACGAGCGTCTTTAATGCAGAAACGAAAACCGCCACCCAGAACCTACAGGAG}\\
+										\hline 
+									asym\_7	& \seqsplit{ACCAATGCTTGAGCTTCCACATTAGCAA}\\
+										\hline 
+									asym\_8	& \seqsplit{AGCACCATTACCATTAGCAAAAGTCACCAATAAAGC}\\
+										\hline 
+									asym\_9	& \seqsplit{GGGATAGCCATTAAAAGACTTATGACCC}\\
+										\hline 
+									asym\_10& \seqsplit{CTCAGAGGCCACTAGTAGCAATTTATTT}\\
+										\hline 
+									asym\_11	& \seqsplit{CCTCAGAGAGGCAACTCAGCAAACCCTC}\\
+										\hline 
+									asym\_12& \seqsplit{TATCACCGTACTCAGTCATCTTAGTTAAAGTAATGT}\\
+										\hline 
+									asym\_13	& \seqsplit{ATGCGGCCTTCGTCGTTTTTTGATATAAGTAGCGAAACCCGATATGAAAGGC}\\
+										\hline 
+									asym\_14& \seqsplit{ATGCGGCCTTCGTCGTTTTTAAACCATAGCCCCCTTATT}\\
+										\hline 
+									asym\_15	& \seqsplit{TTGTAATCAGTAGCGTAGCGCACCAGAG}\\
+										\hline 
+									asym\_16 & \seqsplit{AATGCCCCCTGCCTACCCGTATGAGCCGC}\\
+										\hline 
+									asym\_17& \seqsplit{TTTATTCTGAAACATTTAACGAGCCACC}\\
+										\hline 
+									asym\_18	& \seqsplit{CTGAGACTCCTCAAGTTGATGAACCACCA}\\
+									\hline 
+									asym\_19	& \seqsplit{TTTTAGCGGGGTTTTTACCGTGGTTGAG}\\
+									\hline 
+									asym\_20	& \seqsplit{ATGCGGCCTTCGTCGTTTTTATCCTCATTAAAGCCAATTCACAAACAAATAA}\\
+									\hline 
+									asym\_21	& \seqsplit{ATGCGGCCTTCGTCGTTTTTAGCGTTTGCCATCTTTTCATCTGTAGCACATTTGGGAGAGAATA}\\
+
+									\hline 
+									handle\_1 & \seqsplit{CGACGAAGGCCGCATCATTTTTTTAAGCAACTCTTCCACTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_2 & \seqsplit{CGACGAAGGCCGCATATTTTTTTAACCTTATGATATACATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_3 & \seqsplit{CGACGAAGGCCGCATATTTTTTTGCTTCTGTAAGCGAATTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_4 & \seqsplit{CGACGAAGGCCGCATGATTTTTTGAGTAAACAGATAAAGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_5 & \seqsplit{TTTTGTCACAATCAATCTGGCATGGAGAATTATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+
+									handle\_6 & \seqsplit{TCATCAGTCATAGTAAAAGAAACGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_7	& \seqsplit{CTTATGCGATTTTAAGCCAGAGGGAATCAGGTTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_8 & \seqsplit{CTCATTCAGTGAATAACCCTTTTTATAATAAGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_9 & \seqsplit{AAAGAAAGAAAATTCTTTTTATATGGTTTACATACCCTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_10 & \seqsplit{CAAACGAAAAGAAACTTTTTTGCAAAGACACATGTTAGTTAACATAATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_11 & \seqsplit{ACGAGGTGAGATTTATTTTTTGGAATACCACAGGAATTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_12 & \seqsplit{GACGACTAAAACGAATTTTTTCTAACGGAACTTTACCATTTTAAGAGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_13& \seqsplit{GTTTTGAACTGGCTCTTTTTTATTATACCAGAAAAGATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_14& \seqsplit{GTCCAATGGTTTAATTTTTTTTTCAACTTTAGGATAGCTTTTCAGAATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_15& \seqsplit{CCGAAGGGCTTGCCCTTTTTTTGACGAGAAATATCTTTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_16& \seqsplit{TACCAGCGATTGAGGTTTTTTGAGGGAAGGTACAAAGTTTAGATAACTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_17	& \seqsplit{AAATCAAGTGCGGCCCACGAGCCGGCCAACGCTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_18	& \seqsplit{CTTACCAAGCTTCTAATGAGCTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_19& \seqsplit{AATAAACACTTAGTGCTACCTTTTAATTGCGTTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_20& \seqsplit{CTTCAAAGCCTTAGAATTTGATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_21	& \seqsplit{AGTACCTTTGTGAGTGTTCAATTACAGAAGATTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_22	& \seqsplit{TCGAGAACATTTCATTAAACATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_23& \seqsplit{CCCAATAGCTCCTGGTATCCCCGGGACAATATTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_24	& \seqsplit{CGCGAGGCCCTTGAATTTTCCTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_25	& \seqsplit{AACGCTCACCAACCTAAAAGGTGGCAACATATTAGAATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_26	& \seqsplit{CGACCGTGAAATTGTGGAAAAATCTACGTTAAGATAATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_27	& \seqsplit{CCTAATTTTGTACAGATAAATTGGGCTTGAGATACTGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_28	& \seqsplit{AGGTAAAGTTATCACCAAGGGCGACATTCAACAAGGATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_29	& \seqsplit{TCTATTTACTTTTTTGCTCGCCCTGGGTGCCTTTACCTGTCTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_30	& \seqsplit{TCCTTGAAATTTTTTACATAGCGATTTCGCCTTTAATTATTTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_31	& \seqsplit{TGAATTACCTTTTTTTTTTTTAATGACAAACATTCGCCATTTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_32	& \seqsplit{CGGCTGACGTTTTTTCATTTCACATATGGTCATTCCAGTGATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_33	& \seqsplit{CCCCTTTATTAGAGGCGGTTTGCGTATTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_34	& \seqsplit{CCCCTTTAAGTGTAAGAAGCGCATTAGACGGATTAAGACTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_35	& \seqsplit{CCCCTTTGTTTCAGGTTTAACGTCTGCTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_36	& \seqsplit{CCCCTTTAGAAACAAGAATCCCAATCCAAATGAGCAACATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_37	& \seqsplit{CCCCTTTTTTGAGGTGAGGCGGTCAGTTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_38	& \seqsplit{CCCCTTTAAAGAAGAATGACCATAAATCAAAGGTAATAGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+
+									\hline 
+									handle\_39	& \seqsplit{CCCCTTTATTATGGCTATTAGTCTTTATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_40	& \seqsplit{CCCCTTTCTCGAATTAATTGAGTTAAGCCCAAAGAAAAGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_41	& \seqsplit{CCCCTTTGTGCCAGCTGCATTAATGAATCGGAAGCATATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_42	& \seqsplit{CCCCTTTGCTCACTGCCCGCCTCACATTAATTGCGTAATTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_43	& \seqsplit{CCCCTTTTGCACGTAAAACAGAAATAAAGAACATCGGGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_44	& \seqsplit{CCCCTTTATTAACACCGCCTCCAAGTTACAAAATCGTCATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_45	& \seqsplit{CCCCTTTAAAAATACCGAACGAACCACCAGCCTGAGCATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_46	& \seqsplit{CCCCTTTATGCGCGAACTGATTAATTACGTGCTTGTCATTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_47	& \seqsplit{CCCCTTTGACGGGCAACAATACGTGGCACAGTACCGAGTTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_48& \seqsplit{CCCCTTTTGGGCGCCAGGGTGTGAAATTGTTATCCGTCATTTGGGGAACAGGATTAGCAGAGCGAGG}\\
+									\hline 
+									handle\_49& \seqsplit{CCCCTTTATTCACCCTGAACAAAGCTCACAAGTCGGTGGCTGGTTCGAGATA}\\
+									\hline 
+									handle\_50& \seqsplit{CCCCTTTTCCTTATTACGCAGTCACGGAA}\\
+									\hline 
+									handle\_51& \seqsplit{CCCCTTTAATTTTACAGAGAGAATTTAATGAG}\\
+									\hline 
+									handle\_52& \seqsplit{CCCCTTTTTTTGTTTAACGTCAAAAGATGAACAATGTCAGATGATCAATTCG}\\
+									\hline 
+									handle\_53& \seqsplit{CCCCTTTCTATCATAACCCTCGAACATTA}\\
+									\hline 
+									handle\_54& \seqsplit{CCCCTTTAAATTGCATCAAAAAGATTGATTGC}\\
+									\hline 
+									handle\_55& \seqsplit{CCCCTTTATTCCTGACTATTATAGCGCAGAGATCGTCGTGAAAAAAAAGGAA}\\
+									\hline 
+									handle\_56	& \seqsplit{CCCCTTTTAAAATGTTTAGACTATCATTG}\\
+									\hline 
+									handle\_57	& \seqsplit{CCCCTTTCGGAATGCTTTAAACAGTTTCAAGA}\\
+									\hline 
+									handle\_58	& \seqsplit{CCCCTTTATTAAACAATGAAATAGTACCTCGGGCTTAAACATTCTACAATAT}\\
+									\hline 
+									handle\_59	& \seqsplit{CCCCTTTTAAGCAGATAGCCGAAACGTAA}\\
+									\hline 
+									handle\_60	& \seqsplit{CCCCTTTAACCGCTAATATCAGAGTTTAGCTG}\\
+									\hline 
+									handle\_61	& \seqsplit{CCCCTTTACTGAATTCAACATTGCCATCTGTTT}\\
+									\hline 
+									handle\_62	& \seqsplit{CCCCTTTAAACAGGAGCCTGGGAGTGACACAAAGAGAGTAAC}\\
+									\hline 
+									handle\_63	& \seqsplit{CCCCTTTGAAAATAGCAGCCACATACATATACATAACGCCAAAATTCAAC}\\
+									\hline 
+									handle\_64	& \seqsplit{CCCCTTTATTTTTTTTAACAGTGAATTGTCTTT}\\
+									\hline 
+									handle\_65	& \seqsplit{CCCCTTTGAAGCCCTAACGGAAGCTTAGAATAATGTTAGAGC}\\
+									\hline 
+									handle\_66	& \seqsplit{CCCCTTTGAAGCAAAGCGGACCAAAATAGCGAGAGGCTTTTGCTCAGGAC}\\
+									\hline 
+									handle\_67	& \seqsplit{CCCCTTTCTTTACTTATTCATAATAACCTTTTT}\\
+									\hline 
+									handle\_68	& \seqsplit{CCCCTTTAACGAGATGATGAAGAAACAGGATTATTTTGACGC}\\
+									\hline 
+									handle\_69	& \seqsplit{CCCCTTTTGAATCCCCCTCAAATCGTCATAAATATTCAATAGCCACCAGA}\\
+									\hline 
+									handle\_70	& \seqsplit{CCCCTTTAGCAAGTTCGGAGGTGGTGTAATTTT}\\
+									\hline 
+									handle\_71	& \seqsplit{CCCCTTTCCACAAGCGTAATCAAATCATTGATTGCCATCACT}\\
+									\hline 
+									handle\_72	& \seqsplit{CCCCTTTGAGGGTAATTGAGCGAGGAAACGCAATAATAACGGACAGCGCC}\\
+									\hline 
+									handle\_73	& \seqsplit{CCCCTTTTAATTTCCAGTCGGGAA}\\
+									\hline 
+									handle\_74	& \seqsplit{CCCCTTTATAGCAACAGTTATCAA}\\
+									\hline 
+									handle\_75	& \seqsplit{CCCCTTTAAATAGCCCTAAAACAT}\\
+									\hline 
+									handle\_76	& \seqsplit{CCCCTTTTGTGGTTTTTCTTTTCA}\\
+									\hline 
+									handle\_77	& \seqsplit{CCCCTTTGCGGGGGAAAATTCCCTTATAAATTT}\\
+									\hline 
+									handle\_78	& \seqsplit{CCCCTTTAGATTTTATAATCATTTAGAAGTATTT}\\
+									\hline 
+									handle\_79	& \seqsplit{CCCCTTTAAAACACTTGCTTGGTCAGTTGGCTT}\\
+									\hline 
+									handle\_80	& \seqsplit{CCCCTTTTTTTGAAGAACCATCGGCCTTGCTTT}\\
+									\hline 
+									core2\_1	& \seqsplit{ATGGTGGTTTTGCGGATCTATGATAGTTGGGTCAACATGTAATTTAGGCCATGTAC}\\
+									\hline 
+									core2\_2	& \seqsplit{GATTTTTTAGGAGCGGACGAACGTTATTATT}\\
+									\hline 
+									core2\_3	& \seqsplit{TTGGATTATACTTCTGATTCGACT}\\
+									\hline 
+									core2\_4	& \seqsplit{AGTTTTTTAACCTACCATTTAGGAGCACTTT}\\
+									\hline 
+									core2\_5	& \seqsplit{AATATCAACTGAAATGTACATAAATGGGCGCATTATCATTCCTTTTGAACGGTCAA}\\
+									\hline 
+									core2\_6	& \seqsplit{CATTTTTTGATTCACCAAAACGCTCATGGTT}\\
+									\hline 
+									core2\_7	& \seqsplit{CTGAAAGCGTAAGAGCTTCTCCGAGGCAAAGCTAATGCAGAACGCGCCACCGGATA}\\
+									\hline 
+									core2\_8	& \seqsplit{GCTTTTTTCTGGCCCTGGCAATACTTCTTTT}\\
+									\hline 
+									core2\_9	& \seqsplit{GGGTCACGGTCCATTGTAAAATTC}\\
+									\hline 
+									core2\_10	& \seqsplit{ATTATCATGTCAAAGGAAGCCCCA}\\
+									\hline 
+									core2\_11	& \seqsplit{ACAACTCGAAGTTTTTTCGATGAA}\\
+									\hline 
+									core2\_12	& \seqsplit{CGTCAATATTAGAGCTTTTTTGAG}\\
+									\hline 
+									core2\_13	& \seqsplit{TTGAGGAAGCGGGCGCTAGTTAAT}\\
+									\hline 
+									core2\_14	& \seqsplit{TCAATCGTGCTTAATGGGTGTAGA}\\
+									\hline 
+									core2\_15	& \seqsplit{TACCGCCATCCTCGTTCAACCCGT}\\
+									\hline 
+									core2\_16	& \seqsplit{TGCCTGAGCGGTACGCAAATAATT}\\
+									\hline 
+									core2\_17	& \seqsplit{CGGCATTTTCGGTCATCGATAGCAGAAACGTC}\\
+									\hline 
+									core2\_18	& \seqsplit{CCTTTAGCGTCAGACTGACAGAAT}\\
+									\hline 
+									core2\_19	& \seqsplit{GCCTTGAGTAACAGTGTTTCGGAACATTTTCA}\\
+									\hline 
+									core2\_20& \seqsplit{TGTACTGGTAATAAGTTGAAAGTACCGCCACC}\\
+									\hline 
+									core2\_21	& \seqsplit{GCGTCATACATGGCTTAGAAGGATACCGCCAC}\\
+									\hline 
+									core2\_22& \seqsplit{AGCGCAGTCTCTGAATTGCTCAGT}\\
+									\hline 
+									core2\_23& \seqsplit{CCACCACCTGAGTTTCTCACCAGTCAGAGGCA}\\
+									\hline 
+									core2\_24& \seqsplit{CACCCTCAGAGGACTAACGGGTAACATATTTA}\\
+									\hline 
+									core2\_25& \seqsplit{ACCCTCAGGAACGAGGCGAAGGCAACAGTAGG}\\
+									\hline 
+									core2\_26	& \seqsplit{GAGCCGCCTCGTCACCAAGAATACCAAATTCT}\\
+									\hline 
+									core2\_27	& \seqsplit{GCAGGTCATTGCAGGGTGACCCCCCCTGTTTA}\\
+									\hline 
+									core2\_28	& \seqsplit{CATATTCCTGATTATCCCGCCAAACAAGCTTTATAAAGCC}\\
+									\hline 
+									core2\_29	& \seqsplit{GAGAGCCAGCAGCAAACTATTAATGACTACCTGAAAATAC}\\
+									\hline 
+									core2\_30	& \seqsplit{ACCAGTAATAAAAGGGGCTACGTGTCAGGAAGTATCCCAT}\\
+									\hline 
+									core2\_31	& \seqsplit{GCAGCAAGCGGTCCACGGCACGAAGGGCCTCTCCGACAAA}\\
+									\hline 
+									chol\_anchor\_1	& \seqsplit{TTTTTTTTTTAATTAAGCACGTTAATTACGCCAGGAATAGCCTGCCCCAG}\\
+									\hline 
+									chol\_anchor\_2	& \seqsplit{TTTTTTTTTTTAAATCGGAAGATTGTTGCTGCAACGGCAAAACCTGTTTG}\\
+									\hline 
+									chol\_anchor\_3	& \seqsplit{TTTTTTTTTTTGTAATACGGTTGATAGGGTTTTCAAAAGTTTAACCACCA}\\
+									\hline 
+									chol\_anchor\_4	& \seqsplit{TTTTTTTTTTCAACGCAAGTAAAACTAAACGACGCCTTTGCCATTATCAT}\\
+									\hline 
+									chol\_anchor\_5	& \seqsplit{TTTTTTTTTTATATATTTGAGCAAACGAAGCCAGTTTACAAAGGCAATTC}\\
+									\hline 
+									chol\_anchor\_6	& \seqsplit{TTTTTTTTTTGTAGGTAAAAAGGCTAGTGGTTGTATTTGAGGCTGATTGT}\\
+									\hline 
+									chol\_anchor\_7	& \seqsplit{TTTTTTTTTTCGGAGACACGGAGAGGGAAGAGTCCTAATAGAGAAGGGTT}\\
+									\hline 
+									chol\_anchor\_8	& \seqsplit{TTTTTTTTTTTTCCTAAATTTAATGGTTTGATATCAGCTTGA}\\
+									\hline 
+									chol\_anchor\_9	& \seqsplit{TTTTTTTTTTTAGCTCAATTTTCAAACTCCGGCTAACAGTTGTCTAAAGC}\\
+									\hline 
+									chol\_anchor\_10& \seqsplit{TTTTTTTTTTGTACGGTGCCAATCGCCTATATGTTCAATATCGAACCTCA}\\
+									\hline 
+									chol\_anchor\_11	& \seqsplit{TTTTTTTTTTCAGTTGATGGGATAGGCGTGCATCCCTACATTTACATTGG}\\
+									\hline 
+									chol\_anchor\_12& \seqsplit{TTTTTTTTTTTTTAGTTTCCGTGGGAGACGACAGAACAGGAAGTCACACG}\\
+									\hline 
+									chol\_anchor\_13& \seqsplit{TTTTTTTTTTTGGTCAATAATGTGAGTCCAGCCATATCCAGAGGCCAACA}\\
+									\hline 
+									chol\_anchor\_14& \seqsplit{TTTTTTTTTTTTGGGGCGGCCTTCCTCTGGTGCCCTCAAACTCTTCTGAC}\\
+									\hline 
+									chol\_anchor\_15& \seqsplit{TTTTTTTTTTTCTACTAATAGGAACGGCCATTCAAGTAATAACCTTCACC}\\
+									\hline 
+									chol\_anchor\_16& \seqsplit{TTTTTTTTTTAAATCATATTTTTTTTTTGTTGAAGGGCGCCGTTGTAAGAGAGTT}\\
+									\hline 
+									chol\_anchor\_17& \seqsplit{TTTTTTTTTTAATTGTAAAATAAAGCTTTTAATA}\\
+									\hline 
+									chol\_anchor\_18& \seqsplit{TTTTTTTTTTAAAACAGGTTGTACCAAAAACATTTTTTTTTTCATGA}\\
+									\hline 
+									chol\_anchor\_19& \seqsplit{TTTTTTTTTTTGTACCCCTTTTGCGGTTTATCGC}\\
+									\hline 
+									chol\_anchor\_20& \seqsplit{TTTTTTTTTTCGGTAATCGGATAAAAATTTTTTTTTTAGGCGAAAGA}\\
+									\hline 
+									chol\_anchor\_21	& \seqsplit{TTTTTTTTTTAGAGTCTGTAAATGCATTTTTTTTTTATA}\\
+									\hline 
+									chol\_anchor\_22& \seqsplit{TTTTTTTTTTAGATCTACAGATTCAAAAGGGTGAATTCGGTC}\\
+									\hline 
+									chol\_anchor\_23& \seqsplit{TTTTTTTTTTATTAATGCGTCAAATCTTTAAGAA}\\
+									\hline 
+									chol\_anchor\_24& \seqsplit{TTTTTTTTTTTTCATCTTCTGACAACAATCATAGAAAATATCGCCACGCT}\\
+									\hline 
+									chol\_anchor\_25& \seqsplit{TTTTTTTTTTAGAAAACTCATGTTTTTTTTTTTTTGGCT}\\
+									\hline 
+									chol\_anchor\_26& \seqsplit{TTTTTTTTTTATGCAAATTCTGGAAGTTTCATTCCTCCAAAA}\\
+									\hline 
+									chol\_anchor\_27& \seqsplit{TTTTTTTTTTACCGTAATTCCCAATTTTTTTTTTCAATA}\\
+									\hline 
+									chol\_anchor\_28& \seqsplit{TTTTTTTTTTCGGATTCTGACCATTAGATACATTAGGAACAA}\\
+									\hline 
+									chol\_anchor\_29& \seqsplit{TTTTTTTTTTCAACATTAAACCTGTTTTTTTTTTGTCCT}\\
+									\hline 
+									chol\_anchor\_30& \seqsplit{TTTTTTTTTTCGCGTCTGCGAGCTGAAAAGGTGGGAATTTTC}\\
+									\hline 
+									chol\_anchor\_31	& \seqsplit{TTTTTTTTTTTTAACCAATAGTAGTATTTCAATA}\\
+									\hline 
+									chol\_anchor\_32& \seqsplit{TTTTTTTTTTGCATTAAACAGGCAAGGCAAAGAAGACAGCCC}\\
+									\hline 
+									core3\_1	& \seqsplit{TACAACGCAATCAAAATTTGGCCGGCACCTT}\\
+									\hline 
+									core3\_2	& \seqsplit{CGTAACACGGAACCGCATAGGAACCAAGTTTG}\\
+									\hline 
+									core3\_3	& \seqsplit{GAGGCTTTGAACCGCCTTTACCCTCCTATTT}\\
+									\hline 
+									core3\_4	& \seqsplit{CAGCATCGAGCCGCCACCTCAGAATTAAGAGG}\\
+									\hline 
+									core3\_5	& \seqsplit{TTGCGGGAGCCAGCATTTTTTAGTTAGGATT}\\
+									\hline 
+									core3\_6	& \seqsplit{GCTGAGGCGACGATTGAATAGGTGACCAGGCGGATAAGTGCCGTCGAGAGG}\\
+									\hline 
+									core3\_7	& \seqsplit{CATCGCCCACGCATAAAAAGTACATAAACACC}\\
+									\hline 
+									core3\_8	& \seqsplit{TACCGATAGTTGCGCCCGCCTGATTGATAAAT}\\
+									\hline 
+									core3\_9	& \seqsplit{GCTTTCGAGGTGAATTTGCTCCATTAGAGCTT}\\
+									\hline 
+									core3\_10	& \seqsplit{GGAGCCTTTAATTGTAAGGCGCAGTAAGAGGT}\\
+									\hline 
+									core3\_11	& \seqsplit{GTTGAAAATCTCCAAAACTGACCAATCGGCTG}\\
+									\hline 
+									core3\_12	& \seqsplit{CTAAAGGAATTGCGAAATGAACGGACGAGCAT}\\
+									\hline 
+									core3\_13	& \seqsplit{GTTTCAGCGGAGTGAGGGCTGACCGAACAAGA}\\
+									\hline 
+									core3\_14	& \seqsplit{TGTATGGGATTTTGCTTGACAAGATGTTTATC}\\
+									\hline 
+									core3\_15	& \seqsplit{CGTCTTTCCAGACGTTAAATATTGAACAACAT}\\
+									\hline 
+									core3\_16	& \seqsplit{TCATAGTTAGCGTAACAAGGTGAATAATTCTG}\\
+									\hline 
+									core3\_17	& \seqsplit{TTCCAGTTTGGAACAATTTCAAAACTGGCTTTTTTGAAAGGCCAGTTT}\\
+									\hline 
+									core3\_18	& \seqsplit{GAACGTGGACTCCAACTCCGAAATGGCGATTAACCGACAG}\\
+									\hline 
+									core3\_19	& \seqsplit{ACCGTCTATCAGGGCGTTTATTTTCCAGTTTTTTTCACGATGAGATTT}\\
+								    \hline 
+									core3\_20	& \seqsplit{AACCATCACCCAAATCTATTAAATGCCAGTGCATAACCCC}\\
+									\hline 
+									core3\_21	& \seqsplit{GAGGTGCCGTAAAGCATTTTAGACGGTGGTTTTTTATGTTATGCGTTT}\\
+									\hline 
+									core3\_22	& \seqsplit{AAAGGGAGCCCCCGATGATAATACGAATTCAT}\\
+									\hline 
+									core3\_23	& \seqsplit{GAAAGCCGGCGAACGTTTTAACAAAATAGTTTTTTTGAATTAAATTTT}\\
+									\hline 
+									core3\_24	& \seqsplit{GAAGAAAGCGAAAGGAGGTTATCTGTCTGAGATAATTTTC}\\
+									\hline 
+									core3\_25	& \seqsplit{CTGGCAAGTGTAGCGGTTTAAATCTAGGTTTTTTTTGGGTGCGGATTT}\\
+									\hline 
+									core3\_26	& \seqsplit{CCACCACACCCGCCGCACCCTCAAAAATGCTGTCAATATA}\\
+									\hline 
+									core3\_27	& \seqsplit{ACAGGGCGCGTACTATTTTAAATATGCCATTTTTTGTTTGCCAATTTT}\\
+									\hline 
+									core3\_28	& \seqsplit{CACGTATAACGTGCTTGCCATTGCTATCGGCCATTTAACA}\\
+									\hline 
+									core3\_29	& \seqsplit{GAGCGGGAGCTAAACATTTGGTAAGCTTTTTTTTTCCGGCGATAATTT}\\
+									\hline 
+									core3\_30	& \seqsplit{GGATTTTAGACAGGAATAGAAGAAGGAAACCAACTCTGAC}\\
+									\hline 
+									core3\_31	& \seqsplit{CTGAGAAGTGTTTTTATTTTGATTGGCTGTTTTTTCGCAAGACGATTT}\\
+									\hline 
+									core3\_32	& \seqsplit{CCGAGTAAAAGAGTCTCAAATTAAATCGGTGCTATAGGGG}\\
+									\hline 
+									cholesterol-oligo	& \seqsplit{AAAAAAAAAA-TEG-Chol}\\
+									\hline 
+									ATTO-dye-oligo	& \seqsplit{CGACGAAGGCCGCA /3ATTO647NN/}\\
+									\hline 
+	\caption{\label{tab:table5.1} Oligonucleotide sequences employed for the DNA origami nanopore structure.}
+\end{longtable}
+
+\subsection{Sequence of the 7560 base long scaffold}
+\seqsplit{TGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACCCTATCTCGGGCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCCGTCTCACTGGTGAAAAGAAAAACCACCCTGGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGAATTCGAGCTCGGTACCCGGGGATCCTCCGTCTTTATCGAGGTAACAAGCACCACGTAGCTTAAGCCCTGTTTACTCATTACACCAACCAGGAGGTCAGAGTTCGGAGAAATGATTTATGTGAAATGCGTCAGCCGATTCAAGGCCCCTATATTCGTGCCCACCGACGAGTTGCTTACAGATGGCAGGGCCGCACTGTCGGTATCATAGAGTCACTCCAGGGCGAGCGTAAATAGATTAGAAGCGGGGTTATTTTGGCGGGACATTGTCATAAGGTTGACAATTCAGCACTAAGGACACTTAAGTCGTGCGCATGAATTCACAACCACTTAGAAGAACATCCACCCTGGCTTCTCCTGAGAAAGCTTGGCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCTTTGCCTGGTTTCCGGCACCAGAAGCGGTGCCGGAAAGCTGGCTGGAGTGCGATCTTCCTGAGGCCGATACTGTCGTCGTCCCCTCAAACTGGCAGATGCACGGTTACGATGCGCCCATCTACACCAACGTGACCTATCCCATTACGGTCAATCCGCCGTTTGTTCCCACGGAGAATCCGACGGGTTGTTACTCGCTCACATTTAATGTTGATGAAAGCTGGCTACAGGAAGGCCAGACGCGAATTATTTTTGATGGCGTTCCTATTGGTTAAAAAATGAGCTGATTTAACAAAAATTTAATGCGAATTTTAACAAAATATTAACGTTTACAATTTAAATATTTGCTTATACAATCTTCCTGTTTTTGGGGCTTTTCTGATTATCAACCGGGGTACATATGATTGACATGCTAGTTTTACGATTACCGTTCATCGATTCTCTTGTTTGCTCCAGACTCTCAGGCAATGACCTGATAGCCTTTGTAGATCTCTCAAAAATAGCTACCCTCTCCGGCATTAATTTATCAGCTAGAACGGTTGAATATCATATTGATGGTGATTTGACTGTCTCCGGCCTTTCTCACCCTTTTGAATCTTTACCTACACATTACTCAGGCATTGCATTTAAAATATATGAGGGTTCTAAAAATTTTTATCCTTGCGTTGAAATAAAGGCTTCTCCCGCAAAAGTATTACAGGGTCATAATGTTTTTGGTACAACCGATTTAGCTTTATGCTCTGAGGCTTTATTGCTTAATTTTGCTAATTCTTTGCCTTGCCTGTATGATTTATTGGATGTTAATGCTACTACTATTAGTAGAATTGATGCCACCTTTTCAGCTCGCGCCCCAAATGAAAATATAGCTAAACAGGTTATTGACCATTTGCGAAATGTATCTAATGGTCAAACTAAATCTACTCGTTCGCAGAATTGGGAATCAACTGTTATATGGAATGAAACTTCCAGACACCGTACTTTAGTTGCATATTTAAAACATGTTGAGCTACAGCATTATATTCAGCAATTAAGCTCTAAGCCATCCGCAAAAATGACCTCTTATCAAAAGGAGCAATTAAAGGTACTCTCTAATCCTGACCTGTTGGAGTTTGCTTCCGGTCTGGTTCGCTTTGAAGCTCGAATTAAAACGCGATATTTGAAGTCTTTCGGGCTTCCTCTTAATCTTTTTGATGCAATCCGCTTTGCTTCTGACTATAATAGTCAGGGTAAAGACCTGATTTTTGATTTATGGTCATTCTCGTTTTCTGAACTGTTTAAAGCATTTGAGGGGGATTCAATGAATATTTATGACGATTCCGCAGTATTGGACGCTATCCAGTCTAAACATTTTACTATTACCCCCTCTGGCAAAACTTCTTTTGCAAAAGCCTCTCGCTATTTTGGTTTTTATCGTCGTCTGGTAAACGAGGGTTATGATAGTGTTGCTCTTACTATGCCTCGTAATTCCTTTTGGCGTTATGTATCTGCATTAGTTGAATGTGGTATTCCTAAATCTCAACTGATGAATCTTTCTACCTGTAATAATGTTGTTCCGTTAGTTCGTTTTATTAACGTAGATTTTTCTTCCCAACGTCCTGACTGGTATAATGAGCCAGTTCTTAAAATCGCATAAGGTAATTCACAATGATTAAAGTTGAAATTAAACCATCTCAAGCCCAATTTACTACTCGTTCTGGTGTTTCTCGTCAGGGCAAGCCTTATTCACTGAATGAGCAGCTTTGTTACGTTGATTTGGGTAATGAATATCCGGTTCTTGTCAAGATTACTCTTGATGAAGGTCAGCCAGCCTATGCGCCTGGTCTGTACACCGTTCATCTGTCCTCTTTCAAAGTTGGTCAGTTCGGTTCCCTTATGATTGACCGTCTGCGCCTCGTTCCGGCTAAGTAACATGGAGCAGGTCGCGGATTTCGACACAATTTATCAGGCGATGATACAAATCTCCGTTGTACTTTGTTTCGCGCTTGGTATAATCGCTGGGGGTCAAAGATGAGTGTTTTAGTGTATTCTTTTGCCTCTTTCGTTTTAGGTTGGTGCCTTCGTAGTGGCATTACGTATTTTACCCGTTTAATGGAAACTTCCTCATGAAAAAGTCTTTAGTCCTCAAAGCCTCTGTAGCCGTTGCTACCCTCGTTCCGATGCTGTCTTTCGCTGCTGAGGGTGACGATCCCGCAAAAGCGGCCTTTAACTCCCTGCAAGCCTCAGCGACCGAATATATCGGTTATGCGTGGGCGATGGTTGTTGTCATTGTCGGCGCAACTATCGGTATCAAGCTGTTTAAGAAATTCACCTCGAAAGCAAGCTGATAAACCGATACAATTAAAGGCTCCTTTTGGAGCCTTTTTTTTGGAGATTTTCAACGTGAAAAAATTATTATTCGCAATTCCTTTAGTTGTTCCTTTCTATTCTCACTCCGCTGAAACTGTTGAAAGTTGTTTAGCAAAATCCCATACAGAAAATTCATTTACTAACGTCTGGAAAGACGACAAAACTTTAGATCGTTACGCTAACTATGAGGGCTGTCTGTGGAATGCTACAGGCGTTGTAGTTTGTACTGGTGACGAAACTCAGTGTTACGGTACATGGGTTCCTATTGGGCTTGCTATCCCTGAAAATGAGGGTGGTGGCTCTGAGGGTGGCGGTTCTGAGGGTGGCGGTTCTGAGGGTGGCGGTACTAAACCTCCTGAGTACGGTGATACACCTATTCCGGGCTATACTTATATCAACCCTCTCGACGGCACTTATCCGCCTGGTACTGAGCAAAACCCCGCTAATCCTAATCCTTCTCTTGAGGAGTCTCAGCCTCTTAATACTTTCATGTTTCAGAATAATAGGTTCCGAAATAGGCAGGGGGCATTAACTGTTTATACGGGCACTGTTACTCAAGGCACTGACCCCGTTAAAACTTATTACCAGTACACTCCTGTATCATCAAAAGCCATGTATGACGCTTACTGGAACGGTAAATTCAGAGACTGCGCTTTCCATTCTGGCTTTAATGAGGATTTATTTGTTTGTGAATATCAAGGCCAATCGTCTGACCTGCCTCAACCTCCTGTCAATGCTGGCGGCGGCTCTGGTGGTGGTTCTGGTGGCGGCTCTGAGGGTGGTGGCTCTGAGGGTGGCGGTTCTGAGGGTGGCGGCTCTGAGGGAGGCGGTTCCGGTGGTGGCTCTGGTTCCGGTGATTTTGATTATGAAAAGATGGCAAACGCTAATAAGGGGGCTATGACCGAAAATGCCGATGAAAACGCGCTACAGTCTGACGCTAAAGGCAAACTTGATTCTGTCGCTACTGATTACGGTGCTGCTATCGATGGTTTCATTGGTGACGTTTCCGGCCTTGCTAATGGTAATGGTGCTACTGGTGATTTTGCTGGCTCTAATTCCCAAATGGCTCAAGTCGGTGACGGTGATAATTCACCTTTAATGAATAATTTCCGTCAATATTTACCTTCCCTCCCTCAATCGGTTGAATGTCGCCCTTTTGTCTTTGGCGCTGGTAAACCATATGAATTTTCTATTGATTGTGACAAAATAAACTTATTCCGTGGTGTCTTTGCGTTTCTTTTATATGTTGCCACCTTTATGTATGTATTTTCTACGTTTGCTAACATACTGCGTAATAAGGAGTCTTAATCATGCCAGTTCTTTTGGGTATTCCGTTATTATTGCGTTTCCTCGGTTTCCTTCTGGTAACTTTGTTCGGCTATCTGCTTACTTTTCTTAAAAAGGGCTTCGGTAAGATAGCTATTGCTATTTCATTGTTTCTTGCTCTTATTATTGGGCTTAACTCAATTCTTGTGGGTTATCTCTCTGATATTAGCGCTCAATTACCCTCTGACTTTGTTCAGGGTGTTCAGTTAATTCTCCCGTCTAATGCGCTTCCCTGTTTTTATGTTATTCTCTCTGTAAAGGCTGCTATTTTCATTTTTGACGTTAAACAAAAAATCGTTTCTTATTTGGATTGGGATAAATAATATGGCTGTTTATTTTGTAACTGGCAAATTAGGCTCTGGAAAGACGCTCGTTAGCGTTGGTAAGATTCAGGATAAAATTGTAGCTGGGTGCAAAATAGCAACTAATCTTGATTTAAGGCTTCAAAACCTCCCGCAAGTCGGGAGGTTCGCTAAAACGCCTCGCGTTCTTAGAATACCGGATAAGCCTTCTATATCTGATTTGCTTGCTATTGGGCGCGGTAATGATTCCTACGATGAAAATAAAAACGGCTTGCTTGTTCTCGATGAGTGCGGTACTTGGTTTAATACCCGTTCTTGGAATGATAAGGAAAGACAGCCGATTATTGATTGGTTTCTACATGCTCGTAAATTAGGATGGGATATTATTTTTCTTGTTCAGGACTTATCTATTGTTGATAAACAGGCGCGTTCTGCATTAGCTGAACATGTTGTTTATTGTCGTCGTCTGGACAGAATTACTTTACCTTTTGTCGGTACTTTATATTCTCTTATTACTGGCTCGAAAATGCCTCTGCCTAAATTACATGTTGGCGTTGTTAAATATGGCGATTCTCAATTAAGCCCTACTGTTGAGCGTTGGCTTTATACTGGTAAGAATTTGTATAACGCATATGATACTAAACAGGCTTTTTCTAGTAATTATGATTCCGGTGTTTATTCTTATTTAACGCCTTATTTATCACACGGTCGGTATTTCAAACCATTAAATTTAGGTCAGAAGATGAAATTAACTAAAATATATTTGAAAAAGTTTTCTCGCGTTCTTTGTCTTGCGATTGGATTTGCATCAGCATTTACATATAGTTATATAACCCAACCTAAGCCGGAGGTTAAAAAGGTAGTCTCTCAGACCTATGATTTTGATAAATTCACTATTGACTCTTCTCAGCGTCTTAATCTAAGCTATCGCTATGTTTTCAAGGATTCTAAGGGAAAATTAATTAATAGCGACGATTTACAGAAGCAAGGTTATTCACTCACATATATTGATTTATGTACTGTTTCCATTAAAAAAGGTAATTCAAATGAAATTGTTAAATGTAATTAATTTTGTTTTCTTGATGTTTGTTTCATCATCTTCTTTTGCTCAGGTAATTGAAATGAATAATTCGCCTCTGCGCGATTTTGTAACTTGGTATTCAAAGCAATCAGGCGAATCCGTTATTGTTTCTCCCGATGTAAAAGGTACTGTTACTGTATATTCATCTGACGTTAAACCTGAAAATCTACGCAATTTCTTTATTTCTGTTTTACGTGCAAATAATTTTGATATGGTAGGTTCTAACCCTTCCATTATTCAGAAGTATAATCCAAACAATCAGGATTATATTGATGAATTGCCATCATCTGATAATCAGGAATATGATGATAATTCCGCTCCTTCTGGTGGTTTCTTTGTTCCGCAAAATGATAATGTTACTCAAACTTTTAAAATTAATAACGTTCGGGCAAAGGATTTAATACGAGTTGTCGAATTGTTTGTAAAGTCTAATACTTCTAAATCCTCAAATGTATTATCTATTGACGGCTCTAATCTATTAGTTGTTAGTGCTCCTAAAGATATTTTAGATAACCTTCCTCAATTCCTTTCAACTGTTGATTTGCCAACTGACCAGATATTGATTGAGGGTTTGATATTTGAGGTTCAGCAAGGTGATGCTTTAGATTTTTCATTTGCTGCTGGCTCTCAGCGTGGCACTGTTGCAGGCGGTGTTAATACTGACCGCCTCACCTCTGTTTTATCTTCTGCTGGTGGTTCGTTCGGTATTTTTAATGGCGATGTTTTAGGGCTATCAGTTCGCGCATTAAAGACTAATAGCCATTCAAAAATATTGTCTGTGCCACGTATTCTTACGCTTTCAGGTCAGAAGGGTTCTATCTCTGTTGGCCAGAATGTCCCTTTTATTACTGGTCGTGTGACTGGTGAATCTGCCAATGTAAATAATCCATTTCAGACGATTGAGCGTCAAAATGTAGGTATTTCCATGAGCGTTTTTCCTGTTGCAATGGCTGGCGGTAATATTGTTCTGGATATTACCAGCAAGGCCGATAGTTTGAGTTCTTCTACTCAGGCAAGTGATGTTATTACTAATCAAAGAAGTATTGCTACAACGGTTAATTTGCGTGATGGACAGACTCTTTTACTCGGTGGCCTCACTGATTATAAAAACACTTCTCAGGATTCTGGCGTACCGTTCCTGTCTAAAATCCCTTTAATCGGCCTCCTGTTTAGCTCCCGCTCTGATTCTAACGAGGAAAGCACGTTATACGTGCTCGTCAAAGCAACCATAGTACGCGCCCTGTAGCGGCGCATTAAGCGCGGCGGGTGTGGTGGTTACGCGCAGCGTGACCGCTACACTTGCCAGCGCCCTAGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTTGGGTGATGGTTCACGTAGTGGGCCATCGCCC}
+\newpage
+\subsection{CaDNAno strand diagram of the origami pore}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.7.pdf}
+	\caption{CaDNAno diagram of the DNA origami nanopore.}
+	\label{fig:fig5.7}
+\end{figure}
+
+\newpage
+\subsection{Initial folding screen of the origami pore}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.8.pdf}
+	\caption{Initial folding screen of the DNA origami nanopore. a and b show the same laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath. b, The red box indicates that this region was auto-leveled. The following samples were electrophoresed at 90 V for 90 min: L, 1kb ladder; S, 7560 bases long scaffold; 1, folding interval 60-44°C, 20 mM, 5$\times$ staple-to-scaffold excess; 2, 60-44°C, 1 h/°C, 20 mM MgCl\textsubscript{2}, 10$\times$ staple-to-scaffold excess; lanes T1-T8: 20 mM MgCl\textsubscript{2}; T1, folding interval 50-47°C; T2, folding interval 52-49°C; T3, folding interval 54-51°C; T4, folding interval 56-53°C; T5, folding interval 58-55°C; T6, folding interval 60-57°C; T7, folding interval 62-59°C; T8, folding interval 64-61°C; lanes M1-M6, folding interval 60-44°; M1, 5 mM MgCl\textsubscript{2}; M2, 10 mM MgCl\textsubscript{2}; M3, 15 mM MgCl\textsubscript{2}; M4, 20 mM MgCl\textsubscript{2}; M5, 25 mM MgCl\textsubscript{2}; M6, 30 mM MgCl\textsubscript{2}. P: Pocket.}
+	\label{fig:fig5.8}
+\end{figure}
+
+\newpage
+\subsection{Advanced folding screen 1}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{figures/Figure5.9.pdf}
+	\caption{Temperature folding screen of the DNA origami nanopore. Laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath on which the following samples were electrophoresed at 90 V for 90 min: lanes 1-6: 20 mM MgCl2; 1, 60-44°C, 1 h/°C; 2, folding interval 42-39°C; 3, folding interval 44-41°C; 4, folding interval 46-43°C; 5, folding interval 48-45°C; 6, folding interval 50-47°C; L, 1kb ladder. P: Pocket.}
+	\label{fig:fig5.9}
+\end{figure}
+\subsection{Advanced folding screen 2}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/Figure5.10.pdf}
+	\caption{Temperature folding screen of the DNA origami nanopore. Laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath on which the following samples were electrophoresed at 90 V for 90 min: L, 1kb ladder; all other lanes: 20 mM MgCl\textsubscript{2}; A, 60-44°C, 1 h/°C; lanes 1\_1 - 4\_1, 1h /°C; 1\_1, 44-41°C; 2\_1, 46-43°C, 3\_1, 48-45°C; 4\_1, 50-47°C; lanes 1\_2 - 4\_2, 1h /°C; 1\_2, 44-41°C; 2\_2, 46-43°C, 3\_2, 48-45°C; 4\_2, 50-47°C; lanes 1\_3 - 4\_3, 1h /°C; 1\_3, 44-41°C; 2\_3, 46-43°C, 3\_3, 48-45°C; 4\_3, 50-47°C. P: Pocket.}
+	\label{fig:fig5.10}
+\end{figure}
+
+\newpage
+\subsection{Advanced folding screen 3}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{figures/Figure5.11.pdf}
+	\caption{Folding screen of the DNA origami nanopore. Laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath on which the following samples were electrophoresed at 70 V for 90 min: all lanes except L: 20 mM MgCl\textsubscript{2}; A, 60-44°C, 1 h/°C; 1, 5h at 50°C; 2, 10h at 50°C; 3, 5h at 52°C; 4, 10h at 52°C; L, 1kb ladder. P: Pocket.}
+	\label{fig:fig5.11}
+\end{figure}
+\subsection{Advanced folding screen 4}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/Figure5.12.pdf}
+	\caption{Magnesium folding screen of the DNA origami nanopore. Laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath on which the following samples were electrophoresed at 70 V for 60 min: S, 7560 bases long scaffold; lanes 1-11, 60-44°C, 1 h/°C; 1, 20 mM MgCl\textsubscript{2}; 2, 21 mM MgCl\textsubscript{2}; 3, 22 mM MgCl\textsubscript{2}; 4, 23 mM MgCl\textsubscript{2}; 5, 24 mM MgCl\textsubscript{2}; 6, 25 mM MgCl\textsubscript{2}; 7, 26 mM MgCl\textsubscript{2}; 8, 27 mM MgCl\textsubscript{2}; 9, 28 mM MgCl\textsubscript{2}; 10, 29 mM MgCl\textsubscript{2}; 11, 30 mM MgCl\textsubscript{2}. P: Pocket.}
+	\label{fig:fig5.12}
+\end{figure}
+
+\newpage
+\subsection{Advanced folding screen 5}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\linewidth]{figures/Figure5.13.pdf}
+	\caption{Scaffold to oligo ratio folding screen of the DNA origami nanopore. a and b show the same laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath. b,  The red box indicates that this region was auto-leveled. The following samples were electrophoresed at 70 V for 60 min: L, 1kb ladder; S, 7560 bases long scaffold; lanes 1-9, 24 mM MgCl\textsubscript{2}, 60-44°C, 1 h/°C; 1, 50 nM scaffold, 175 nM oligos; 2, 20 nM scaffold, 300 nM oligos; 3, 20 nM scaffold, 200 nM oligos; 4, 20 nM scaffold, 100 nM oligos; 5, 10 nM scaffold, 400 nM oligos; 6, 10 nM scaffold, 300 nM oligos; 7, 10 nM scaffold, 200 nM oligos; 8, 10 nM scaffold, 100 nM oligos; 9, 10 nM scaffold, 50 nM oligos. P: Pocket.}
+	\label{fig:fig5.13}
+\end{figure}
+
+\newpage
+\subsection{Advanced folding screen 6}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{figures/Figure5.14.pdf}
+	\caption{Scaffold to oligo ratio folding screen of the DNA origami nanopore. a and b show the same laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath. b, The red box indicates that this region was auto-leveled. The following samples were electrophoresed at 70 V for 90 min: S, 7560 bases long scaffold; lanes 1-9, 24 mM MgCl\textsubscript{2}, 10 nM scaffold, 300 nM oligos, 15min at 56°C followed by different temperatures; 1, 24h at 54°C, 24h at 53°C; 2, 15h at 49°C; 3, 15h at 50°C; 4, 15h at 51°C; 5, 15h at 52°C; 6, 15h at 53°C; 7, 15h at 54°C; 8, 15h at 55°C; 9, 15h at 56°C. P: Pocket.}
+	\label{fig:fig5.14}
+\end{figure}
+
+\newpage
+\subsection{Advanced folding screen 7}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{figures/Figure5.15.pdf}
+	\caption{Scaffold to oligo ratio folding screen of the DNA origami nanopore. Laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on a water bath on which the following samples were electrophoresed at 70 V for 90 min: L, 1kb ladder; S, 7560 bases long scaffold; lanes 1-4, 15min at 65°C, 24h at 50 °C, 10 nM scaffold, 24 mM MgCl\textsubscript{2}; 1, 50 nM oligos; 2, 100 nM oligos; 200 nM oligos, 300 nM oligos. P: Pocket.}
+	\label{fig:fig5.15}
+\end{figure}
+\subsection{Advanced folding screen 8}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.4\linewidth]{figures/Figure5.16.pdf}
+	\caption{Scaffold to oligo ratio folding screen of the DNA origami nanopore. Laser-scanned image of a 2\% agarose gel with 5.5 mM MgCl\textsubscript{2} run on an ice water bath on which the following samples were electrophoresed at 70 V for 90 min: L, 1kb ladder; S, 7560 bases long scaffold; 1, filter purified, uncoated DNA origami nanopore; 2, filter purified, K\textsubscript{10}-PEG\textsubscript{5k} coated DNA origami nanopore.  P: Pocket.}
+	\label{fig:fig5.16}
+\end{figure}
+
+\newpage
+\subsection{Single particle montage for class averaging of the uncoated origami pore}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.17.pdf}
+	\caption{Library of negative-stain TEM particles for class averaging of the uncoated DNA origami nanopore in the front (left) and side (right) view. Scale bar: 50 nm.}
+	\label{fig:fig5.17}
+\end{figure}
+
+\newpage
+\subsection{Single particle montage for class averaging of the coated origami pore}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.18.pdf}
+	\caption{Library of negative-stain TEM particles for class averaging of the PEG-oligolysine-coated DNA origami nanopore in the front (left) and side (right) view. Scale bar: 50 nm.}
+	\label{fig:fig5.18}
+\end{figure}
+
+\newpage
+\subsection{Inner diameter and height estimates from negative-staining TEM and class averaging of the PEG-oligolysine-coated DNA origami nanopores}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.19.pdf}
+	\caption{a, Front view class averaged image of the DNA origami nanopore (sample preparation as mentioned in methods section). The yellow box indicates the region of interest for the cross-section plot. A diameter of $\sim$35 nm was estimated from the full-width-half maximum (FWHM) as indicated by the dashed lines. b, Side view class averaged image of the DNA origami nanopore (sample preparation as mentioned in methods section). The yellow box indicates the region of interest for the cross-section plot. A height of $\sim$11 nm was estimated from the full-width-half maximum (FWHM) as indicated by the dashed lines.}
+	\label{fig:fig5.19}
+\end{figure}
+
+\newpage
+\subsection{Comparison of coated and uncoated DNA origami nanopores}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.20.pdf}
+	\caption{a, Typical field of view of a negative-stained DNA origami sample without coating and without cholesterol modifications. Scale bar: 50 nm. b, Front (left) and side (right) view class averaged image of uncoated DNA origami nanopores. Scale bar: 20 nm. c, Typical field of view of a negative-stained DNA origami sample with coating and cholesterol modifications. Scale bar: 50 nm. d, Front (left) and side (right) view class averaged image of coated DNA origami nanopores. Scale bar: 20 nm.}
+	\label{fig:fig5.20}
+\end{figure}
+
+\newpage
+\subsection{Illustration of single-stranded DNA handles on the inside wall of the DNA origami nanopore}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.21.pdf}
+	\caption{Top left: Front view class averaged image of coated DNA origami nanopores. The black box highlights density on the inner wall of the DNA origami nanopore. Top right: Front view model of the DNA origami nanopore. Black stripes on the inside wall resemble single-stranded DNA handles. Bottom left: Zoom in on the single-stranded handles. Bottom right: Illustration of the single-stranded handle sequence, which can be used in the future to attach macromolecules inside of the pore.}
+	\label{fig:fig5.21}
+\end{figure}
+
+\newpage
+\subsection{Effect of the amount of cholesterols that are attached to the DNA origami nanopores}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.22.pdf}
+	\caption{DNA origami pores were added from the outside to preformed GUVs. Top: DNA origami without any cholesterol anchor did not show detectable membrane localization. Center: 32-cholesterol DNA-origami pores showed increased localization at the membrane, resulting in a relatively homogeneous signal. The presence of bulk fluorescence in the origami channel indicates that some origami pores remained in solution and did not precipitate. Bottom: 64-cholesterol DNA-origami pores showed strong interaction with the lipid membrane, resulting in the formation of large aggregates.}
+	\label{fig:fig5.22}
+\end{figure}
+
+\newpage
+\subsection{Test influx of GFP through DNA origami pores added from the outside to preformed GUVs}
+\begin{figure}[!htbp]
+\includegraphics[width=1\linewidth]{figures/Figure5.23.pdf}
+\caption{For both cholesterol-less origami pores (top), 32-cholesterols (center), and 64-cholesterols (bottom), administration of GFP from the bulk solution at the outside did not result in influx, indicating that addition of DNA origami pores to preformed vesicles does not result in formation of functional pores that embed within the membrane to create open pores that allow transmembrane diffusion of GFP.}
+\label{fig:fig5.23}
+\end{figure}
+
+\newpage
+\subsection{Reconstitution of DNA origami pores into the lipid monolayer of water-in-oil droplets }
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.24.pdf}
+	\caption{Top: cholesterol-less origami pores did, as expected, not result in localization to the monolayer lipid membrane in water in oil droplets, as indicated by the homogeneous fluorescence origami signal in the bulk of the vesicle and the absence of an increased intensity at the lipid membrane. Center: 32-cholesterol origami pores, by contrast, showed clear localization at the droplet membrane. Bottom: 64-cholesterol origami pores resulted in aggregates localized at the membrane, which we attribute to the higher hydrophobicity caused by the relatively large number of cholesterol groups.}
+	\label{fig:fig5.24}
+\end{figure}
+
+\newpage
+\subsection{cDICE with cholesterol-less DNA origami pores}
+\begin{figure}[H]
+	\includegraphics[width=1\linewidth]{figures/Figure5.25.pdf}
+	\caption{Example of a GUV with cholesterol-less origami pores that manifested poor membrane localization, while a large amount of origami signal was present in the bulk of the vesicle.}
+	\label{fig:fig5.25}
+\end{figure}
+\subsection{Amino acid sequence of the His\textsubscript{14}-TEV-IBB-mEGFP-Cys protein}
+
+\seqsplit{(MSKHHHHSGHHHTGHHHHSGSHHHTGENLYFQ)  cleaved His14-tag}
+
+
+\seqsplit{GSDNGTDSSTSKFVPEYRRTNFKNKGRFSADELRRRRDTQQVELRKAKRDEALAKRRNFIPPTDGTSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLKEFVTAAGITLGMDELYKTGC}
+\newpage
+\subsection{SDS-PAGE of the IBB-mEGFP-Cys protein}
+\label{section:IBB-mEGFP-Cys protein}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.2\linewidth]{figures/Figure5.26.pdf}
+	\caption{SDS-PAGE shows the band for the 34.6 kDa IBB-mEGFP-Cys protein (right, thick band running at $\sim$37 kDa).}
+	\label{fig:fig5.26}
+\end{figure}
+\subsection{DNA origami pore signal estimation}
+\begin{figure}[!htbp]
+	\includegraphics[width=1\linewidth]{figures/Figure5.27.pdf}
+	\caption{a, Fluorescence image showing DNA origami (cyan) at the vesicle membrane. Yellow circle and straight line indicate the area and corresponding radius where the radial profile was computed. b, Normalized integrated intensity measured over the radial distance for the vesicle shown in (a), calculated as the integrated intensity over concentric circles starting from the center of the vesicle divided by the number of pixels in the circle. The peak intensity, marked as I\textsubscript{DNA-origami}, was taken as the measure of interest for quantifying the DNA origami signal intensity at the membrane. Intensity values were further normalized by the laser power used during acquisition. c, I\textsubscript{DNA-origami} calculated as described in (b) as a function of vesicle diameter, measured for all vesicles where FRAP was performed. Notably, I\textsubscript{DNA-origami} does not show any apparent correlation with the vesicle diameter.}
+	\label{fig:fig5.27}
+\end{figure}
+
+
+\newpage
+\subsection{Raw data and fits used in the estimation of N\textsubscript{p} for each vesicle in Fig.\ref{fig:fig5.5}e}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figures/Figure5.28.pdf}
+	\label{fig:fig5.28}
+\end{figure}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/Figure5.29.pdf}
+	\label{fig:fig5.29}
+\end{figure}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/Figure5.30.pdf}
+	\label{fig:fig5.30}
+\end{figure}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/Figure5.31.pdf}
+	\caption{For each vesicle, 5 panels are shown: Top left: Yellow and red curves indicate the outer (Iout) and inner (Iin) vesicle intensities, respectively. Light blue area denotes the fitted region. Bottom left: Black circles indicate the normalized intensity difference (I\textsubscript{out}-I\textsubscript{in})/(I\textsubscript{out}). Red line shows a fit to the data points using Eq.\ref{eqn:eq.5.4}. Vesicle diameter (D) and extracted number of pores (N\textsubscript{p}) are reported. Right: Fluorescence images showing the vesicle before photobleaching (1,top), right after photobleaching (2,center), and at the end of recovery (3,bottom).}
+	\label{fig:fig5.31}
+\end{figure}
+
+\newpage
+\subsection{Slices through tomograms of liposomes with incorporated octagons}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.9\linewidth]{figures/Figure5.32.pdf}
+\caption{Left: Slices through a model, representing liposomes on a grid surface. The grey spheres represent liposomes, black lines represent the borders of a grid surface, colored (a, top slice; b, middle slice; c, bottom slice) dotted lines represent different slices through the liposomes at different heights. Middle and right: negative-stained TEM tomogram slices (a, top slice; b, middle slice; c, bottom slice) of vesicles with incorporated octagons.}
+\label{fig:fig5.32}
+\end{figure}
+
+\newpage
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+\references{chapter-5/chapter-5}
